@@ -1,0 +1,3 @@
+mnist/
+cifar10/
+*.zip
