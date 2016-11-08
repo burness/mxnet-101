@@ -13,7 +13,7 @@ def _download(data_dir):
     os.chdir(data_dir)
     
     if (not os.path.exists('train.rec')) or (not os.path.exists('test.rec')):
-        os.system("unzip -u cifar10.zip; rm cifar10.zip")
+        os.system("unzip -u cifar10.zip; mv cifar/* .; rm cifar10.zip")
     os.chdir("..")
 
 
