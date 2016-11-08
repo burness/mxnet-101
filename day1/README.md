@@ -56,4 +56,5 @@ The model in train_cifar10.py is too complicated to run on my RMBP, so I run it 
 
 ## Day2 goal
  - Know how to convert the Image data to `rec`
+ - Know how to use the `rec` file
  - Be familiar with the layers in MXnet
