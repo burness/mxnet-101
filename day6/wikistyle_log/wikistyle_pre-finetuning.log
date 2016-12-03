@@ -1,0 +1,1935 @@
+2016-11-29 16:07:08,495 Node[0] start with arguments Namespace(batch_size=200, clip_gradient=5.0, data_dir='./', data_shape=299, dataset='final', finetune_from='Inception-7-0001', finetune_lr_scale=10, gpus='5,6,7', kv_store='local', load_epoch=None, log_dir='wikistyle_log/', log_file='wikistyle_pre-finetuning.log', lr=0.001, lr_factor=1, lr_factor_epoch=1, model_prefix='wikistyle-i3-last', network='inception-v3', num_classes=10, num_epochs=1000, num_examples=8998, save_epoch=20, train_dataset='train2.rec', val_dataset='test2.rec')
+2016-11-29 16:07:09,913 Node[0] Start training with [gpu(5), gpu(6), gpu(7)]
+2016-11-29 16:10:07,639 Node[0] Epoch[0] Resetting Data Iterator
+2016-11-29 16:10:07,640 Node[0] Epoch[0] Time cost=172.536
+2016-11-29 16:10:13,457 Node[0] Epoch[0] Validation-accuracy=0.294000
+2016-11-29 16:13:04,622 Node[0] Epoch[1] Resetting Data Iterator
+2016-11-29 16:13:04,623 Node[0] Epoch[1] Time cost=171.165
+2016-11-29 16:13:12,484 Node[0] Epoch[1] Validation-accuracy=0.306000
+2016-11-29 16:13:12,511 Node[0] Start training with [gpu(5), gpu(6), gpu(7)]
+2016-11-30 11:18:15,923 Node[0] start with arguments Namespace(batch_size=128, clip_gradient=5.0, data_dir='./', data_shape=299, dataset='final', finetune_from='Inception-7-0001', finetune_lr_scale=10, gpus='5,6,7', kv_store='local', load_epoch=None, log_dir='wikistyle_log/', log_file='wikistyle_pre-finetuning.log', lr=0.001, lr_factor=1, lr_factor_epoch=1, model_prefix='wikistyle-i3-last', network='inception-v3', num_classes=10, num_epochs=1000, num_examples=8998, save_epoch=20, train_dataset='train2.rec', val_dataset='test2.rec')
+2016-11-30 11:18:17,038 Node[0] Start training with [gpu(5), gpu(6), gpu(7)]
+2016-11-30 11:20:42,292 Node[0] Epoch[0] Batch [50]	Speed: 36.07 samples/sec	Train-accuracy=0.156250
+2016-11-30 11:21:42,294 Node[0] Epoch[0] Resetting Data Iterator
+2016-11-30 11:21:42,294 Node[0] Epoch[0] Time cost=199.800
+2016-11-30 11:21:49,594 Node[0] Epoch[0] Validation-accuracy=0.305664
+2016-11-30 11:24:09,405 Node[0] Epoch[1] Batch [50]	Speed: 35.94 samples/sec	Train-accuracy=0.302344
+2016-11-30 11:25:06,389 Node[0] Epoch[1] Resetting Data Iterator
+2016-11-30 11:25:06,389 Node[0] Epoch[1] Time cost=196.795
+2016-11-30 11:25:13,763 Node[0] Epoch[1] Validation-accuracy=0.309570
+2016-11-30 11:25:13,778 Node[0] Start training with [gpu(5), gpu(6), gpu(7)]
+2016-11-30 12:21:48,628 Node[0] start with arguments Namespace(batch_size=100, clip_gradient=5.0, data_dir='./', data_shape=299, dataset='final', finetune_from='Inception-7-0001', finetune_lr_scale=10, gpus='5,6,7', kv_store='local', load_epoch=None, log_dir='wikistyle_log/', log_file='wikistyle_pre-finetuning.log', lr=0.001, lr_factor=1, lr_factor_epoch=1, model_prefix='wikistyle-i3-last', network='inception-v3', num_classes=10, num_epochs=1000, num_examples=8998, save_epoch=20, train_dataset='train2.rec', val_dataset='test2.rec')
+2016-11-30 12:21:51,117 Node[0] Start training with [gpu(5), gpu(6), gpu(7)]
+2016-11-30 12:24:05,707 Node[0] Epoch[0] Batch [50]	Speed: 40.54 samples/sec	Train-accuracy=0.148000
+2016-11-30 12:25:48,411 Node[0] Epoch[0] Resetting Data Iterator
+2016-11-30 12:25:48,423 Node[0] Epoch[0] Time cost=229.896
+2016-11-30 12:25:56,143 Node[0] Epoch[0] Validation-accuracy=0.305000
+2016-11-30 12:28:03,278 Node[0] Epoch[1] Batch [50]	Speed: 39.52 samples/sec	Train-accuracy=0.308800
+2016-11-30 12:29:45,811 Node[0] Epoch[1] Resetting Data Iterator
+2016-11-30 12:29:45,812 Node[0] Epoch[1] Time cost=229.641
+2016-11-30 12:29:54,247 Node[0] Epoch[1] Validation-accuracy=0.322000
+2016-11-30 12:29:54,326 Node[0] Start training with [gpu(5), gpu(6), gpu(7)]
+2016-11-30 12:32:04,845 Node[0] Epoch[0] Batch [50]	Speed: 39.87 samples/sec	Train-accuracy=0.334600
+2016-11-30 12:32:04,845 Node[0] Epoch[0] Batch [50]	Speed: 39.87 samples/sec	Train-cross-entropy=2.256776
+2016-11-30 12:33:49,160 Node[0] Epoch[0] Resetting Data Iterator
+2016-11-30 12:33:49,161 Node[0] Epoch[0] Time cost=232.885
+2016-11-30 12:33:55,977 Node[0] Epoch[0] Validation-accuracy=0.330000
+2016-11-30 12:33:55,977 Node[0] Epoch[0] Validation-cross-entropy=2.243986
+2016-11-30 12:36:03,637 Node[0] Epoch[1] Batch [50]	Speed: 39.37 samples/sec	Train-accuracy=0.354800
+2016-11-30 12:36:03,637 Node[0] Epoch[1] Batch [50]	Speed: 39.37 samples/sec	Train-cross-entropy=2.236339
+2016-11-30 12:37:47,344 Node[0] Epoch[1] Resetting Data Iterator
+2016-11-30 12:37:47,344 Node[0] Epoch[1] Time cost=231.353
+2016-11-30 12:37:55,424 Node[0] Epoch[1] Validation-accuracy=0.331000
+2016-11-30 12:37:55,424 Node[0] Epoch[1] Validation-cross-entropy=2.224471
+2016-11-30 13:40:39,880 Node[0] start with arguments Namespace(batch_size=200, clip_gradient=5.0, data_dir='./', data_shape=299, dataset='final', finetune_from='Inception-7-0001', finetune_lr_scale=10, gpus='5,6,7', kv_store='local', load_epoch=None, log_dir='wikistyle_log/', log_file='wikistyle_pre-finetuning.log', lr=0.001, lr_factor=1, lr_factor_epoch=1, model_prefix='wikistyle-i3-last', network='inception-v3', num_classes=10, num_epochs=1000, num_examples=8998, save_epoch=20, train_dataset='train2.rec', val_dataset='test2.rec')
+2016-11-30 13:40:41,122 Node[0] Start training with [gpu(5), gpu(6), gpu(7)]
+2016-11-30 13:43:37,192 Node[0] Epoch[0] Resetting Data Iterator
+2016-11-30 13:43:37,193 Node[0] Epoch[0] Time cost=170.410
+2016-11-30 13:43:44,953 Node[0] Epoch[0] Validation-accuracy=0.294000
+2016-11-30 13:46:35,466 Node[0] Epoch[1] Resetting Data Iterator
+2016-11-30 13:46:35,466 Node[0] Epoch[1] Time cost=170.513
+2016-11-30 13:46:43,244 Node[0] Epoch[1] Validation-accuracy=0.306000
+2016-11-30 13:46:43,260 Node[0] Start training with [gpu(5), gpu(6), gpu(7)]
+2016-11-30 13:49:49,318 Node[0] start with arguments Namespace(batch_size=128, clip_gradient=5.0, data_dir='./', data_shape=299, dataset='final', finetune_from='Inception-7-0001', finetune_lr_scale=10, gpus='5,6,7', kv_store='local', load_epoch=None, log_dir='wikistyle_log/', log_file='wikistyle_pre-finetuning.log', lr=0.001, lr_factor=1, lr_factor_epoch=1, model_prefix='wikistyle-i3-last', network='inception-v3', num_classes=10, num_epochs=1000, num_examples=8998, save_epoch=20, train_dataset='train2.rec', val_dataset='test2.rec')
+2016-11-30 13:49:50,417 Node[0] Start training with [gpu(5), gpu(6), gpu(7)]
+2016-11-30 13:52:16,463 Node[0] Epoch[0] Batch [50]	Speed: 35.89 samples/sec	Train-accuracy=0.156250
+2016-11-30 13:53:16,325 Node[0] Epoch[0] Resetting Data Iterator
+2016-11-30 13:53:16,325 Node[0] Epoch[0] Time cost=200.248
+2016-11-30 13:53:23,567 Node[0] Epoch[0] Validation-accuracy=0.305664
+2016-11-30 13:55:43,901 Node[0] Epoch[1] Batch [50]	Speed: 35.80 samples/sec	Train-accuracy=0.302344
+2016-11-30 13:56:40,967 Node[0] Epoch[1] Resetting Data Iterator
+2016-11-30 13:56:40,967 Node[0] Epoch[1] Time cost=197.400
+2016-11-30 13:56:48,354 Node[0] Epoch[1] Validation-accuracy=0.309570
+2016-11-30 13:56:48,370 Node[0] Start training with [gpu(5), gpu(6), gpu(7)]
+2016-12-01 03:38:18,881 Node[0] start with arguments Namespace(batch_size=64, clip_gradient=5.0, data_dir='./', data_shape=299, dataset='final', finetune_from='Inception-7-0001', finetune_lr_scale=10, gpus='5,6,7', kv_store='local', load_epoch=None, log_dir='wikistyle_log/', log_file='wikistyle_pre-finetuning.log', lr=0.001, lr_factor=1, lr_factor_epoch=1, model_prefix='wikistyle-i3-last', network='inception-v3', num_classes=10, num_epochs=1000, num_examples=8998, save_epoch=20, train_dataset='train2.rec', val_dataset='test2.rec')
+2016-12-01 03:38:19,989 Node[0] Start training with [gpu(5), gpu(6), gpu(7)]
+2016-12-01 03:39:53,746 Node[0] Epoch[0] Batch [50]	Speed: 57.67 samples/sec	Train-accuracy=0.120938
+2016-12-01 03:41:23,948 Node[0] Epoch[0] Batch [100]	Speed: 55.43 samples/sec	Train-accuracy=0.225938
+2016-12-01 03:42:38,021 Node[0] Epoch[0] Resetting Data Iterator
+2016-12-01 03:42:38,022 Node[0] Epoch[0] Time cost=252.508
+2016-12-01 03:42:45,484 Node[0] Epoch[0] Validation-accuracy=0.303711
+2016-12-01 03:44:14,378 Node[0] Epoch[1] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.296250
+2016-12-01 03:45:44,640 Node[0] Epoch[1] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.323437
+2016-12-01 03:46:58,707 Node[0] Epoch[1] Resetting Data Iterator
+2016-12-01 03:46:58,708 Node[0] Epoch[1] Time cost=253.223
+2016-12-01 03:47:06,161 Node[0] Epoch[1] Validation-accuracy=0.327148
+2016-12-01 03:47:06,177 Node[0] Start training with [gpu(5), gpu(6), gpu(7)]
+2016-12-01 03:48:36,749 Node[0] Epoch[0] Batch [50]	Speed: 36.68 samples/sec	Train-accuracy=0.335000
+2016-12-01 03:48:36,749 Node[0] Epoch[0] Batch [50]	Speed: 36.68 samples/sec	Train-cross-entropy=2.237043
+2016-12-01 03:50:06,883 Node[0] Epoch[0] Batch [100]	Speed: 35.50 samples/sec	Train-accuracy=0.341250
+2016-12-01 03:50:06,883 Node[0] Epoch[0] Batch [100]	Speed: 35.50 samples/sec	Train-cross-entropy=2.224362
+2016-12-01 03:51:21,106 Node[0] Epoch[0] Resetting Data Iterator
+2016-12-01 03:51:21,106 Node[0] Epoch[0] Time cost=253.474
+2016-12-01 03:51:27,957 Node[0] Epoch[0] Validation-accuracy=0.339583
+2016-12-01 03:51:27,957 Node[0] Epoch[0] Validation-cross-entropy=2.212875
+2016-12-01 03:52:56,839 Node[0] Epoch[1] Batch [50]	Speed: 36.17 samples/sec	Train-accuracy=0.334375
+2016-12-01 03:52:56,839 Node[0] Epoch[1] Batch [50]	Speed: 36.17 samples/sec	Train-cross-entropy=2.206791
+2016-12-01 03:54:27,112 Node[0] Epoch[1] Batch [100]	Speed: 35.45 samples/sec	Train-accuracy=0.353750
+2016-12-01 03:54:27,112 Node[0] Epoch[1] Batch [100]	Speed: 35.45 samples/sec	Train-cross-entropy=2.192510
+2016-12-01 03:55:41,913 Node[0] Epoch[1] Resetting Data Iterator
+2016-12-01 03:55:41,914 Node[0] Epoch[1] Time cost=253.956
+2016-12-01 03:55:48,307 Node[0] Epoch[1] Validation-accuracy=0.338542
+2016-12-01 03:55:48,308 Node[0] Epoch[1] Validation-cross-entropy=2.181175
+2016-12-01 12:24:43,770 Node[0] start with arguments Namespace(batch_size=64, clip_gradient=5.0, data_dir='./', data_shape=299, dataset='final', finetune_from='Inception-7-0001', finetune_lr_scale=10, gpus='5,6,7', kv_store='local', load_epoch=None, log_dir='wikistyle_log/', log_file='wikistyle_pre-finetuning.log', lr=0.001, lr_factor=1, lr_factor_epoch=1, model_prefix='wikistyle-i3-last', network='inception-v3', num_classes=10, num_epochs=1000, num_examples=8998, save_epoch=20, train_dataset='train2.rec', val_dataset='test2.rec')
+2016-12-01 12:24:44,744 Node[0] Start training with [gpu(5), gpu(6), gpu(7)]
+2016-12-01 12:26:19,512 Node[0] Epoch[0] Batch [50]	Speed: 56.52 samples/sec	Train-accuracy=0.120938
+2016-12-01 12:27:50,853 Node[0] Epoch[0] Batch [100]	Speed: 54.74 samples/sec	Train-accuracy=0.225938
+2016-12-01 12:29:05,844 Node[0] Epoch[0] Resetting Data Iterator
+2016-12-01 12:29:05,844 Node[0] Epoch[0] Time cost=255.678
+2016-12-01 12:29:13,300 Node[0] Epoch[0] Validation-accuracy=0.303711
+2016-12-01 12:30:42,673 Node[0] Epoch[1] Batch [50]	Speed: 56.20 samples/sec	Train-accuracy=0.296250
+2016-12-01 12:32:13,129 Node[0] Epoch[1] Batch [100]	Speed: 55.28 samples/sec	Train-accuracy=0.323437
+2016-12-01 12:33:27,233 Node[0] Epoch[1] Resetting Data Iterator
+2016-12-01 12:33:27,233 Node[0] Epoch[1] Time cost=253.933
+2016-12-01 12:33:34,648 Node[0] Epoch[1] Validation-accuracy=0.327148
+2016-12-01 12:35:03,534 Node[0] Epoch[2] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.327500
+2016-12-01 12:36:33,985 Node[0] Epoch[2] Batch [100]	Speed: 55.28 samples/sec	Train-accuracy=0.347813
+2016-12-01 12:37:46,406 Node[0] Epoch[2] Resetting Data Iterator
+2016-12-01 12:37:46,407 Node[0] Epoch[2] Time cost=251.758
+2016-12-01 12:37:53,424 Node[0] Epoch[2] Validation-accuracy=0.327083
+2016-12-01 12:39:22,389 Node[0] Epoch[3] Batch [50]	Speed: 56.45 samples/sec	Train-accuracy=0.338750
+2016-12-01 12:40:52,641 Node[0] Epoch[3] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.350938
+2016-12-01 12:42:06,877 Node[0] Epoch[3] Resetting Data Iterator
+2016-12-01 12:42:06,877 Node[0] Epoch[3] Time cost=253.453
+2016-12-01 12:42:13,891 Node[0] Epoch[3] Validation-accuracy=0.342708
+2016-12-01 12:43:42,861 Node[0] Epoch[4] Batch [50]	Speed: 56.45 samples/sec	Train-accuracy=0.334688
+2016-12-01 12:45:13,249 Node[0] Epoch[4] Batch [100]	Speed: 55.32 samples/sec	Train-accuracy=0.352812
+2016-12-01 12:46:25,719 Node[0] Epoch[4] Resetting Data Iterator
+2016-12-01 12:46:25,719 Node[0] Epoch[4] Time cost=251.828
+2016-12-01 12:46:33,141 Node[0] Epoch[4] Validation-accuracy=0.328125
+2016-12-01 12:48:02,214 Node[0] Epoch[5] Batch [50]	Speed: 56.39 samples/sec	Train-accuracy=0.341250
+2016-12-01 12:49:32,617 Node[0] Epoch[5] Batch [100]	Speed: 55.31 samples/sec	Train-accuracy=0.358125
+2016-12-01 12:50:46,872 Node[0] Epoch[5] Resetting Data Iterator
+2016-12-01 12:50:46,873 Node[0] Epoch[5] Time cost=253.731
+2016-12-01 12:50:54,290 Node[0] Epoch[5] Validation-accuracy=0.338867
+2016-12-01 12:52:24,293 Node[0] Epoch[6] Batch [50]	Speed: 55.80 samples/sec	Train-accuracy=0.344375
+2016-12-01 12:53:56,921 Node[0] Epoch[6] Batch [100]	Speed: 53.98 samples/sec	Train-accuracy=0.359375
+2016-12-01 12:55:12,500 Node[0] Epoch[6] Resetting Data Iterator
+2016-12-01 12:55:12,501 Node[0] Epoch[6] Time cost=258.210
+2016-12-01 12:55:19,798 Node[0] Epoch[6] Validation-accuracy=0.345833
+2016-12-01 12:56:50,807 Node[0] Epoch[7] Batch [50]	Speed: 55.18 samples/sec	Train-accuracy=0.350313
+2016-12-01 12:58:27,750 Node[0] Epoch[7] Batch [100]	Speed: 51.58 samples/sec	Train-accuracy=0.363125
+2016-12-01 12:59:47,833 Node[0] Epoch[7] Resetting Data Iterator
+2016-12-01 12:59:47,841 Node[0] Epoch[7] Time cost=268.043
+2016-12-01 12:59:55,702 Node[0] Epoch[7] Validation-accuracy=0.356250
+2016-12-01 13:01:35,764 Node[0] Epoch[8] Batch [50]	Speed: 50.22 samples/sec	Train-accuracy=0.352187
+2016-12-01 13:03:16,372 Node[0] Epoch[8] Batch [100]	Speed: 49.70 samples/sec	Train-accuracy=0.358438
+2016-12-01 13:04:38,720 Node[0] Epoch[8] Resetting Data Iterator
+2016-12-01 13:04:38,720 Node[0] Epoch[8] Time cost=283.018
+2016-12-01 13:04:47,421 Node[0] Epoch[8] Validation-accuracy=0.362305
+2016-12-01 13:06:26,190 Node[0] Epoch[9] Batch [50]	Speed: 50.85 samples/sec	Train-accuracy=0.362812
+2016-12-01 13:08:07,102 Node[0] Epoch[9] Batch [100]	Speed: 49.55 samples/sec	Train-accuracy=0.369375
+2016-12-01 13:09:26,924 Node[0] Epoch[9] Resetting Data Iterator
+2016-12-01 13:09:26,924 Node[0] Epoch[9] Time cost=279.502
+2016-12-01 13:09:35,389 Node[0] Epoch[9] Validation-accuracy=0.353516
+2016-12-01 13:11:15,149 Node[0] Epoch[10] Batch [50]	Speed: 50.34 samples/sec	Train-accuracy=0.360625
+2016-12-01 13:12:55,439 Node[0] Epoch[10] Batch [100]	Speed: 49.86 samples/sec	Train-accuracy=0.388125
+2016-12-01 13:14:18,601 Node[0] Epoch[10] Resetting Data Iterator
+2016-12-01 13:14:18,601 Node[0] Epoch[10] Time cost=283.206
+2016-12-01 13:14:25,783 Node[0] Epoch[10] Validation-accuracy=0.375000
+2016-12-01 13:16:04,724 Node[0] Epoch[11] Batch [50]	Speed: 50.75 samples/sec	Train-accuracy=0.370000
+2016-12-01 13:17:45,942 Node[0] Epoch[11] Batch [100]	Speed: 49.40 samples/sec	Train-accuracy=0.384375
+2016-12-01 13:19:07,246 Node[0] Epoch[11] Resetting Data Iterator
+2016-12-01 13:19:07,246 Node[0] Epoch[11] Time cost=281.463
+2016-12-01 13:19:14,914 Node[0] Epoch[11] Validation-accuracy=0.377083
+2016-12-01 13:20:54,001 Node[0] Epoch[12] Batch [50]	Speed: 50.72 samples/sec	Train-accuracy=0.374688
+2016-12-01 13:22:34,752 Node[0] Epoch[12] Batch [100]	Speed: 49.63 samples/sec	Train-accuracy=0.390937
+2016-12-01 13:23:54,315 Node[0] Epoch[12] Resetting Data Iterator
+2016-12-01 13:23:54,323 Node[0] Epoch[12] Time cost=279.396
+2016-12-01 13:24:02,709 Node[0] Epoch[12] Validation-accuracy=0.383789
+2016-12-01 13:25:41,873 Node[0] Epoch[13] Batch [50]	Speed: 50.63 samples/sec	Train-accuracy=0.374063
+2016-12-01 13:27:21,985 Node[0] Epoch[13] Batch [100]	Speed: 49.94 samples/sec	Train-accuracy=0.388125
+2016-12-01 13:28:43,974 Node[0] Epoch[13] Resetting Data Iterator
+2016-12-01 13:28:43,974 Node[0] Epoch[13] Time cost=281.264
+2016-12-01 13:28:52,425 Node[0] Epoch[13] Validation-accuracy=0.379883
+2016-12-01 13:30:31,005 Node[0] Epoch[14] Batch [50]	Speed: 50.95 samples/sec	Train-accuracy=0.395625
+2016-12-01 13:32:12,053 Node[0] Epoch[14] Batch [100]	Speed: 49.48 samples/sec	Train-accuracy=0.406875
+2016-12-01 13:33:31,810 Node[0] Epoch[14] Resetting Data Iterator
+2016-12-01 13:33:31,811 Node[0] Epoch[14] Time cost=279.386
+2016-12-01 13:33:40,008 Node[0] Epoch[14] Validation-accuracy=0.400000
+2016-12-01 13:35:19,178 Node[0] Epoch[15] Batch [50]	Speed: 50.64 samples/sec	Train-accuracy=0.396875
+2016-12-01 13:36:59,652 Node[0] Epoch[15] Batch [100]	Speed: 49.76 samples/sec	Train-accuracy=0.406562
+2016-12-01 13:38:21,674 Node[0] Epoch[15] Resetting Data Iterator
+2016-12-01 13:38:21,675 Node[0] Epoch[15] Time cost=281.666
+2016-12-01 13:38:29,635 Node[0] Epoch[15] Validation-accuracy=0.407292
+2016-12-01 13:40:09,037 Node[0] Epoch[16] Batch [50]	Speed: 50.83 samples/sec	Train-accuracy=0.402500
+2016-12-01 13:41:50,094 Node[0] Epoch[16] Batch [100]	Speed: 49.48 samples/sec	Train-accuracy=0.417187
+2016-12-01 13:43:11,862 Node[0] Epoch[16] Resetting Data Iterator
+2016-12-01 13:43:11,867 Node[0] Epoch[16] Time cost=282.233
+2016-12-01 13:43:20,324 Node[0] Epoch[16] Validation-accuracy=0.410156
+2016-12-01 13:44:59,489 Node[0] Epoch[17] Batch [50]	Speed: 50.63 samples/sec	Train-accuracy=0.410000
+2016-12-01 13:46:40,017 Node[0] Epoch[17] Batch [100]	Speed: 49.74 samples/sec	Train-accuracy=0.422812
+2016-12-01 13:47:59,650 Node[0] Epoch[17] Resetting Data Iterator
+2016-12-01 13:47:59,650 Node[0] Epoch[17] Time cost=279.325
+2016-12-01 13:48:08,062 Node[0] Epoch[17] Validation-accuracy=0.411133
+2016-12-01 13:49:46,663 Node[0] Epoch[18] Batch [50]	Speed: 50.92 samples/sec	Train-accuracy=0.416250
+2016-12-01 13:51:27,201 Node[0] Epoch[18] Batch [100]	Speed: 49.73 samples/sec	Train-accuracy=0.422812
+2016-12-01 13:52:50,328 Node[0] Epoch[18] Resetting Data Iterator
+2016-12-01 13:52:50,329 Node[0] Epoch[18] Time cost=282.266
+2016-12-01 13:52:57,463 Node[0] Epoch[18] Validation-accuracy=0.419792
+2016-12-01 13:54:36,183 Node[0] Epoch[19] Batch [50]	Speed: 50.87 samples/sec	Train-accuracy=0.420938
+2016-12-01 13:56:17,703 Node[0] Epoch[19] Batch [100]	Speed: 49.25 samples/sec	Train-accuracy=0.436250
+2016-12-01 13:57:37,633 Node[0] Epoch[19] Resetting Data Iterator
+2016-12-01 13:57:37,643 Node[0] Epoch[19] Time cost=280.180
+2016-12-01 13:57:45,339 Node[0] Epoch[19] Validation-accuracy=0.439583
+2016-12-01 13:59:24,770 Node[0] Epoch[20] Batch [50]	Speed: 50.56 samples/sec	Train-accuracy=0.437500
+2016-12-01 14:01:05,156 Node[0] Epoch[20] Batch [100]	Speed: 49.81 samples/sec	Train-accuracy=0.432812
+2016-12-01 14:02:26,718 Node[0] Epoch[20] Resetting Data Iterator
+2016-12-01 14:02:26,718 Node[0] Epoch[20] Time cost=281.379
+2016-12-01 14:02:35,303 Node[0] Epoch[20] Validation-accuracy=0.432617
+2016-12-01 14:04:14,457 Node[0] Epoch[21] Batch [50]	Speed: 50.65 samples/sec	Train-accuracy=0.437500
+2016-12-01 14:05:54,573 Node[0] Epoch[21] Batch [100]	Speed: 49.94 samples/sec	Train-accuracy=0.445312
+2016-12-01 14:07:16,911 Node[0] Epoch[21] Resetting Data Iterator
+2016-12-01 14:07:16,912 Node[0] Epoch[21] Time cost=281.609
+2016-12-01 14:07:25,690 Node[0] Epoch[21] Validation-accuracy=0.428711
+2016-12-01 14:09:04,622 Node[0] Epoch[22] Batch [50]	Speed: 50.96 samples/sec	Train-accuracy=0.441250
+2016-12-01 14:10:44,729 Node[0] Epoch[22] Batch [100]	Speed: 49.95 samples/sec	Train-accuracy=0.449688
+2016-12-01 14:12:05,142 Node[0] Epoch[22] Resetting Data Iterator
+2016-12-01 14:12:05,159 Node[0] Epoch[22] Time cost=279.468
+2016-12-01 14:12:13,199 Node[0] Epoch[22] Validation-accuracy=0.447917
+2016-12-01 14:13:52,286 Node[0] Epoch[23] Batch [50]	Speed: 50.68 samples/sec	Train-accuracy=0.454688
+2016-12-01 14:15:33,713 Node[0] Epoch[23] Batch [100]	Speed: 49.30 samples/sec	Train-accuracy=0.454375
+2016-12-01 14:16:55,519 Node[0] Epoch[23] Resetting Data Iterator
+2016-12-01 14:16:55,519 Node[0] Epoch[23] Time cost=282.320
+2016-12-01 14:17:03,198 Node[0] Epoch[23] Validation-accuracy=0.444792
+2016-12-01 14:18:42,874 Node[0] Epoch[24] Batch [50]	Speed: 50.42 samples/sec	Train-accuracy=0.454688
+2016-12-01 14:20:23,279 Node[0] Epoch[24] Batch [100]	Speed: 49.80 samples/sec	Train-accuracy=0.474687
+2016-12-01 14:21:43,942 Node[0] Epoch[24] Resetting Data Iterator
+2016-12-01 14:21:43,959 Node[0] Epoch[24] Time cost=280.759
+2016-12-01 14:21:51,743 Node[0] Epoch[24] Validation-accuracy=0.451172
+2016-12-01 14:23:30,741 Node[0] Epoch[25] Batch [50]	Speed: 50.73 samples/sec	Train-accuracy=0.457188
+2016-12-01 14:25:08,826 Node[0] Epoch[25] Batch [100]	Speed: 50.98 samples/sec	Train-accuracy=0.465938
+2016-12-01 14:26:27,058 Node[0] Epoch[25] Resetting Data Iterator
+2016-12-01 14:26:27,058 Node[0] Epoch[25] Time cost=275.315
+2016-12-01 14:26:35,305 Node[0] Epoch[25] Validation-accuracy=0.458008
+2016-12-01 14:28:06,105 Node[0] Epoch[26] Batch [50]	Speed: 55.31 samples/sec	Train-accuracy=0.458125
+2016-12-01 14:29:36,279 Node[0] Epoch[26] Batch [100]	Speed: 55.45 samples/sec	Train-accuracy=0.479063
+2016-12-01 14:30:50,904 Node[0] Epoch[26] Resetting Data Iterator
+2016-12-01 14:30:50,905 Node[0] Epoch[26] Time cost=255.600
+2016-12-01 14:30:57,369 Node[0] Epoch[26] Validation-accuracy=0.455208
+2016-12-01 14:32:26,166 Node[0] Epoch[27] Batch [50]	Speed: 56.56 samples/sec	Train-accuracy=0.473750
+2016-12-01 14:33:56,251 Node[0] Epoch[27] Batch [100]	Speed: 55.50 samples/sec	Train-accuracy=0.475938
+2016-12-01 14:35:08,492 Node[0] Epoch[27] Resetting Data Iterator
+2016-12-01 14:35:08,492 Node[0] Epoch[27] Time cost=251.122
+2016-12-01 14:35:15,438 Node[0] Epoch[27] Validation-accuracy=0.466667
+2016-12-01 14:36:44,131 Node[0] Epoch[28] Batch [50]	Speed: 56.63 samples/sec	Train-accuracy=0.474687
+2016-12-01 14:38:14,419 Node[0] Epoch[28] Batch [100]	Speed: 55.38 samples/sec	Train-accuracy=0.486875
+2016-12-01 14:39:28,329 Node[0] Epoch[28] Resetting Data Iterator
+2016-12-01 14:39:28,329 Node[0] Epoch[28] Time cost=252.890
+2016-12-01 14:39:35,711 Node[0] Epoch[28] Validation-accuracy=0.467773
+2016-12-01 14:41:04,356 Node[0] Epoch[29] Batch [50]	Speed: 56.66 samples/sec	Train-accuracy=0.481563
+2016-12-01 14:42:34,525 Node[0] Epoch[29] Batch [100]	Speed: 55.45 samples/sec	Train-accuracy=0.495312
+2016-12-01 14:43:46,601 Node[0] Epoch[29] Resetting Data Iterator
+2016-12-01 14:43:46,602 Node[0] Epoch[29] Time cost=250.890
+2016-12-01 14:43:53,980 Node[0] Epoch[29] Validation-accuracy=0.464844
+2016-12-01 14:45:22,859 Node[0] Epoch[30] Batch [50]	Speed: 56.51 samples/sec	Train-accuracy=0.489687
+2016-12-01 14:46:53,132 Node[0] Epoch[30] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.490625
+2016-12-01 14:48:07,141 Node[0] Epoch[30] Resetting Data Iterator
+2016-12-01 14:48:07,141 Node[0] Epoch[30] Time cost=253.161
+2016-12-01 14:48:14,158 Node[0] Epoch[30] Validation-accuracy=0.477083
+2016-12-01 14:49:43,025 Node[0] Epoch[31] Batch [50]	Speed: 56.51 samples/sec	Train-accuracy=0.495625
+2016-12-01 14:51:13,313 Node[0] Epoch[31] Batch [100]	Speed: 55.38 samples/sec	Train-accuracy=0.486875
+2016-12-01 14:52:25,515 Node[0] Epoch[31] Resetting Data Iterator
+2016-12-01 14:52:25,515 Node[0] Epoch[31] Time cost=251.357
+2016-12-01 14:52:32,538 Node[0] Epoch[31] Validation-accuracy=0.485417
+2016-12-01 14:54:01,399 Node[0] Epoch[32] Batch [50]	Speed: 56.52 samples/sec	Train-accuracy=0.493437
+2016-12-01 14:55:31,668 Node[0] Epoch[32] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.499688
+2016-12-01 14:56:45,726 Node[0] Epoch[32] Resetting Data Iterator
+2016-12-01 14:56:45,726 Node[0] Epoch[32] Time cost=253.188
+2016-12-01 14:56:53,159 Node[0] Epoch[32] Validation-accuracy=0.482422
+2016-12-01 14:58:21,863 Node[0] Epoch[33] Batch [50]	Speed: 56.62 samples/sec	Train-accuracy=0.500313
+2016-12-01 14:59:52,133 Node[0] Epoch[33] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.502188
+2016-12-01 15:01:06,168 Node[0] Epoch[33] Resetting Data Iterator
+2016-12-01 15:01:06,168 Node[0] Epoch[33] Time cost=253.009
+2016-12-01 15:01:13,564 Node[0] Epoch[33] Validation-accuracy=0.477539
+2016-12-01 15:02:42,445 Node[0] Epoch[34] Batch [50]	Speed: 56.51 samples/sec	Train-accuracy=0.495000
+2016-12-01 15:04:12,710 Node[0] Epoch[34] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.508437
+2016-12-01 15:05:25,717 Node[0] Epoch[34] Resetting Data Iterator
+2016-12-01 15:05:25,717 Node[0] Epoch[34] Time cost=252.153
+2016-12-01 15:05:32,001 Node[0] Epoch[34] Validation-accuracy=0.492708
+2016-12-01 15:07:00,714 Node[0] Epoch[35] Batch [50]	Speed: 56.61 samples/sec	Train-accuracy=0.506875
+2016-12-01 15:08:30,984 Node[0] Epoch[35] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.505938
+2016-12-01 15:09:44,981 Node[0] Epoch[35] Resetting Data Iterator
+2016-12-01 15:09:44,982 Node[0] Epoch[35] Time cost=252.980
+2016-12-01 15:09:51,982 Node[0] Epoch[35] Validation-accuracy=0.488542
+2016-12-01 15:11:20,877 Node[0] Epoch[36] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.503437
+2016-12-01 15:12:51,044 Node[0] Epoch[36] Batch [100]	Speed: 55.45 samples/sec	Train-accuracy=0.525937
+2016-12-01 15:14:03,252 Node[0] Epoch[36] Resetting Data Iterator
+2016-12-01 15:14:03,252 Node[0] Epoch[36] Time cost=251.270
+2016-12-01 15:14:10,662 Node[0] Epoch[36] Validation-accuracy=0.491211
+2016-12-01 15:15:39,545 Node[0] Epoch[37] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.507812
+2016-12-01 15:17:09,813 Node[0] Epoch[37] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.522188
+2016-12-01 15:18:23,824 Node[0] Epoch[37] Resetting Data Iterator
+2016-12-01 15:18:23,824 Node[0] Epoch[37] Time cost=253.161
+2016-12-01 15:18:31,219 Node[0] Epoch[37] Validation-accuracy=0.495117
+2016-12-01 15:20:00,117 Node[0] Epoch[38] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.519687
+2016-12-01 15:21:30,373 Node[0] Epoch[38] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.524687
+2016-12-01 15:22:44,457 Node[0] Epoch[38] Resetting Data Iterator
+2016-12-01 15:22:44,457 Node[0] Epoch[38] Time cost=253.238
+2016-12-01 15:22:51,434 Node[0] Epoch[38] Validation-accuracy=0.495833
+2016-12-01 15:24:20,276 Node[0] Epoch[39] Batch [50]	Speed: 56.53 samples/sec	Train-accuracy=0.520000
+2016-12-01 15:25:50,541 Node[0] Epoch[39] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.521250
+2016-12-01 15:27:03,096 Node[0] Epoch[39] Resetting Data Iterator
+2016-12-01 15:27:03,096 Node[0] Epoch[39] Time cost=251.662
+2016-12-01 15:27:09,797 Node[0] Epoch[39] Validation-accuracy=0.504167
+2016-12-01 15:28:38,657 Node[0] Epoch[40] Batch [50]	Speed: 56.52 samples/sec	Train-accuracy=0.527813
+2016-12-01 15:30:08,692 Node[0] Epoch[40] Batch [100]	Speed: 55.53 samples/sec	Train-accuracy=0.531563
+2016-12-01 15:31:22,751 Node[0] Epoch[40] Resetting Data Iterator
+2016-12-01 15:31:22,751 Node[0] Epoch[40] Time cost=252.953
+2016-12-01 15:31:30,152 Node[0] Epoch[40] Validation-accuracy=0.501953
+2016-12-01 15:32:58,959 Node[0] Epoch[41] Batch [50]	Speed: 56.55 samples/sec	Train-accuracy=0.520312
+2016-12-01 15:34:29,180 Node[0] Epoch[41] Batch [100]	Speed: 55.42 samples/sec	Train-accuracy=0.543125
+2016-12-01 15:35:41,408 Node[0] Epoch[41] Resetting Data Iterator
+2016-12-01 15:35:41,408 Node[0] Epoch[41] Time cost=251.257
+2016-12-01 15:35:48,797 Node[0] Epoch[41] Validation-accuracy=0.490234
+2016-12-01 15:37:17,675 Node[0] Epoch[42] Batch [50]	Speed: 56.51 samples/sec	Train-accuracy=0.534062
+2016-12-01 15:38:47,959 Node[0] Epoch[42] Batch [100]	Speed: 55.38 samples/sec	Train-accuracy=0.542813
+2016-12-01 15:40:02,661 Node[0] Epoch[42] Resetting Data Iterator
+2016-12-01 15:40:02,662 Node[0] Epoch[42] Time cost=253.865
+2016-12-01 15:40:08,936 Node[0] Epoch[42] Validation-accuracy=0.506250
+2016-12-01 15:41:37,682 Node[0] Epoch[43] Batch [50]	Speed: 56.59 samples/sec	Train-accuracy=0.542813
+2016-12-01 15:43:07,934 Node[0] Epoch[43] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.540000
+2016-12-01 15:44:21,824 Node[0] Epoch[43] Resetting Data Iterator
+2016-12-01 15:44:21,824 Node[0] Epoch[43] Time cost=252.889
+2016-12-01 15:44:28,818 Node[0] Epoch[43] Validation-accuracy=0.511458
+2016-12-01 15:45:57,527 Node[0] Epoch[44] Batch [50]	Speed: 56.62 samples/sec	Train-accuracy=0.544687
+2016-12-01 15:47:27,782 Node[0] Epoch[44] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.550000
+2016-12-01 15:48:39,983 Node[0] Epoch[44] Resetting Data Iterator
+2016-12-01 15:48:39,983 Node[0] Epoch[44] Time cost=251.165
+2016-12-01 15:48:47,369 Node[0] Epoch[44] Validation-accuracy=0.509766
+2016-12-01 15:50:16,202 Node[0] Epoch[45] Batch [50]	Speed: 56.54 samples/sec	Train-accuracy=0.540312
+2016-12-01 15:51:46,472 Node[0] Epoch[45] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.545312
+2016-12-01 15:53:00,374 Node[0] Epoch[45] Resetting Data Iterator
+2016-12-01 15:53:00,374 Node[0] Epoch[45] Time cost=253.005
+2016-12-01 15:53:07,787 Node[0] Epoch[45] Validation-accuracy=0.508789
+2016-12-01 15:54:36,654 Node[0] Epoch[46] Batch [50]	Speed: 56.52 samples/sec	Train-accuracy=0.540625
+2016-12-01 15:56:06,929 Node[0] Epoch[46] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.558438
+2016-12-01 15:57:19,120 Node[0] Epoch[46] Resetting Data Iterator
+2016-12-01 15:57:19,120 Node[0] Epoch[46] Time cost=251.333
+2016-12-01 15:57:26,123 Node[0] Epoch[46] Validation-accuracy=0.510417
+2016-12-01 15:58:55,003 Node[0] Epoch[47] Batch [50]	Speed: 56.51 samples/sec	Train-accuracy=0.557813
+2016-12-01 16:00:25,278 Node[0] Epoch[47] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.547500
+2016-12-01 16:01:39,273 Node[0] Epoch[47] Resetting Data Iterator
+2016-12-01 16:01:39,274 Node[0] Epoch[47] Time cost=253.150
+2016-12-01 16:01:46,306 Node[0] Epoch[47] Validation-accuracy=0.510417
+2016-12-01 16:03:15,188 Node[0] Epoch[48] Batch [50]	Speed: 56.51 samples/sec	Train-accuracy=0.569063
+2016-12-01 16:04:45,242 Node[0] Epoch[48] Batch [100]	Speed: 55.52 samples/sec	Train-accuracy=0.565312
+2016-12-01 16:05:59,271 Node[0] Epoch[48] Resetting Data Iterator
+2016-12-01 16:05:59,271 Node[0] Epoch[48] Time cost=252.966
+2016-12-01 16:06:06,657 Node[0] Epoch[48] Validation-accuracy=0.519531
+2016-12-01 16:07:35,290 Node[0] Epoch[49] Batch [50]	Speed: 56.67 samples/sec	Train-accuracy=0.551562
+2016-12-01 16:09:05,424 Node[0] Epoch[49] Batch [100]	Speed: 55.47 samples/sec	Train-accuracy=0.569688
+2016-12-01 16:10:18,855 Node[0] Epoch[49] Resetting Data Iterator
+2016-12-01 16:10:18,855 Node[0] Epoch[49] Time cost=252.198
+2016-12-01 16:10:24,904 Node[0] Epoch[49] Validation-accuracy=0.513672
+2016-12-01 16:11:53,437 Node[0] Epoch[50] Batch [50]	Speed: 56.73 samples/sec	Train-accuracy=0.558750
+2016-12-01 16:13:23,731 Node[0] Epoch[50] Batch [100]	Speed: 55.37 samples/sec	Train-accuracy=0.569375
+2016-12-01 16:14:37,899 Node[0] Epoch[50] Resetting Data Iterator
+2016-12-01 16:14:37,900 Node[0] Epoch[50] Time cost=252.995
+2016-12-01 16:14:44,485 Node[0] Epoch[50] Validation-accuracy=0.522917
+2016-12-01 16:16:13,410 Node[0] Epoch[51] Batch [50]	Speed: 56.48 samples/sec	Train-accuracy=0.571875
+2016-12-01 16:17:43,662 Node[0] Epoch[51] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.571250
+2016-12-01 16:18:55,716 Node[0] Epoch[51] Resetting Data Iterator
+2016-12-01 16:18:55,717 Node[0] Epoch[51] Time cost=251.231
+2016-12-01 16:19:02,679 Node[0] Epoch[51] Validation-accuracy=0.519792
+2016-12-01 16:20:31,406 Node[0] Epoch[52] Batch [50]	Speed: 56.60 samples/sec	Train-accuracy=0.573750
+2016-12-01 16:22:01,549 Node[0] Epoch[52] Batch [100]	Speed: 55.47 samples/sec	Train-accuracy=0.575625
+2016-12-01 16:23:15,454 Node[0] Epoch[52] Resetting Data Iterator
+2016-12-01 16:23:15,454 Node[0] Epoch[52] Time cost=252.775
+2016-12-01 16:23:22,841 Node[0] Epoch[52] Validation-accuracy=0.525391
+2016-12-01 16:24:51,632 Node[0] Epoch[53] Batch [50]	Speed: 56.56 samples/sec	Train-accuracy=0.577187
+2016-12-01 16:26:21,797 Node[0] Epoch[53] Batch [100]	Speed: 55.45 samples/sec	Train-accuracy=0.570625
+2016-12-01 16:27:35,798 Node[0] Epoch[53] Resetting Data Iterator
+2016-12-01 16:27:35,798 Node[0] Epoch[53] Time cost=252.956
+2016-12-01 16:27:43,178 Node[0] Epoch[53] Validation-accuracy=0.512695
+2016-12-01 16:29:11,990 Node[0] Epoch[54] Batch [50]	Speed: 56.55 samples/sec	Train-accuracy=0.579063
+2016-12-01 16:30:42,258 Node[0] Epoch[54] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.584688
+2016-12-01 16:31:54,381 Node[0] Epoch[54] Resetting Data Iterator
+2016-12-01 16:31:54,381 Node[0] Epoch[54] Time cost=251.203
+2016-12-01 16:32:01,396 Node[0] Epoch[54] Validation-accuracy=0.525000
+2016-12-01 16:33:30,131 Node[0] Epoch[55] Batch [50]	Speed: 56.60 samples/sec	Train-accuracy=0.580000
+2016-12-01 16:35:00,426 Node[0] Epoch[55] Batch [100]	Speed: 55.37 samples/sec	Train-accuracy=0.574063
+2016-12-01 16:36:14,358 Node[0] Epoch[55] Resetting Data Iterator
+2016-12-01 16:36:14,358 Node[0] Epoch[55] Time cost=252.962
+2016-12-01 16:36:21,343 Node[0] Epoch[55] Validation-accuracy=0.522917
+2016-12-01 16:37:50,406 Node[0] Epoch[56] Batch [50]	Speed: 56.39 samples/sec	Train-accuracy=0.587812
+2016-12-01 16:39:23,965 Node[0] Epoch[56] Batch [100]	Speed: 53.44 samples/sec	Train-accuracy=0.588750
+2016-12-01 16:40:44,160 Node[0] Epoch[56] Resetting Data Iterator
+2016-12-01 16:40:44,171 Node[0] Epoch[56] Time cost=262.828
+2016-12-01 16:40:52,259 Node[0] Epoch[56] Validation-accuracy=0.533203
+2016-12-01 16:42:30,718 Node[0] Epoch[57] Batch [50]	Speed: 51.01 samples/sec	Train-accuracy=0.598750
+2016-12-01 16:44:10,552 Node[0] Epoch[57] Batch [100]	Speed: 50.08 samples/sec	Train-accuracy=0.596250
+2016-12-01 16:45:31,986 Node[0] Epoch[57] Resetting Data Iterator
+2016-12-01 16:45:31,987 Node[0] Epoch[57] Time cost=279.728
+2016-12-01 16:45:40,591 Node[0] Epoch[57] Validation-accuracy=0.526367
+2016-12-01 16:47:19,604 Node[0] Epoch[58] Batch [50]	Speed: 50.72 samples/sec	Train-accuracy=0.591250
+2016-12-01 16:49:00,037 Node[0] Epoch[58] Batch [100]	Speed: 49.78 samples/sec	Train-accuracy=0.599063
+2016-12-01 16:50:21,600 Node[0] Epoch[58] Resetting Data Iterator
+2016-12-01 16:50:21,600 Node[0] Epoch[58] Time cost=281.009
+2016-12-01 16:50:29,630 Node[0] Epoch[58] Validation-accuracy=0.531250
+2016-12-01 16:52:08,323 Node[0] Epoch[59] Batch [50]	Speed: 50.90 samples/sec	Train-accuracy=0.594688
+2016-12-01 16:53:48,426 Node[0] Epoch[59] Batch [100]	Speed: 49.95 samples/sec	Train-accuracy=0.589063
+2016-12-01 16:55:09,386 Node[0] Epoch[59] Resetting Data Iterator
+2016-12-01 16:55:09,395 Node[0] Epoch[59] Time cost=279.764
+2016-12-01 16:55:15,616 Node[0] Epoch[59] Validation-accuracy=0.534375
+2016-12-01 16:56:54,736 Node[0] Epoch[60] Batch [50]	Speed: 50.69 samples/sec	Train-accuracy=0.599375
+2016-12-01 16:58:35,041 Node[0] Epoch[60] Batch [100]	Speed: 49.85 samples/sec	Train-accuracy=0.598437
+2016-12-01 16:59:58,145 Node[0] Epoch[60] Resetting Data Iterator
+2016-12-01 16:59:58,145 Node[0] Epoch[60] Time cost=282.529
+2016-12-01 17:00:05,162 Node[0] Epoch[60] Validation-accuracy=0.540039
+2016-12-01 17:01:44,081 Node[0] Epoch[61] Batch [50]	Speed: 50.77 samples/sec	Train-accuracy=0.602812
+2016-12-01 17:03:24,736 Node[0] Epoch[61] Batch [100]	Speed: 49.67 samples/sec	Train-accuracy=0.601250
+2016-12-01 17:04:46,505 Node[0] Epoch[61] Resetting Data Iterator
+2016-12-01 17:04:46,506 Node[0] Epoch[61] Time cost=281.344
+2016-12-01 17:04:53,272 Node[0] Epoch[61] Validation-accuracy=0.539062
+2016-12-01 17:06:32,769 Node[0] Epoch[62] Batch [50]	Speed: 50.46 samples/sec	Train-accuracy=0.600625
+2016-12-01 17:08:12,643 Node[0] Epoch[62] Batch [100]	Speed: 50.06 samples/sec	Train-accuracy=0.605625
+2016-12-01 17:09:34,390 Node[0] Epoch[62] Resetting Data Iterator
+2016-12-01 17:09:34,390 Node[0] Epoch[62] Time cost=281.118
+2016-12-01 17:09:42,385 Node[0] Epoch[62] Validation-accuracy=0.535417
+2016-12-01 17:11:21,480 Node[0] Epoch[63] Batch [50]	Speed: 50.67 samples/sec	Train-accuracy=0.608125
+2016-12-01 17:13:02,099 Node[0] Epoch[63] Batch [100]	Speed: 49.69 samples/sec	Train-accuracy=0.609062
+2016-12-01 17:14:22,340 Node[0] Epoch[63] Resetting Data Iterator
+2016-12-01 17:14:22,341 Node[0] Epoch[63] Time cost=279.950
+2016-12-01 17:14:28,480 Node[0] Epoch[63] Validation-accuracy=0.540625
+2016-12-01 17:16:07,809 Node[0] Epoch[64] Batch [50]	Speed: 50.59 samples/sec	Train-accuracy=0.613437
+2016-12-01 17:17:47,959 Node[0] Epoch[64] Batch [100]	Speed: 49.93 samples/sec	Train-accuracy=0.604062
+2016-12-01 17:19:09,614 Node[0] Epoch[64] Resetting Data Iterator
+2016-12-01 17:19:09,614 Node[0] Epoch[64] Time cost=281.135
+2016-12-01 17:19:18,146 Node[0] Epoch[64] Validation-accuracy=0.543945
+2016-12-01 17:20:57,153 Node[0] Epoch[65] Batch [50]	Speed: 50.74 samples/sec	Train-accuracy=0.612812
+2016-12-01 17:22:37,418 Node[0] Epoch[65] Batch [100]	Speed: 49.87 samples/sec	Train-accuracy=0.620000
+2016-12-01 17:23:59,039 Node[0] Epoch[65] Resetting Data Iterator
+2016-12-01 17:23:59,040 Node[0] Epoch[65] Time cost=280.893
+2016-12-01 17:24:07,600 Node[0] Epoch[65] Validation-accuracy=0.532227
+2016-12-01 17:25:46,217 Node[0] Epoch[66] Batch [50]	Speed: 51.01 samples/sec	Train-accuracy=0.618750
+2016-12-01 17:27:26,906 Node[0] Epoch[66] Batch [100]	Speed: 49.66 samples/sec	Train-accuracy=0.622812
+2016-12-01 17:28:47,934 Node[0] Epoch[66] Resetting Data Iterator
+2016-12-01 17:28:47,943 Node[0] Epoch[66] Time cost=280.343
+2016-12-01 17:28:54,414 Node[0] Epoch[66] Validation-accuracy=0.551042
+2016-12-01 17:30:33,463 Node[0] Epoch[67] Batch [50]	Speed: 50.70 samples/sec	Train-accuracy=0.621875
+2016-12-01 17:32:13,967 Node[0] Epoch[67] Batch [100]	Speed: 49.75 samples/sec	Train-accuracy=0.623437
+2016-12-01 17:33:35,801 Node[0] Epoch[67] Resetting Data Iterator
+2016-12-01 17:33:35,811 Node[0] Epoch[67] Time cost=281.397
+2016-12-01 17:33:43,481 Node[0] Epoch[67] Validation-accuracy=0.545833
+2016-12-01 17:35:22,660 Node[0] Epoch[68] Batch [50]	Speed: 50.66 samples/sec	Train-accuracy=0.625938
+2016-12-01 17:37:02,712 Node[0] Epoch[68] Batch [100]	Speed: 49.97 samples/sec	Train-accuracy=0.615625
+2016-12-01 17:38:22,644 Node[0] Epoch[68] Resetting Data Iterator
+2016-12-01 17:38:22,644 Node[0] Epoch[68] Time cost=279.163
+2016-12-01 17:38:31,235 Node[0] Epoch[68] Validation-accuracy=0.535156
+2016-12-01 17:40:10,139 Node[0] Epoch[69] Batch [50]	Speed: 50.77 samples/sec	Train-accuracy=0.641875
+2016-12-01 17:41:50,658 Node[0] Epoch[69] Batch [100]	Speed: 49.74 samples/sec	Train-accuracy=0.630625
+2016-12-01 17:43:12,499 Node[0] Epoch[69] Resetting Data Iterator
+2016-12-01 17:43:12,499 Node[0] Epoch[69] Time cost=281.264
+2016-12-01 17:43:20,959 Node[0] Epoch[69] Validation-accuracy=0.543945
+2016-12-01 17:45:00,141 Node[0] Epoch[70] Batch [50]	Speed: 50.63 samples/sec	Train-accuracy=0.643437
+2016-12-01 17:46:40,500 Node[0] Epoch[70] Batch [100]	Speed: 49.82 samples/sec	Train-accuracy=0.625938
+2016-12-01 17:48:02,070 Node[0] Epoch[70] Resetting Data Iterator
+2016-12-01 17:48:02,070 Node[0] Epoch[70] Time cost=281.111
+2016-12-01 17:48:10,246 Node[0] Epoch[70] Validation-accuracy=0.543750
+2016-12-01 17:49:49,610 Node[0] Epoch[71] Batch [50]	Speed: 50.56 samples/sec	Train-accuracy=0.635938
+2016-12-01 17:51:29,742 Node[0] Epoch[71] Batch [100]	Speed: 49.93 samples/sec	Train-accuracy=0.644062
+2016-12-01 17:52:49,336 Node[0] Epoch[71] Resetting Data Iterator
+2016-12-01 17:52:49,336 Node[0] Epoch[71] Time cost=279.090
+2016-12-01 17:52:56,992 Node[0] Epoch[71] Validation-accuracy=0.555208
+2016-12-01 17:54:36,160 Node[0] Epoch[72] Batch [50]	Speed: 50.66 samples/sec	Train-accuracy=0.645312
+2016-12-01 17:56:16,227 Node[0] Epoch[72] Batch [100]	Speed: 49.97 samples/sec	Train-accuracy=0.631563
+2016-12-01 17:57:38,015 Node[0] Epoch[72] Resetting Data Iterator
+2016-12-01 17:57:38,015 Node[0] Epoch[72] Time cost=281.022
+2016-12-01 17:57:46,525 Node[0] Epoch[72] Validation-accuracy=0.544922
+2016-12-01 17:59:25,767 Node[0] Epoch[73] Batch [50]	Speed: 50.61 samples/sec	Train-accuracy=0.645625
+2016-12-01 18:01:06,747 Node[0] Epoch[73] Batch [100]	Speed: 49.51 samples/sec	Train-accuracy=0.631875
+2016-12-01 18:02:26,745 Node[0] Epoch[73] Resetting Data Iterator
+2016-12-01 18:02:26,746 Node[0] Epoch[73] Time cost=280.220
+2016-12-01 18:02:35,263 Node[0] Epoch[73] Validation-accuracy=0.541992
+2016-12-01 18:04:14,135 Node[0] Epoch[74] Batch [50]	Speed: 50.78 samples/sec	Train-accuracy=0.645312
+2016-12-01 18:05:54,856 Node[0] Epoch[74] Batch [100]	Speed: 49.64 samples/sec	Train-accuracy=0.649062
+2016-12-01 18:07:17,067 Node[0] Epoch[74] Resetting Data Iterator
+2016-12-01 18:07:17,067 Node[0] Epoch[74] Time cost=281.804
+2016-12-01 18:07:25,227 Node[0] Epoch[74] Validation-accuracy=0.547917
+2016-12-01 18:09:02,665 Node[0] Epoch[75] Batch [50]	Speed: 51.53 samples/sec	Train-accuracy=0.661563
+2016-12-01 18:10:36,371 Node[0] Epoch[75] Batch [100]	Speed: 53.36 samples/sec	Train-accuracy=0.648125
+2016-12-01 18:11:50,296 Node[0] Epoch[75] Resetting Data Iterator
+2016-12-01 18:11:50,296 Node[0] Epoch[75] Time cost=265.069
+2016-12-01 18:11:57,279 Node[0] Epoch[75] Validation-accuracy=0.546875
+2016-12-01 18:13:26,172 Node[0] Epoch[76] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.651563
+2016-12-01 18:14:56,137 Node[0] Epoch[76] Batch [100]	Speed: 55.58 samples/sec	Train-accuracy=0.657188
+2016-12-01 18:16:08,243 Node[0] Epoch[76] Resetting Data Iterator
+2016-12-01 18:16:08,243 Node[0] Epoch[76] Time cost=250.964
+2016-12-01 18:16:15,635 Node[0] Epoch[76] Validation-accuracy=0.552734
+2016-12-01 18:17:44,521 Node[0] Epoch[77] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.659062
+2016-12-01 18:19:14,695 Node[0] Epoch[77] Batch [100]	Speed: 55.45 samples/sec	Train-accuracy=0.655937
+2016-12-01 18:20:28,696 Node[0] Epoch[77] Resetting Data Iterator
+2016-12-01 18:20:28,696 Node[0] Epoch[77] Time cost=253.061
+2016-12-01 18:20:36,095 Node[0] Epoch[77] Validation-accuracy=0.545898
+2016-12-01 18:22:04,874 Node[0] Epoch[78] Batch [50]	Speed: 56.57 samples/sec	Train-accuracy=0.655312
+2016-12-01 18:23:34,957 Node[0] Epoch[78] Batch [100]	Speed: 55.50 samples/sec	Train-accuracy=0.651250
+2016-12-01 18:24:47,161 Node[0] Epoch[78] Resetting Data Iterator
+2016-12-01 18:24:47,161 Node[0] Epoch[78] Time cost=251.066
+2016-12-01 18:24:54,173 Node[0] Epoch[78] Validation-accuracy=0.552083
+2016-12-01 18:26:23,045 Node[0] Epoch[79] Batch [50]	Speed: 56.51 samples/sec	Train-accuracy=0.669375
+2016-12-01 18:27:53,112 Node[0] Epoch[79] Batch [100]	Speed: 55.51 samples/sec	Train-accuracy=0.664375
+2016-12-01 18:29:07,884 Node[0] Epoch[79] Resetting Data Iterator
+2016-12-01 18:29:07,884 Node[0] Epoch[79] Time cost=253.711
+2016-12-01 18:29:14,160 Node[0] Epoch[79] Validation-accuracy=0.550000
+2016-12-01 18:30:42,998 Node[0] Epoch[80] Batch [50]	Speed: 56.53 samples/sec	Train-accuracy=0.673125
+2016-12-01 18:32:13,267 Node[0] Epoch[80] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.668125
+2016-12-01 18:33:27,276 Node[0] Epoch[80] Resetting Data Iterator
+2016-12-01 18:33:27,276 Node[0] Epoch[80] Time cost=253.116
+2016-12-01 18:33:34,692 Node[0] Epoch[80] Validation-accuracy=0.550781
+2016-12-01 18:35:03,571 Node[0] Epoch[81] Batch [50]	Speed: 56.51 samples/sec	Train-accuracy=0.683438
+2016-12-01 18:36:33,830 Node[0] Epoch[81] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.668750
+2016-12-01 18:37:46,854 Node[0] Epoch[81] Resetting Data Iterator
+2016-12-01 18:37:46,854 Node[0] Epoch[81] Time cost=252.162
+2016-12-01 18:37:53,486 Node[0] Epoch[81] Validation-accuracy=0.547852
+2016-12-01 18:39:22,304 Node[0] Epoch[82] Batch [50]	Speed: 56.55 samples/sec	Train-accuracy=0.678125
+2016-12-01 18:40:52,612 Node[0] Epoch[82] Batch [100]	Speed: 55.37 samples/sec	Train-accuracy=0.665937
+2016-12-01 18:42:06,596 Node[0] Epoch[82] Resetting Data Iterator
+2016-12-01 18:42:06,596 Node[0] Epoch[82] Time cost=253.109
+2016-12-01 18:42:13,634 Node[0] Epoch[82] Validation-accuracy=0.553125
+2016-12-01 18:43:42,503 Node[0] Epoch[83] Batch [50]	Speed: 56.51 samples/sec	Train-accuracy=0.685000
+2016-12-01 18:45:12,750 Node[0] Epoch[83] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.664375
+2016-12-01 18:46:24,974 Node[0] Epoch[83] Resetting Data Iterator
+2016-12-01 18:46:24,974 Node[0] Epoch[83] Time cost=251.340
+2016-12-01 18:46:31,968 Node[0] Epoch[83] Validation-accuracy=0.554167
+2016-12-01 18:48:00,850 Node[0] Epoch[84] Batch [50]	Speed: 56.51 samples/sec	Train-accuracy=0.683125
+2016-12-01 18:49:31,131 Node[0] Epoch[84] Batch [100]	Speed: 55.38 samples/sec	Train-accuracy=0.675625
+2016-12-01 18:50:45,137 Node[0] Epoch[84] Resetting Data Iterator
+2016-12-01 18:50:45,137 Node[0] Epoch[84] Time cost=253.169
+2016-12-01 18:50:52,531 Node[0] Epoch[84] Validation-accuracy=0.558594
+2016-12-01 18:52:21,316 Node[0] Epoch[85] Batch [50]	Speed: 56.57 samples/sec	Train-accuracy=0.691562
+2016-12-01 18:53:51,476 Node[0] Epoch[85] Batch [100]	Speed: 55.46 samples/sec	Train-accuracy=0.682813
+2016-12-01 18:55:05,504 Node[0] Epoch[85] Resetting Data Iterator
+2016-12-01 18:55:05,504 Node[0] Epoch[85] Time cost=252.974
+2016-12-01 18:55:12,938 Node[0] Epoch[85] Validation-accuracy=0.553711
+2016-12-01 18:56:41,746 Node[0] Epoch[86] Batch [50]	Speed: 56.55 samples/sec	Train-accuracy=0.688125
+2016-12-01 18:58:11,981 Node[0] Epoch[86] Batch [100]	Speed: 55.41 samples/sec	Train-accuracy=0.683125
+2016-12-01 18:59:24,256 Node[0] Epoch[86] Resetting Data Iterator
+2016-12-01 18:59:24,257 Node[0] Epoch[86] Time cost=251.319
+2016-12-01 18:59:31,209 Node[0] Epoch[86] Validation-accuracy=0.554167
+2016-12-01 19:01:00,104 Node[0] Epoch[87] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.697187
+2016-12-01 19:02:30,320 Node[0] Epoch[87] Batch [100]	Speed: 55.42 samples/sec	Train-accuracy=0.691250
+2016-12-01 19:03:44,344 Node[0] Epoch[87] Resetting Data Iterator
+2016-12-01 19:03:44,344 Node[0] Epoch[87] Time cost=253.134
+2016-12-01 19:03:51,338 Node[0] Epoch[87] Validation-accuracy=0.562500
+2016-12-01 19:05:20,236 Node[0] Epoch[88] Batch [50]	Speed: 56.49 samples/sec	Train-accuracy=0.711875
+2016-12-01 19:06:50,499 Node[0] Epoch[88] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.705313
+2016-12-01 19:08:02,706 Node[0] Epoch[88] Resetting Data Iterator
+2016-12-01 19:08:02,706 Node[0] Epoch[88] Time cost=251.369
+2016-12-01 19:08:10,099 Node[0] Epoch[88] Validation-accuracy=0.544922
+2016-12-01 19:09:39,015 Node[0] Epoch[89] Batch [50]	Speed: 56.48 samples/sec	Train-accuracy=0.713125
+2016-12-01 19:11:09,275 Node[0] Epoch[89] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.708750
+2016-12-01 19:12:23,672 Node[0] Epoch[89] Resetting Data Iterator
+2016-12-01 19:12:23,672 Node[0] Epoch[89] Time cost=253.572
+2016-12-01 19:12:30,711 Node[0] Epoch[89] Validation-accuracy=0.556641
+2016-12-01 19:13:59,596 Node[0] Epoch[90] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.710000
+2016-12-01 19:15:29,851 Node[0] Epoch[90] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.693125
+2016-12-01 19:16:43,863 Node[0] Epoch[90] Resetting Data Iterator
+2016-12-01 19:16:43,863 Node[0] Epoch[90] Time cost=253.152
+2016-12-01 19:16:50,865 Node[0] Epoch[90] Validation-accuracy=0.562500
+2016-12-01 19:18:19,748 Node[0] Epoch[91] Batch [50]	Speed: 56.51 samples/sec	Train-accuracy=0.702812
+2016-12-01 19:19:49,998 Node[0] Epoch[91] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.706875
+2016-12-01 19:21:02,176 Node[0] Epoch[91] Resetting Data Iterator
+2016-12-01 19:21:02,176 Node[0] Epoch[91] Time cost=251.310
+2016-12-01 19:21:09,163 Node[0] Epoch[91] Validation-accuracy=0.557292
+2016-12-01 19:22:37,994 Node[0] Epoch[92] Batch [50]	Speed: 56.54 samples/sec	Train-accuracy=0.706562
+2016-12-01 19:24:08,300 Node[0] Epoch[92] Batch [100]	Speed: 55.37 samples/sec	Train-accuracy=0.705625
+2016-12-01 19:25:22,267 Node[0] Epoch[92] Resetting Data Iterator
+2016-12-01 19:25:22,267 Node[0] Epoch[92] Time cost=253.103
+2016-12-01 19:25:29,661 Node[0] Epoch[92] Validation-accuracy=0.555664
+2016-12-01 19:26:58,465 Node[0] Epoch[93] Batch [50]	Speed: 56.55 samples/sec	Train-accuracy=0.719688
+2016-12-01 19:28:28,726 Node[0] Epoch[93] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.709375
+2016-12-01 19:29:40,953 Node[0] Epoch[93] Resetting Data Iterator
+2016-12-01 19:29:40,954 Node[0] Epoch[93] Time cost=251.292
+2016-12-01 19:29:48,339 Node[0] Epoch[93] Validation-accuracy=0.554688
+2016-12-01 19:31:17,186 Node[0] Epoch[94] Batch [50]	Speed: 56.53 samples/sec	Train-accuracy=0.719688
+2016-12-01 19:32:47,408 Node[0] Epoch[94] Batch [100]	Speed: 55.42 samples/sec	Train-accuracy=0.713125
+2016-12-01 19:34:01,359 Node[0] Epoch[94] Resetting Data Iterator
+2016-12-01 19:34:01,359 Node[0] Epoch[94] Time cost=253.020
+2016-12-01 19:34:08,359 Node[0] Epoch[94] Validation-accuracy=0.565625
+2016-12-01 19:35:37,218 Node[0] Epoch[95] Batch [50]	Speed: 56.52 samples/sec	Train-accuracy=0.722187
+2016-12-01 19:37:07,442 Node[0] Epoch[95] Batch [100]	Speed: 55.42 samples/sec	Train-accuracy=0.715938
+2016-12-01 19:38:21,021 Node[0] Epoch[95] Resetting Data Iterator
+2016-12-01 19:38:21,022 Node[0] Epoch[95] Time cost=252.663
+2016-12-01 19:38:26,692 Node[0] Epoch[95] Validation-accuracy=0.558333
+2016-12-01 19:39:55,527 Node[0] Epoch[96] Batch [50]	Speed: 56.54 samples/sec	Train-accuracy=0.717500
+2016-12-01 19:41:25,858 Node[0] Epoch[96] Batch [100]	Speed: 55.35 samples/sec	Train-accuracy=0.711562
+2016-12-01 19:42:39,883 Node[0] Epoch[96] Resetting Data Iterator
+2016-12-01 19:42:39,883 Node[0] Epoch[96] Time cost=253.191
+2016-12-01 19:42:47,265 Node[0] Epoch[96] Validation-accuracy=0.563477
+2016-12-01 19:44:16,139 Node[0] Epoch[97] Batch [50]	Speed: 56.51 samples/sec	Train-accuracy=0.728437
+2016-12-01 19:45:46,416 Node[0] Epoch[97] Batch [100]	Speed: 55.38 samples/sec	Train-accuracy=0.714688
+2016-12-01 19:47:01,635 Node[0] Epoch[97] Resetting Data Iterator
+2016-12-01 19:47:01,635 Node[0] Epoch[97] Time cost=254.370
+2016-12-01 19:47:07,816 Node[0] Epoch[97] Validation-accuracy=0.552734
+2016-12-01 19:48:36,718 Node[0] Epoch[98] Batch [50]	Speed: 56.49 samples/sec	Train-accuracy=0.731875
+2016-12-01 19:50:06,986 Node[0] Epoch[98] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.720000
+2016-12-01 19:51:19,432 Node[0] Epoch[98] Resetting Data Iterator
+2016-12-01 19:51:19,432 Node[0] Epoch[98] Time cost=251.616
+2016-12-01 19:51:26,251 Node[0] Epoch[98] Validation-accuracy=0.561458
+2016-12-01 19:52:55,069 Node[0] Epoch[99] Batch [50]	Speed: 56.55 samples/sec	Train-accuracy=0.733750
+2016-12-01 19:54:25,367 Node[0] Epoch[99] Batch [100]	Speed: 55.37 samples/sec	Train-accuracy=0.726562
+2016-12-01 19:55:39,378 Node[0] Epoch[99] Resetting Data Iterator
+2016-12-01 19:55:39,378 Node[0] Epoch[99] Time cost=253.126
+2016-12-01 19:55:46,339 Node[0] Epoch[99] Validation-accuracy=0.563542
+2016-12-01 19:57:15,256 Node[0] Epoch[100] Batch [50]	Speed: 56.48 samples/sec	Train-accuracy=0.744062
+2016-12-01 19:58:45,508 Node[0] Epoch[100] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.720625
+2016-12-01 19:59:57,642 Node[0] Epoch[100] Resetting Data Iterator
+2016-12-01 19:59:57,642 Node[0] Epoch[100] Time cost=251.303
+2016-12-01 20:00:05,017 Node[0] Epoch[100] Validation-accuracy=0.549805
+2016-12-01 20:01:33,909 Node[0] Epoch[101] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.738750
+2016-12-01 20:03:04,171 Node[0] Epoch[101] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.739062
+2016-12-01 20:04:18,184 Node[0] Epoch[101] Resetting Data Iterator
+2016-12-01 20:04:18,184 Node[0] Epoch[101] Time cost=253.167
+2016-12-01 20:04:25,579 Node[0] Epoch[101] Validation-accuracy=0.562500
+2016-12-01 20:05:54,392 Node[0] Epoch[102] Batch [50]	Speed: 56.55 samples/sec	Train-accuracy=0.739062
+2016-12-01 20:07:24,643 Node[0] Epoch[102] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.730625
+2016-12-01 20:08:38,651 Node[0] Epoch[102] Resetting Data Iterator
+2016-12-01 20:08:38,651 Node[0] Epoch[102] Time cost=253.071
+2016-12-01 20:08:45,660 Node[0] Epoch[102] Validation-accuracy=0.558333
+2016-12-01 20:10:14,549 Node[0] Epoch[103] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.748437
+2016-12-01 20:11:44,807 Node[0] Epoch[103] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.751875
+2016-12-01 20:12:57,035 Node[0] Epoch[103] Resetting Data Iterator
+2016-12-01 20:12:57,035 Node[0] Epoch[103] Time cost=251.375
+2016-12-01 20:13:04,029 Node[0] Epoch[103] Validation-accuracy=0.570833
+2016-12-01 20:14:32,922 Node[0] Epoch[104] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.753437
+2016-12-01 20:16:03,050 Node[0] Epoch[104] Batch [100]	Speed: 55.48 samples/sec	Train-accuracy=0.743750
+2016-12-01 20:17:17,852 Node[0] Epoch[104] Resetting Data Iterator
+2016-12-01 20:17:17,852 Node[0] Epoch[104] Time cost=253.823
+2016-12-01 20:17:24,543 Node[0] Epoch[104] Validation-accuracy=0.566406
+2016-12-01 20:18:53,367 Node[0] Epoch[105] Batch [50]	Speed: 56.54 samples/sec	Train-accuracy=0.751250
+2016-12-01 20:20:23,643 Node[0] Epoch[105] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.740625
+2016-12-01 20:21:36,211 Node[0] Epoch[105] Resetting Data Iterator
+2016-12-01 20:21:36,211 Node[0] Epoch[105] Time cost=251.668
+2016-12-01 20:21:43,202 Node[0] Epoch[105] Validation-accuracy=0.551758
+2016-12-01 20:23:12,038 Node[0] Epoch[106] Batch [50]	Speed: 56.54 samples/sec	Train-accuracy=0.765938
+2016-12-01 20:24:42,308 Node[0] Epoch[106] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.748125
+2016-12-01 20:25:56,236 Node[0] Epoch[106] Resetting Data Iterator
+2016-12-01 20:25:56,236 Node[0] Epoch[106] Time cost=253.035
+2016-12-01 20:26:03,249 Node[0] Epoch[106] Validation-accuracy=0.570833
+2016-12-01 20:27:32,224 Node[0] Epoch[107] Batch [50]	Speed: 56.45 samples/sec	Train-accuracy=0.765938
+2016-12-01 20:29:02,497 Node[0] Epoch[107] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.746250
+2016-12-01 20:30:16,504 Node[0] Epoch[107] Resetting Data Iterator
+2016-12-01 20:30:16,505 Node[0] Epoch[107] Time cost=253.256
+2016-12-01 20:30:23,488 Node[0] Epoch[107] Validation-accuracy=0.562500
+2016-12-01 20:31:52,332 Node[0] Epoch[108] Batch [50]	Speed: 56.53 samples/sec	Train-accuracy=0.761563
+2016-12-01 20:33:22,526 Node[0] Epoch[108] Batch [100]	Speed: 55.44 samples/sec	Train-accuracy=0.756875
+2016-12-01 20:34:34,772 Node[0] Epoch[108] Resetting Data Iterator
+2016-12-01 20:34:34,772 Node[0] Epoch[108] Time cost=251.284
+2016-12-01 20:34:42,165 Node[0] Epoch[108] Validation-accuracy=0.558594
+2016-12-01 20:36:10,981 Node[0] Epoch[109] Batch [50]	Speed: 56.55 samples/sec	Train-accuracy=0.758437
+2016-12-01 20:37:41,254 Node[0] Epoch[109] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.753437
+2016-12-01 20:38:55,268 Node[0] Epoch[109] Resetting Data Iterator
+2016-12-01 20:38:55,268 Node[0] Epoch[109] Time cost=253.103
+2016-12-01 20:39:02,644 Node[0] Epoch[109] Validation-accuracy=0.559570
+2016-12-01 20:40:31,455 Node[0] Epoch[110] Batch [50]	Speed: 56.55 samples/sec	Train-accuracy=0.774062
+2016-12-01 20:42:01,718 Node[0] Epoch[110] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.762500
+2016-12-01 20:43:13,925 Node[0] Epoch[110] Resetting Data Iterator
+2016-12-01 20:43:13,926 Node[0] Epoch[110] Time cost=251.282
+2016-12-01 20:43:20,948 Node[0] Epoch[110] Validation-accuracy=0.570833
+2016-12-01 20:44:49,806 Node[0] Epoch[111] Batch [50]	Speed: 56.52 samples/sec	Train-accuracy=0.768750
+2016-12-01 20:46:20,074 Node[0] Epoch[111] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.760938
+2016-12-01 20:47:34,507 Node[0] Epoch[111] Resetting Data Iterator
+2016-12-01 20:47:34,507 Node[0] Epoch[111] Time cost=253.559
+2016-12-01 20:47:41,139 Node[0] Epoch[111] Validation-accuracy=0.557292
+2016-12-01 20:49:09,880 Node[0] Epoch[112] Batch [50]	Speed: 56.59 samples/sec	Train-accuracy=0.786563
+2016-12-01 20:50:40,123 Node[0] Epoch[112] Batch [100]	Speed: 55.41 samples/sec	Train-accuracy=0.772188
+2016-12-01 20:51:54,144 Node[0] Epoch[112] Resetting Data Iterator
+2016-12-01 20:51:54,145 Node[0] Epoch[112] Time cost=253.006
+2016-12-01 20:52:01,623 Node[0] Epoch[112] Validation-accuracy=0.556641
+2016-12-01 20:53:30,429 Node[0] Epoch[113] Batch [50]	Speed: 56.56 samples/sec	Train-accuracy=0.787188
+2016-12-01 20:55:00,561 Node[0] Epoch[113] Batch [100]	Speed: 55.47 samples/sec	Train-accuracy=0.770000
+2016-12-01 20:56:13,133 Node[0] Epoch[113] Resetting Data Iterator
+2016-12-01 20:56:13,134 Node[0] Epoch[113] Time cost=251.511
+2016-12-01 20:56:20,226 Node[0] Epoch[113] Validation-accuracy=0.559570
+2016-12-01 20:57:49,103 Node[0] Epoch[114] Batch [50]	Speed: 56.51 samples/sec	Train-accuracy=0.782813
+2016-12-01 20:59:19,276 Node[0] Epoch[114] Batch [100]	Speed: 55.45 samples/sec	Train-accuracy=0.776563
+2016-12-01 21:00:33,297 Node[0] Epoch[114] Resetting Data Iterator
+2016-12-01 21:00:33,297 Node[0] Epoch[114] Time cost=253.071
+2016-12-01 21:00:40,295 Node[0] Epoch[114] Validation-accuracy=0.563542
+2016-12-01 21:02:09,187 Node[0] Epoch[115] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.778125
+2016-12-01 21:03:39,343 Node[0] Epoch[115] Batch [100]	Speed: 55.46 samples/sec	Train-accuracy=0.777813
+2016-12-01 21:04:51,587 Node[0] Epoch[115] Resetting Data Iterator
+2016-12-01 21:04:51,587 Node[0] Epoch[115] Time cost=251.291
+2016-12-01 21:04:58,548 Node[0] Epoch[115] Validation-accuracy=0.569792
+2016-12-01 21:06:27,430 Node[0] Epoch[116] Batch [50]	Speed: 56.51 samples/sec	Train-accuracy=0.795625
+2016-12-01 21:07:57,715 Node[0] Epoch[116] Batch [100]	Speed: 55.38 samples/sec	Train-accuracy=0.783750
+2016-12-01 21:09:11,733 Node[0] Epoch[116] Resetting Data Iterator
+2016-12-01 21:09:11,734 Node[0] Epoch[116] Time cost=253.185
+2016-12-01 21:09:19,113 Node[0] Epoch[116] Validation-accuracy=0.556641
+2016-12-01 21:10:48,001 Node[0] Epoch[117] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.786875
+2016-12-01 21:12:18,287 Node[0] Epoch[117] Batch [100]	Speed: 55.38 samples/sec	Train-accuracy=0.783438
+2016-12-01 21:13:32,307 Node[0] Epoch[117] Resetting Data Iterator
+2016-12-01 21:13:32,307 Node[0] Epoch[117] Time cost=253.194
+2016-12-01 21:13:39,692 Node[0] Epoch[117] Validation-accuracy=0.551758
+2016-12-01 21:15:08,594 Node[0] Epoch[118] Batch [50]	Speed: 56.49 samples/sec	Train-accuracy=0.797500
+2016-12-01 21:16:38,851 Node[0] Epoch[118] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.788125
+2016-12-01 21:17:51,076 Node[0] Epoch[118] Resetting Data Iterator
+2016-12-01 21:17:51,076 Node[0] Epoch[118] Time cost=251.384
+2016-12-01 21:17:58,075 Node[0] Epoch[118] Validation-accuracy=0.566667
+2016-12-01 21:19:26,935 Node[0] Epoch[119] Batch [50]	Speed: 56.52 samples/sec	Train-accuracy=0.798125
+2016-12-01 21:20:57,208 Node[0] Epoch[119] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.793125
+2016-12-01 21:22:11,237 Node[0] Epoch[119] Resetting Data Iterator
+2016-12-01 21:22:11,237 Node[0] Epoch[119] Time cost=253.162
+2016-12-01 21:22:18,224 Node[0] Epoch[119] Validation-accuracy=0.563542
+2016-12-01 21:23:47,093 Node[0] Epoch[120] Batch [50]	Speed: 56.51 samples/sec	Train-accuracy=0.801562
+2016-12-01 21:25:17,381 Node[0] Epoch[120] Batch [100]	Speed: 55.38 samples/sec	Train-accuracy=0.797500
+2016-12-01 21:26:29,607 Node[0] Epoch[120] Resetting Data Iterator
+2016-12-01 21:26:29,607 Node[0] Epoch[120] Time cost=251.383
+2016-12-01 21:26:37,004 Node[0] Epoch[120] Validation-accuracy=0.554688
+2016-12-01 21:28:05,886 Node[0] Epoch[121] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.807187
+2016-12-01 21:29:36,144 Node[0] Epoch[121] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.799375
+2016-12-01 21:30:50,189 Node[0] Epoch[121] Resetting Data Iterator
+2016-12-01 21:30:50,189 Node[0] Epoch[121] Time cost=253.185
+2016-12-01 21:30:57,547 Node[0] Epoch[121] Validation-accuracy=0.563477
+2016-12-01 21:32:26,448 Node[0] Epoch[122] Batch [50]	Speed: 56.49 samples/sec	Train-accuracy=0.811875
+2016-12-01 21:33:56,703 Node[0] Epoch[122] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.802813
+2016-12-01 21:35:10,762 Node[0] Epoch[122] Resetting Data Iterator
+2016-12-01 21:35:10,762 Node[0] Epoch[122] Time cost=253.215
+2016-12-01 21:35:17,750 Node[0] Epoch[122] Validation-accuracy=0.565625
+2016-12-01 21:36:46,617 Node[0] Epoch[123] Batch [50]	Speed: 56.51 samples/sec	Train-accuracy=0.807500
+2016-12-01 21:38:16,872 Node[0] Epoch[123] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.805312
+2016-12-01 21:39:29,083 Node[0] Epoch[123] Resetting Data Iterator
+2016-12-01 21:39:29,083 Node[0] Epoch[123] Time cost=251.333
+2016-12-01 21:39:36,086 Node[0] Epoch[123] Validation-accuracy=0.563542
+2016-12-01 21:41:04,956 Node[0] Epoch[124] Batch [50]	Speed: 56.51 samples/sec	Train-accuracy=0.819063
+2016-12-01 21:42:35,234 Node[0] Epoch[124] Batch [100]	Speed: 55.38 samples/sec	Train-accuracy=0.813438
+2016-12-01 21:43:49,603 Node[0] Epoch[124] Resetting Data Iterator
+2016-12-01 21:43:49,603 Node[0] Epoch[124] Time cost=253.517
+2016-12-01 21:43:56,647 Node[0] Epoch[124] Validation-accuracy=0.563477
+2016-12-01 21:45:25,537 Node[0] Epoch[125] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.826562
+2016-12-01 21:46:55,811 Node[0] Epoch[125] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.807500
+2016-12-01 21:48:08,008 Node[0] Epoch[125] Resetting Data Iterator
+2016-12-01 21:48:08,008 Node[0] Epoch[125] Time cost=251.361
+2016-12-01 21:48:15,397 Node[0] Epoch[125] Validation-accuracy=0.555664
+2016-12-01 21:49:44,206 Node[0] Epoch[126] Batch [50]	Speed: 56.55 samples/sec	Train-accuracy=0.824375
+2016-12-01 21:51:14,477 Node[0] Epoch[126] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.812813
+2016-12-01 21:52:28,486 Node[0] Epoch[126] Resetting Data Iterator
+2016-12-01 21:52:28,487 Node[0] Epoch[126] Time cost=253.089
+2016-12-01 21:52:35,489 Node[0] Epoch[126] Validation-accuracy=0.562500
+2016-12-01 21:54:04,368 Node[0] Epoch[127] Batch [50]	Speed: 56.51 samples/sec	Train-accuracy=0.821562
+2016-12-01 21:55:34,632 Node[0] Epoch[127] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.814063
+2016-12-01 21:56:46,847 Node[0] Epoch[127] Resetting Data Iterator
+2016-12-01 21:56:46,848 Node[0] Epoch[127] Time cost=251.358
+2016-12-01 21:56:53,880 Node[0] Epoch[127] Validation-accuracy=0.573958
+2016-12-01 21:58:22,722 Node[0] Epoch[128] Batch [50]	Speed: 56.53 samples/sec	Train-accuracy=0.823125
+2016-12-01 21:59:52,999 Node[0] Epoch[128] Batch [100]	Speed: 55.38 samples/sec	Train-accuracy=0.818438
+2016-12-01 22:01:07,008 Node[0] Epoch[128] Resetting Data Iterator
+2016-12-01 22:01:07,008 Node[0] Epoch[128] Time cost=253.128
+2016-12-01 22:01:14,381 Node[0] Epoch[128] Validation-accuracy=0.563477
+2016-12-01 22:02:43,191 Node[0] Epoch[129] Batch [50]	Speed: 56.55 samples/sec	Train-accuracy=0.829688
+2016-12-01 22:04:13,473 Node[0] Epoch[129] Batch [100]	Speed: 55.38 samples/sec	Train-accuracy=0.830000
+2016-12-01 22:05:27,483 Node[0] Epoch[129] Resetting Data Iterator
+2016-12-01 22:05:27,483 Node[0] Epoch[129] Time cost=253.102
+2016-12-01 22:05:34,868 Node[0] Epoch[129] Validation-accuracy=0.560547
+2016-12-01 22:07:03,775 Node[0] Epoch[130] Batch [50]	Speed: 56.49 samples/sec	Train-accuracy=0.833125
+2016-12-01 22:08:34,036 Node[0] Epoch[130] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.826875
+2016-12-01 22:09:46,231 Node[0] Epoch[130] Resetting Data Iterator
+2016-12-01 22:09:46,231 Node[0] Epoch[130] Time cost=251.363
+2016-12-01 22:09:53,222 Node[0] Epoch[130] Validation-accuracy=0.577083
+2016-12-01 22:11:22,126 Node[0] Epoch[131] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.831250
+2016-12-01 22:12:52,409 Node[0] Epoch[131] Batch [100]	Speed: 55.38 samples/sec	Train-accuracy=0.827500
+2016-12-01 22:14:06,423 Node[0] Epoch[131] Resetting Data Iterator
+2016-12-01 22:14:06,423 Node[0] Epoch[131] Time cost=253.200
+2016-12-01 22:14:13,396 Node[0] Epoch[131] Validation-accuracy=0.566667
+2016-12-01 22:15:42,294 Node[0] Epoch[132] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.835000
+2016-12-01 22:17:12,551 Node[0] Epoch[132] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.834375
+2016-12-01 22:18:24,793 Node[0] Epoch[132] Resetting Data Iterator
+2016-12-01 22:18:24,793 Node[0] Epoch[132] Time cost=251.396
+2016-12-01 22:18:32,163 Node[0] Epoch[132] Validation-accuracy=0.562500
+2016-12-01 22:20:01,048 Node[0] Epoch[133] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.840313
+2016-12-01 22:21:31,317 Node[0] Epoch[133] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.832812
+2016-12-01 22:22:45,342 Node[0] Epoch[133] Resetting Data Iterator
+2016-12-01 22:22:45,343 Node[0] Epoch[133] Time cost=253.180
+2016-12-01 22:22:52,720 Node[0] Epoch[133] Validation-accuracy=0.574219
+2016-12-01 22:24:21,615 Node[0] Epoch[134] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.835938
+2016-12-01 22:25:51,887 Node[0] Epoch[134] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.838750
+2016-12-01 22:27:06,288 Node[0] Epoch[134] Resetting Data Iterator
+2016-12-01 22:27:06,288 Node[0] Epoch[134] Time cost=253.567
+2016-12-01 22:27:12,980 Node[0] Epoch[134] Validation-accuracy=0.568750
+2016-12-01 22:28:41,886 Node[0] Epoch[135] Batch [50]	Speed: 56.49 samples/sec	Train-accuracy=0.844688
+2016-12-01 22:30:12,150 Node[0] Epoch[135] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.844688
+2016-12-01 22:31:24,352 Node[0] Epoch[135] Resetting Data Iterator
+2016-12-01 22:31:24,352 Node[0] Epoch[135] Time cost=251.372
+2016-12-01 22:31:31,338 Node[0] Epoch[135] Validation-accuracy=0.572917
+2016-12-01 22:33:00,251 Node[0] Epoch[136] Batch [50]	Speed: 56.49 samples/sec	Train-accuracy=0.848750
+2016-12-01 22:34:30,516 Node[0] Epoch[136] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.845625
+2016-12-01 22:35:44,942 Node[0] Epoch[136] Resetting Data Iterator
+2016-12-01 22:35:44,942 Node[0] Epoch[136] Time cost=253.603
+2016-12-01 22:35:51,957 Node[0] Epoch[136] Validation-accuracy=0.566406
+2016-12-01 22:37:20,817 Node[0] Epoch[137] Batch [50]	Speed: 56.52 samples/sec	Train-accuracy=0.853125
+2016-12-01 22:38:51,070 Node[0] Epoch[137] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.844063
+2016-12-01 22:40:03,295 Node[0] Epoch[137] Resetting Data Iterator
+2016-12-01 22:40:03,296 Node[0] Epoch[137] Time cost=251.338
+2016-12-01 22:40:10,676 Node[0] Epoch[137] Validation-accuracy=0.558594
+2016-12-01 22:41:39,585 Node[0] Epoch[138] Batch [50]	Speed: 56.49 samples/sec	Train-accuracy=0.857187
+2016-12-01 22:43:09,831 Node[0] Epoch[138] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.849688
+2016-12-01 22:44:24,644 Node[0] Epoch[138] Resetting Data Iterator
+2016-12-01 22:44:24,645 Node[0] Epoch[138] Time cost=253.969
+2016-12-01 22:44:30,903 Node[0] Epoch[138] Validation-accuracy=0.566667
+2016-12-01 22:45:59,735 Node[0] Epoch[139] Batch [50]	Speed: 56.54 samples/sec	Train-accuracy=0.862812
+2016-12-01 22:47:30,000 Node[0] Epoch[139] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.848437
+2016-12-01 22:48:44,012 Node[0] Epoch[139] Resetting Data Iterator
+2016-12-01 22:48:44,012 Node[0] Epoch[139] Time cost=253.109
+2016-12-01 22:48:50,997 Node[0] Epoch[139] Validation-accuracy=0.573958
+2016-12-01 22:50:19,898 Node[0] Epoch[140] Batch [50]	Speed: 56.49 samples/sec	Train-accuracy=0.856875
+2016-12-01 22:51:50,167 Node[0] Epoch[140] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.855938
+2016-12-01 22:53:02,382 Node[0] Epoch[140] Resetting Data Iterator
+2016-12-01 22:53:02,382 Node[0] Epoch[140] Time cost=251.385
+2016-12-01 22:53:09,772 Node[0] Epoch[140] Validation-accuracy=0.556641
+2016-12-01 22:54:38,569 Node[0] Epoch[141] Batch [50]	Speed: 56.56 samples/sec	Train-accuracy=0.860000
+2016-12-01 22:56:08,842 Node[0] Epoch[141] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.862187
+2016-12-01 22:57:22,850 Node[0] Epoch[141] Resetting Data Iterator
+2016-12-01 22:57:22,850 Node[0] Epoch[141] Time cost=253.078
+2016-12-01 22:57:30,241 Node[0] Epoch[141] Validation-accuracy=0.560547
+2016-12-01 22:58:59,129 Node[0] Epoch[142] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.867500
+2016-12-01 23:00:29,400 Node[0] Epoch[142] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.857812
+2016-12-01 23:01:41,619 Node[0] Epoch[142] Resetting Data Iterator
+2016-12-01 23:01:41,619 Node[0] Epoch[142] Time cost=251.379
+2016-12-01 23:01:48,683 Node[0] Epoch[142] Validation-accuracy=0.569792
+2016-12-01 23:03:17,512 Node[0] Epoch[143] Batch [50]	Speed: 56.54 samples/sec	Train-accuracy=0.867188
+2016-12-01 23:04:47,771 Node[0] Epoch[143] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.864375
+2016-12-01 23:06:01,804 Node[0] Epoch[143] Resetting Data Iterator
+2016-12-01 23:06:01,804 Node[0] Epoch[143] Time cost=253.120
+2016-12-01 23:06:08,786 Node[0] Epoch[143] Validation-accuracy=0.565625
+2016-12-01 23:07:37,680 Node[0] Epoch[144] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.865625
+2016-12-01 23:09:07,947 Node[0] Epoch[144] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.856250
+2016-12-01 23:10:21,959 Node[0] Epoch[144] Resetting Data Iterator
+2016-12-01 23:10:21,959 Node[0] Epoch[144] Time cost=253.172
+2016-12-01 23:10:29,344 Node[0] Epoch[144] Validation-accuracy=0.565430
+2016-12-01 23:11:58,241 Node[0] Epoch[145] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.868125
+2016-12-01 23:13:28,523 Node[0] Epoch[145] Batch [100]	Speed: 55.38 samples/sec	Train-accuracy=0.871563
+2016-12-01 23:14:41,098 Node[0] Epoch[145] Resetting Data Iterator
+2016-12-01 23:14:41,098 Node[0] Epoch[145] Time cost=251.754
+2016-12-01 23:14:48,168 Node[0] Epoch[145] Validation-accuracy=0.560547
+2016-12-01 23:16:17,003 Node[0] Epoch[146] Batch [50]	Speed: 56.53 samples/sec	Train-accuracy=0.870625
+2016-12-01 23:17:47,279 Node[0] Epoch[146] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.865313
+2016-12-01 23:19:01,299 Node[0] Epoch[146] Resetting Data Iterator
+2016-12-01 23:19:01,300 Node[0] Epoch[146] Time cost=253.131
+2016-12-01 23:19:08,318 Node[0] Epoch[146] Validation-accuracy=0.557292
+2016-12-01 23:20:37,172 Node[0] Epoch[147] Batch [50]	Speed: 56.52 samples/sec	Train-accuracy=0.873750
+2016-12-01 23:22:07,445 Node[0] Epoch[147] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.870000
+2016-12-01 23:23:19,639 Node[0] Epoch[147] Resetting Data Iterator
+2016-12-01 23:23:19,639 Node[0] Epoch[147] Time cost=251.321
+2016-12-01 23:23:26,644 Node[0] Epoch[147] Validation-accuracy=0.564583
+2016-12-01 23:24:55,541 Node[0] Epoch[148] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.880000
+2016-12-01 23:26:25,794 Node[0] Epoch[148] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.869687
+2016-12-01 23:27:39,849 Node[0] Epoch[148] Resetting Data Iterator
+2016-12-01 23:27:39,849 Node[0] Epoch[148] Time cost=253.205
+2016-12-01 23:27:47,232 Node[0] Epoch[148] Validation-accuracy=0.573242
+2016-12-01 23:29:16,103 Node[0] Epoch[149] Batch [50]	Speed: 56.51 samples/sec	Train-accuracy=0.877500
+2016-12-01 23:30:46,388 Node[0] Epoch[149] Batch [100]	Speed: 55.38 samples/sec	Train-accuracy=0.872500
+2016-12-01 23:32:00,374 Node[0] Epoch[149] Resetting Data Iterator
+2016-12-01 23:32:00,375 Node[0] Epoch[149] Time cost=253.142
+2016-12-01 23:32:07,775 Node[0] Epoch[149] Validation-accuracy=0.558594
+2016-12-01 23:33:36,669 Node[0] Epoch[150] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.874375
+2016-12-01 23:35:06,946 Node[0] Epoch[150] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.885312
+2016-12-01 23:36:19,143 Node[0] Epoch[150] Resetting Data Iterator
+2016-12-01 23:36:19,143 Node[0] Epoch[150] Time cost=251.368
+2016-12-01 23:36:26,167 Node[0] Epoch[150] Validation-accuracy=0.577083
+2016-12-01 23:37:55,036 Node[0] Epoch[151] Batch [50]	Speed: 56.51 samples/sec	Train-accuracy=0.883437
+2016-12-01 23:39:25,306 Node[0] Epoch[151] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.882812
+2016-12-01 23:40:39,308 Node[0] Epoch[151] Resetting Data Iterator
+2016-12-01 23:40:39,308 Node[0] Epoch[151] Time cost=253.141
+2016-12-01 23:40:46,303 Node[0] Epoch[151] Validation-accuracy=0.575000
+2016-12-01 23:42:15,186 Node[0] Epoch[152] Batch [50]	Speed: 56.51 samples/sec	Train-accuracy=0.888750
+2016-12-01 23:43:45,474 Node[0] Epoch[152] Batch [100]	Speed: 55.38 samples/sec	Train-accuracy=0.887188
+2016-12-01 23:44:57,680 Node[0] Epoch[152] Resetting Data Iterator
+2016-12-01 23:44:57,680 Node[0] Epoch[152] Time cost=251.376
+2016-12-01 23:45:05,100 Node[0] Epoch[152] Validation-accuracy=0.560547
+2016-12-01 23:46:33,968 Node[0] Epoch[153] Batch [50]	Speed: 56.52 samples/sec	Train-accuracy=0.883437
+2016-12-01 23:48:04,216 Node[0] Epoch[153] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.883125
+2016-12-01 23:49:18,238 Node[0] Epoch[153] Resetting Data Iterator
+2016-12-01 23:49:18,238 Node[0] Epoch[153] Time cost=253.138
+2016-12-01 23:49:25,624 Node[0] Epoch[153] Validation-accuracy=0.555664
+2016-12-01 23:50:54,526 Node[0] Epoch[154] Batch [50]	Speed: 56.49 samples/sec	Train-accuracy=0.887813
+2016-12-01 23:52:24,781 Node[0] Epoch[154] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.884687
+2016-12-01 23:53:38,807 Node[0] Epoch[154] Resetting Data Iterator
+2016-12-01 23:53:38,807 Node[0] Epoch[154] Time cost=253.183
+2016-12-01 23:53:45,818 Node[0] Epoch[154] Validation-accuracy=0.563542
+2016-12-01 23:55:14,673 Node[0] Epoch[155] Batch [50]	Speed: 56.52 samples/sec	Train-accuracy=0.884375
+2016-12-01 23:56:44,952 Node[0] Epoch[155] Batch [100]	Speed: 55.38 samples/sec	Train-accuracy=0.888750
+2016-12-01 23:57:57,158 Node[0] Epoch[155] Resetting Data Iterator
+2016-12-01 23:57:57,158 Node[0] Epoch[155] Time cost=251.340
+2016-12-01 23:58:04,160 Node[0] Epoch[155] Validation-accuracy=0.564583
+2016-12-01 23:59:33,045 Node[0] Epoch[156] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.898438
+2016-12-02 00:01:03,303 Node[0] Epoch[156] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.889375
+2016-12-02 00:02:17,325 Node[0] Epoch[156] Resetting Data Iterator
+2016-12-02 00:02:17,326 Node[0] Epoch[156] Time cost=253.166
+2016-12-02 00:02:24,726 Node[0] Epoch[156] Validation-accuracy=0.560547
+2016-12-02 00:03:53,631 Node[0] Epoch[157] Batch [50]	Speed: 56.49 samples/sec	Train-accuracy=0.896875
+2016-12-02 00:05:23,878 Node[0] Epoch[157] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.894062
+2016-12-02 00:06:36,092 Node[0] Epoch[157] Resetting Data Iterator
+2016-12-02 00:06:36,093 Node[0] Epoch[157] Time cost=251.366
+2016-12-02 00:06:43,478 Node[0] Epoch[157] Validation-accuracy=0.564453
+2016-12-02 00:08:12,385 Node[0] Epoch[158] Batch [50]	Speed: 56.49 samples/sec	Train-accuracy=0.904687
+2016-12-02 00:09:42,657 Node[0] Epoch[158] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.895312
+2016-12-02 00:10:57,424 Node[0] Epoch[158] Resetting Data Iterator
+2016-12-02 00:10:57,424 Node[0] Epoch[158] Time cost=253.946
+2016-12-02 00:11:03,730 Node[0] Epoch[158] Validation-accuracy=0.558333
+2016-12-02 00:12:32,548 Node[0] Epoch[159] Batch [50]	Speed: 56.55 samples/sec	Train-accuracy=0.903438
+2016-12-02 00:14:02,812 Node[0] Epoch[159] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.903125
+2016-12-02 00:15:15,807 Node[0] Epoch[159] Resetting Data Iterator
+2016-12-02 00:15:15,808 Node[0] Epoch[159] Time cost=252.078
+2016-12-02 00:15:22,081 Node[0] Epoch[159] Validation-accuracy=0.570833
+2016-12-02 00:16:50,909 Node[0] Epoch[160] Batch [50]	Speed: 56.54 samples/sec	Train-accuracy=0.905312
+2016-12-02 00:18:21,173 Node[0] Epoch[160] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.896563
+2016-12-02 00:19:35,888 Node[0] Epoch[160] Resetting Data Iterator
+2016-12-02 00:19:35,889 Node[0] Epoch[160] Time cost=253.807
+2016-12-02 00:19:42,649 Node[0] Epoch[160] Validation-accuracy=0.557617
+2016-12-02 00:21:11,485 Node[0] Epoch[161] Batch [50]	Speed: 56.53 samples/sec	Train-accuracy=0.905937
+2016-12-02 00:22:41,734 Node[0] Epoch[161] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.897188
+2016-12-02 00:23:55,763 Node[0] Epoch[161] Resetting Data Iterator
+2016-12-02 00:23:55,763 Node[0] Epoch[161] Time cost=253.114
+2016-12-02 00:24:03,168 Node[0] Epoch[161] Validation-accuracy=0.563477
+2016-12-02 00:25:32,059 Node[0] Epoch[162] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.908750
+2016-12-02 00:27:02,321 Node[0] Epoch[162] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.898125
+2016-12-02 00:28:14,528 Node[0] Epoch[162] Resetting Data Iterator
+2016-12-02 00:28:14,528 Node[0] Epoch[162] Time cost=251.359
+2016-12-02 00:28:21,553 Node[0] Epoch[162] Validation-accuracy=0.563542
+2016-12-02 00:29:50,411 Node[0] Epoch[163] Batch [50]	Speed: 56.52 samples/sec	Train-accuracy=0.911563
+2016-12-02 00:31:20,679 Node[0] Epoch[163] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.907500
+2016-12-02 00:32:34,694 Node[0] Epoch[163] Resetting Data Iterator
+2016-12-02 00:32:34,694 Node[0] Epoch[163] Time cost=253.141
+2016-12-02 00:32:41,686 Node[0] Epoch[163] Validation-accuracy=0.556250
+2016-12-02 00:34:10,572 Node[0] Epoch[164] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.907813
+2016-12-02 00:35:40,832 Node[0] Epoch[164] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.897500
+2016-12-02 00:36:53,066 Node[0] Epoch[164] Resetting Data Iterator
+2016-12-02 00:36:53,066 Node[0] Epoch[164] Time cost=251.380
+2016-12-02 00:37:00,451 Node[0] Epoch[164] Validation-accuracy=0.560547
+2016-12-02 00:38:29,354 Node[0] Epoch[165] Batch [50]	Speed: 56.49 samples/sec	Train-accuracy=0.905312
+2016-12-02 00:39:59,615 Node[0] Epoch[165] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.906875
+2016-12-02 00:41:13,616 Node[0] Epoch[165] Resetting Data Iterator
+2016-12-02 00:41:13,617 Node[0] Epoch[165] Time cost=253.166
+2016-12-02 00:41:20,995 Node[0] Epoch[165] Validation-accuracy=0.568359
+2016-12-02 00:42:49,836 Node[0] Epoch[166] Batch [50]	Speed: 56.53 samples/sec	Train-accuracy=0.914062
+2016-12-02 00:44:20,084 Node[0] Epoch[166] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.900937
+2016-12-02 00:45:34,451 Node[0] Epoch[166] Resetting Data Iterator
+2016-12-02 00:45:34,451 Node[0] Epoch[166] Time cost=253.456
+2016-12-02 00:45:41,166 Node[0] Epoch[166] Validation-accuracy=0.567708
+2016-12-02 00:47:09,987 Node[0] Epoch[167] Batch [50]	Speed: 56.54 samples/sec	Train-accuracy=0.910312
+2016-12-02 00:48:40,244 Node[0] Epoch[167] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.915937
+2016-12-02 00:49:52,463 Node[0] Epoch[167] Resetting Data Iterator
+2016-12-02 00:49:52,463 Node[0] Epoch[167] Time cost=251.297
+2016-12-02 00:49:59,441 Node[0] Epoch[167] Validation-accuracy=0.567708
+2016-12-02 00:51:28,332 Node[0] Epoch[168] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.912813
+2016-12-02 00:52:58,582 Node[0] Epoch[168] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.910312
+2016-12-02 00:54:12,617 Node[0] Epoch[168] Resetting Data Iterator
+2016-12-02 00:54:12,617 Node[0] Epoch[168] Time cost=253.176
+2016-12-02 00:54:20,056 Node[0] Epoch[168] Validation-accuracy=0.564453
+2016-12-02 00:55:48,916 Node[0] Epoch[169] Batch [50]	Speed: 56.52 samples/sec	Train-accuracy=0.917813
+2016-12-02 00:57:19,173 Node[0] Epoch[169] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.907500
+2016-12-02 00:58:31,383 Node[0] Epoch[169] Resetting Data Iterator
+2016-12-02 00:58:31,383 Node[0] Epoch[169] Time cost=251.327
+2016-12-02 00:58:38,764 Node[0] Epoch[169] Validation-accuracy=0.562500
+2016-12-02 01:00:07,555 Node[0] Epoch[170] Batch [50]	Speed: 56.56 samples/sec	Train-accuracy=0.925312
+2016-12-02 01:01:37,851 Node[0] Epoch[170] Batch [100]	Speed: 55.37 samples/sec	Train-accuracy=0.918438
+2016-12-02 01:02:51,863 Node[0] Epoch[170] Resetting Data Iterator
+2016-12-02 01:02:51,863 Node[0] Epoch[170] Time cost=253.099
+2016-12-02 01:02:58,838 Node[0] Epoch[170] Validation-accuracy=0.566667
+2016-12-02 01:04:27,727 Node[0] Epoch[171] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.919375
+2016-12-02 01:05:58,020 Node[0] Epoch[171] Batch [100]	Speed: 55.38 samples/sec	Train-accuracy=0.920312
+2016-12-02 01:07:12,029 Node[0] Epoch[171] Resetting Data Iterator
+2016-12-02 01:07:12,029 Node[0] Epoch[171] Time cost=253.191
+2016-12-02 01:07:19,014 Node[0] Epoch[171] Validation-accuracy=0.575000
+2016-12-02 01:08:47,898 Node[0] Epoch[172] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.923438
+2016-12-02 01:10:18,177 Node[0] Epoch[172] Batch [100]	Speed: 55.38 samples/sec	Train-accuracy=0.914687
+2016-12-02 01:11:30,369 Node[0] Epoch[172] Resetting Data Iterator
+2016-12-02 01:11:30,370 Node[0] Epoch[172] Time cost=251.356
+2016-12-02 01:11:37,770 Node[0] Epoch[172] Validation-accuracy=0.561523
+2016-12-02 01:13:06,661 Node[0] Epoch[173] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.924375
+2016-12-02 01:14:36,920 Node[0] Epoch[173] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.923750
+2016-12-02 01:15:50,959 Node[0] Epoch[173] Resetting Data Iterator
+2016-12-02 01:15:50,959 Node[0] Epoch[173] Time cost=253.189
+2016-12-02 01:15:58,359 Node[0] Epoch[173] Validation-accuracy=0.566406
+2016-12-02 01:17:27,243 Node[0] Epoch[174] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.925312
+2016-12-02 01:18:57,495 Node[0] Epoch[174] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.922188
+2016-12-02 01:20:09,699 Node[0] Epoch[174] Resetting Data Iterator
+2016-12-02 01:20:09,699 Node[0] Epoch[174] Time cost=251.340
+2016-12-02 01:20:16,713 Node[0] Epoch[174] Validation-accuracy=0.567708
+2016-12-02 01:21:45,580 Node[0] Epoch[175] Batch [50]	Speed: 56.52 samples/sec	Train-accuracy=0.925312
+2016-12-02 01:23:15,855 Node[0] Epoch[175] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.923125
+2016-12-02 01:24:30,674 Node[0] Epoch[175] Resetting Data Iterator
+2016-12-02 01:24:30,674 Node[0] Epoch[175] Time cost=253.961
+2016-12-02 01:24:36,967 Node[0] Epoch[175] Validation-accuracy=0.564583
+2016-12-02 01:26:05,852 Node[0] Epoch[176] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.926562
+2016-12-02 01:27:36,113 Node[0] Epoch[176] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.927500
+2016-12-02 01:28:50,146 Node[0] Epoch[176] Resetting Data Iterator
+2016-12-02 01:28:50,146 Node[0] Epoch[176] Time cost=253.179
+2016-12-02 01:28:57,556 Node[0] Epoch[176] Validation-accuracy=0.567383
+2016-12-02 01:30:26,420 Node[0] Epoch[177] Batch [50]	Speed: 56.52 samples/sec	Train-accuracy=0.925000
+2016-12-02 01:31:56,689 Node[0] Epoch[177] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.926875
+2016-12-02 01:33:08,902 Node[0] Epoch[177] Resetting Data Iterator
+2016-12-02 01:33:08,903 Node[0] Epoch[177] Time cost=251.347
+2016-12-02 01:33:16,325 Node[0] Epoch[177] Validation-accuracy=0.562500
+2016-12-02 01:34:45,185 Node[0] Epoch[178] Batch [50]	Speed: 56.52 samples/sec	Train-accuracy=0.930625
+2016-12-02 01:36:15,450 Node[0] Epoch[178] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.934688
+2016-12-02 01:37:29,468 Node[0] Epoch[178] Resetting Data Iterator
+2016-12-02 01:37:29,469 Node[0] Epoch[178] Time cost=253.143
+2016-12-02 01:37:36,487 Node[0] Epoch[178] Validation-accuracy=0.556250
+2016-12-02 01:39:05,368 Node[0] Epoch[179] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.931250
+2016-12-02 01:40:35,617 Node[0] Epoch[179] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.933438
+2016-12-02 01:41:47,848 Node[0] Epoch[179] Resetting Data Iterator
+2016-12-02 01:41:47,848 Node[0] Epoch[179] Time cost=251.361
+2016-12-02 01:41:54,814 Node[0] Epoch[179] Validation-accuracy=0.566667
+2016-12-02 01:43:23,716 Node[0] Epoch[180] Batch [50]	Speed: 56.49 samples/sec	Train-accuracy=0.935625
+2016-12-02 01:44:53,976 Node[0] Epoch[180] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.927500
+2016-12-02 01:46:08,001 Node[0] Epoch[180] Resetting Data Iterator
+2016-12-02 01:46:08,002 Node[0] Epoch[180] Time cost=253.187
+2016-12-02 01:46:15,391 Node[0] Epoch[180] Validation-accuracy=0.562500
+2016-12-02 01:47:44,289 Node[0] Epoch[181] Batch [50]	Speed: 56.49 samples/sec	Train-accuracy=0.932500
+2016-12-02 01:49:14,560 Node[0] Epoch[181] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.930000
+2016-12-02 01:50:28,577 Node[0] Epoch[181] Resetting Data Iterator
+2016-12-02 01:50:28,577 Node[0] Epoch[181] Time cost=253.186
+2016-12-02 01:50:35,980 Node[0] Epoch[181] Validation-accuracy=0.555664
+2016-12-02 01:52:04,864 Node[0] Epoch[182] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.931250
+2016-12-02 01:53:35,131 Node[0] Epoch[182] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.935312
+2016-12-02 01:54:47,345 Node[0] Epoch[182] Resetting Data Iterator
+2016-12-02 01:54:47,345 Node[0] Epoch[182] Time cost=251.365
+2016-12-02 01:54:54,356 Node[0] Epoch[182] Validation-accuracy=0.564583
+2016-12-02 01:56:23,215 Node[0] Epoch[183] Batch [50]	Speed: 56.52 samples/sec	Train-accuracy=0.940937
+2016-12-02 01:57:53,501 Node[0] Epoch[183] Batch [100]	Speed: 55.38 samples/sec	Train-accuracy=0.931250
+2016-12-02 01:59:07,482 Node[0] Epoch[183] Resetting Data Iterator
+2016-12-02 01:59:07,482 Node[0] Epoch[183] Time cost=253.125
+2016-12-02 01:59:14,490 Node[0] Epoch[183] Validation-accuracy=0.560417
+2016-12-02 02:00:43,400 Node[0] Epoch[184] Batch [50]	Speed: 56.49 samples/sec	Train-accuracy=0.942813
+2016-12-02 02:02:13,666 Node[0] Epoch[184] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.939063
+2016-12-02 02:03:25,887 Node[0] Epoch[184] Resetting Data Iterator
+2016-12-02 02:03:25,888 Node[0] Epoch[184] Time cost=251.397
+2016-12-02 02:03:33,277 Node[0] Epoch[184] Validation-accuracy=0.550781
+2016-12-02 02:05:02,183 Node[0] Epoch[185] Batch [50]	Speed: 56.49 samples/sec	Train-accuracy=0.943125
+2016-12-02 02:06:32,443 Node[0] Epoch[185] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.939688
+2016-12-02 02:07:46,446 Node[0] Epoch[185] Resetting Data Iterator
+2016-12-02 02:07:46,446 Node[0] Epoch[185] Time cost=253.169
+2016-12-02 02:07:53,831 Node[0] Epoch[185] Validation-accuracy=0.565430
+2016-12-02 02:09:22,722 Node[0] Epoch[186] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.941250
+2016-12-02 02:10:52,992 Node[0] Epoch[186] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.941875
+2016-12-02 02:12:06,994 Node[0] Epoch[186] Resetting Data Iterator
+2016-12-02 02:12:06,994 Node[0] Epoch[186] Time cost=253.164
+2016-12-02 02:12:13,999 Node[0] Epoch[186] Validation-accuracy=0.554167
+2016-12-02 02:13:42,900 Node[0] Epoch[187] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.927500
+2016-12-02 02:15:13,154 Node[0] Epoch[187] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.939375
+2016-12-02 02:16:25,354 Node[0] Epoch[187] Resetting Data Iterator
+2016-12-02 02:16:25,354 Node[0] Epoch[187] Time cost=251.354
+2016-12-02 02:16:32,342 Node[0] Epoch[187] Validation-accuracy=0.554167
+2016-12-02 02:18:01,246 Node[0] Epoch[188] Batch [50]	Speed: 56.49 samples/sec	Train-accuracy=0.943125
+2016-12-02 02:19:31,510 Node[0] Epoch[188] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.939375
+2016-12-02 02:20:45,523 Node[0] Epoch[188] Resetting Data Iterator
+2016-12-02 02:20:45,523 Node[0] Epoch[188] Time cost=253.181
+2016-12-02 02:20:52,948 Node[0] Epoch[188] Validation-accuracy=0.561523
+2016-12-02 02:22:21,804 Node[0] Epoch[189] Batch [50]	Speed: 56.52 samples/sec	Train-accuracy=0.943438
+2016-12-02 02:23:52,091 Node[0] Epoch[189] Batch [100]	Speed: 55.38 samples/sec	Train-accuracy=0.932813
+2016-12-02 02:25:04,289 Node[0] Epoch[189] Resetting Data Iterator
+2016-12-02 02:25:04,289 Node[0] Epoch[189] Time cost=251.341
+2016-12-02 02:25:11,701 Node[0] Epoch[189] Validation-accuracy=0.559570
+2016-12-02 02:26:40,573 Node[0] Epoch[190] Batch [50]	Speed: 56.51 samples/sec	Train-accuracy=0.938125
+2016-12-02 02:28:10,837 Node[0] Epoch[190] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.941875
+2016-12-02 02:29:24,855 Node[0] Epoch[190] Resetting Data Iterator
+2016-12-02 02:29:24,856 Node[0] Epoch[190] Time cost=253.154
+2016-12-02 02:29:31,868 Node[0] Epoch[190] Validation-accuracy=0.554167
+2016-12-02 02:31:00,729 Node[0] Epoch[191] Batch [50]	Speed: 56.52 samples/sec	Train-accuracy=0.944688
+2016-12-02 02:32:31,013 Node[0] Epoch[191] Batch [100]	Speed: 55.38 samples/sec	Train-accuracy=0.943750
+2016-12-02 02:33:43,239 Node[0] Epoch[191] Resetting Data Iterator
+2016-12-02 02:33:43,239 Node[0] Epoch[191] Time cost=251.371
+2016-12-02 02:33:50,254 Node[0] Epoch[191] Validation-accuracy=0.570833
+2016-12-02 02:35:19,104 Node[0] Epoch[192] Batch [50]	Speed: 56.53 samples/sec	Train-accuracy=0.945625
+2016-12-02 02:36:49,356 Node[0] Epoch[192] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.941250
+2016-12-02 02:38:03,389 Node[0] Epoch[192] Resetting Data Iterator
+2016-12-02 02:38:03,389 Node[0] Epoch[192] Time cost=253.135
+2016-12-02 02:38:10,768 Node[0] Epoch[192] Validation-accuracy=0.558594
+2016-12-02 02:39:39,582 Node[0] Epoch[193] Batch [50]	Speed: 56.55 samples/sec	Train-accuracy=0.943125
+2016-12-02 02:41:09,825 Node[0] Epoch[193] Batch [100]	Speed: 55.41 samples/sec	Train-accuracy=0.950313
+2016-12-02 02:42:23,866 Node[0] Epoch[193] Resetting Data Iterator
+2016-12-02 02:42:23,866 Node[0] Epoch[193] Time cost=253.098
+2016-12-02 02:42:31,263 Node[0] Epoch[193] Validation-accuracy=0.559570
+2016-12-02 02:44:00,147 Node[0] Epoch[194] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.943125
+2016-12-02 02:45:30,399 Node[0] Epoch[194] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.941875
+2016-12-02 02:46:42,594 Node[0] Epoch[194] Resetting Data Iterator
+2016-12-02 02:46:42,594 Node[0] Epoch[194] Time cost=251.331
+2016-12-02 02:46:49,619 Node[0] Epoch[194] Validation-accuracy=0.557292
+2016-12-02 02:48:18,525 Node[0] Epoch[195] Batch [50]	Speed: 56.49 samples/sec	Train-accuracy=0.945312
+2016-12-02 02:49:48,753 Node[0] Epoch[195] Batch [100]	Speed: 55.42 samples/sec	Train-accuracy=0.946875
+2016-12-02 02:51:03,098 Node[0] Epoch[195] Resetting Data Iterator
+2016-12-02 02:51:03,099 Node[0] Epoch[195] Time cost=253.480
+2016-12-02 02:51:09,805 Node[0] Epoch[195] Validation-accuracy=0.554167
+2016-12-02 02:52:38,679 Node[0] Epoch[196] Batch [50]	Speed: 56.51 samples/sec	Train-accuracy=0.947500
+2016-12-02 02:54:08,936 Node[0] Epoch[196] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.946875
+2016-12-02 02:55:21,157 Node[0] Epoch[196] Resetting Data Iterator
+2016-12-02 02:55:21,157 Node[0] Epoch[196] Time cost=251.352
+2016-12-02 02:55:28,551 Node[0] Epoch[196] Validation-accuracy=0.553711
+2016-12-02 02:56:57,439 Node[0] Epoch[197] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.955313
+2016-12-02 02:58:27,718 Node[0] Epoch[197] Batch [100]	Speed: 55.38 samples/sec	Train-accuracy=0.945937
+2016-12-02 02:59:41,708 Node[0] Epoch[197] Resetting Data Iterator
+2016-12-02 02:59:41,708 Node[0] Epoch[197] Time cost=253.157
+2016-12-02 02:59:49,081 Node[0] Epoch[197] Validation-accuracy=0.560547
+2016-12-02 03:01:17,899 Node[0] Epoch[198] Batch [50]	Speed: 56.55 samples/sec	Train-accuracy=0.949375
+2016-12-02 03:02:48,174 Node[0] Epoch[198] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.949375
+2016-12-02 03:04:02,490 Node[0] Epoch[198] Resetting Data Iterator
+2016-12-02 03:04:02,490 Node[0] Epoch[198] Time cost=253.408
+2016-12-02 03:04:09,232 Node[0] Epoch[198] Validation-accuracy=0.560417
+2016-12-02 03:05:38,168 Node[0] Epoch[199] Batch [50]	Speed: 56.47 samples/sec	Train-accuracy=0.955313
+2016-12-02 03:07:08,437 Node[0] Epoch[199] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.951250
+2016-12-02 03:08:20,653 Node[0] Epoch[199] Resetting Data Iterator
+2016-12-02 03:08:20,653 Node[0] Epoch[199] Time cost=251.421
+2016-12-02 03:08:27,642 Node[0] Epoch[199] Validation-accuracy=0.555208
+2016-12-02 03:09:56,526 Node[0] Epoch[200] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.957812
+2016-12-02 03:11:26,804 Node[0] Epoch[200] Batch [100]	Speed: 55.38 samples/sec	Train-accuracy=0.951250
+2016-12-02 03:12:40,793 Node[0] Epoch[200] Resetting Data Iterator
+2016-12-02 03:12:40,793 Node[0] Epoch[200] Time cost=253.151
+2016-12-02 03:12:48,259 Node[0] Epoch[200] Validation-accuracy=0.563477
+2016-12-02 03:14:17,082 Node[0] Epoch[201] Batch [50]	Speed: 56.54 samples/sec	Train-accuracy=0.955000
+2016-12-02 03:15:47,369 Node[0] Epoch[201] Batch [100]	Speed: 55.38 samples/sec	Train-accuracy=0.955000
+2016-12-02 03:16:59,650 Node[0] Epoch[201] Resetting Data Iterator
+2016-12-02 03:16:59,650 Node[0] Epoch[201] Time cost=251.391
+2016-12-02 03:17:06,970 Node[0] Epoch[201] Validation-accuracy=0.557617
+2016-12-02 03:18:35,858 Node[0] Epoch[202] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.956562
+2016-12-02 03:20:06,150 Node[0] Epoch[202] Batch [100]	Speed: 55.38 samples/sec	Train-accuracy=0.948750
+2016-12-02 03:21:20,151 Node[0] Epoch[202] Resetting Data Iterator
+2016-12-02 03:21:20,152 Node[0] Epoch[202] Time cost=253.181
+2016-12-02 03:21:27,181 Node[0] Epoch[202] Validation-accuracy=0.552083
+2016-12-02 03:22:56,042 Node[0] Epoch[203] Batch [50]	Speed: 56.52 samples/sec	Train-accuracy=0.957500
+2016-12-02 03:24:26,323 Node[0] Epoch[203] Batch [100]	Speed: 55.38 samples/sec	Train-accuracy=0.947500
+2016-12-02 03:25:40,323 Node[0] Epoch[203] Resetting Data Iterator
+2016-12-02 03:25:40,323 Node[0] Epoch[203] Time cost=253.141
+2016-12-02 03:25:47,313 Node[0] Epoch[203] Validation-accuracy=0.563542
+2016-12-02 03:27:16,214 Node[0] Epoch[204] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.954688
+2016-12-02 03:28:46,475 Node[0] Epoch[204] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.957812
+2016-12-02 03:29:58,690 Node[0] Epoch[204] Resetting Data Iterator
+2016-12-02 03:29:58,690 Node[0] Epoch[204] Time cost=251.377
+2016-12-02 03:30:06,101 Node[0] Epoch[204] Validation-accuracy=0.551758
+2016-12-02 03:31:34,980 Node[0] Epoch[205] Batch [50]	Speed: 56.51 samples/sec	Train-accuracy=0.950937
+2016-12-02 03:33:05,244 Node[0] Epoch[205] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.956562
+2016-12-02 03:34:19,237 Node[0] Epoch[205] Resetting Data Iterator
+2016-12-02 03:34:19,237 Node[0] Epoch[205] Time cost=253.136
+2016-12-02 03:34:26,623 Node[0] Epoch[205] Validation-accuracy=0.565430
+2016-12-02 03:35:55,417 Node[0] Epoch[206] Batch [50]	Speed: 56.56 samples/sec	Train-accuracy=0.961250
+2016-12-02 03:37:25,697 Node[0] Epoch[206] Batch [100]	Speed: 55.38 samples/sec	Train-accuracy=0.960000
+2016-12-02 03:38:37,905 Node[0] Epoch[206] Resetting Data Iterator
+2016-12-02 03:38:37,906 Node[0] Epoch[206] Time cost=251.282
+2016-12-02 03:38:44,916 Node[0] Epoch[206] Validation-accuracy=0.567708
+2016-12-02 03:40:13,799 Node[0] Epoch[207] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.956250
+2016-12-02 03:41:44,056 Node[0] Epoch[207] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.951562
+2016-12-02 03:42:58,071 Node[0] Epoch[207] Resetting Data Iterator
+2016-12-02 03:42:58,072 Node[0] Epoch[207] Time cost=253.155
+2016-12-02 03:43:05,059 Node[0] Epoch[207] Validation-accuracy=0.548958
+2016-12-02 03:44:33,949 Node[0] Epoch[208] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.961562
+2016-12-02 03:46:04,232 Node[0] Epoch[208] Batch [100]	Speed: 55.38 samples/sec	Train-accuracy=0.960313
+2016-12-02 03:47:18,245 Node[0] Epoch[208] Resetting Data Iterator
+2016-12-02 03:47:18,245 Node[0] Epoch[208] Time cost=253.186
+2016-12-02 03:47:25,616 Node[0] Epoch[208] Validation-accuracy=0.566406
+2016-12-02 03:48:54,505 Node[0] Epoch[209] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.955313
+2016-12-02 03:50:24,796 Node[0] Epoch[209] Batch [100]	Speed: 55.38 samples/sec	Train-accuracy=0.957187
+2016-12-02 03:51:37,051 Node[0] Epoch[209] Resetting Data Iterator
+2016-12-02 03:51:37,051 Node[0] Epoch[209] Time cost=251.434
+2016-12-02 03:51:44,452 Node[0] Epoch[209] Validation-accuracy=0.555664
+2016-12-02 03:53:13,305 Node[0] Epoch[210] Batch [50]	Speed: 56.52 samples/sec	Train-accuracy=0.964688
+2016-12-02 03:54:43,559 Node[0] Epoch[210] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.956875
+2016-12-02 03:55:57,568 Node[0] Epoch[210] Resetting Data Iterator
+2016-12-02 03:55:57,568 Node[0] Epoch[210] Time cost=253.116
+2016-12-02 03:56:04,584 Node[0] Epoch[210] Validation-accuracy=0.552083
+2016-12-02 03:57:33,453 Node[0] Epoch[211] Batch [50]	Speed: 56.51 samples/sec	Train-accuracy=0.956562
+2016-12-02 03:59:03,733 Node[0] Epoch[211] Batch [100]	Speed: 55.38 samples/sec	Train-accuracy=0.956250
+2016-12-02 04:00:15,944 Node[0] Epoch[211] Resetting Data Iterator
+2016-12-02 04:00:15,944 Node[0] Epoch[211] Time cost=251.360
+2016-12-02 04:00:22,929 Node[0] Epoch[211] Validation-accuracy=0.560417
+2016-12-02 04:01:51,826 Node[0] Epoch[212] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.962187
+2016-12-02 04:03:22,084 Node[0] Epoch[212] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.962187
+2016-12-02 04:04:36,100 Node[0] Epoch[212] Resetting Data Iterator
+2016-12-02 04:04:36,100 Node[0] Epoch[212] Time cost=253.171
+2016-12-02 04:04:43,477 Node[0] Epoch[212] Validation-accuracy=0.567383
+2016-12-02 04:06:12,277 Node[0] Epoch[213] Batch [50]	Speed: 56.56 samples/sec	Train-accuracy=0.966250
+2016-12-02 04:07:42,546 Node[0] Epoch[213] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.965313
+2016-12-02 04:08:56,590 Node[0] Epoch[213] Resetting Data Iterator
+2016-12-02 04:08:56,590 Node[0] Epoch[213] Time cost=253.113
+2016-12-02 04:09:03,985 Node[0] Epoch[213] Validation-accuracy=0.551758
+2016-12-02 04:10:32,879 Node[0] Epoch[214] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.957812
+2016-12-02 04:12:03,128 Node[0] Epoch[214] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.962187
+2016-12-02 04:13:15,360 Node[0] Epoch[214] Resetting Data Iterator
+2016-12-02 04:13:15,360 Node[0] Epoch[214] Time cost=251.375
+2016-12-02 04:13:22,349 Node[0] Epoch[214] Validation-accuracy=0.558333
+2016-12-02 04:14:51,236 Node[0] Epoch[215] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.964688
+2016-12-02 04:16:21,505 Node[0] Epoch[215] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.964375
+2016-12-02 04:17:35,631 Node[0] Epoch[215] Resetting Data Iterator
+2016-12-02 04:17:35,631 Node[0] Epoch[215] Time cost=253.282
+2016-12-02 04:17:42,611 Node[0] Epoch[215] Validation-accuracy=0.563542
+2016-12-02 04:19:11,498 Node[0] Epoch[216] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.964375
+2016-12-02 04:20:41,781 Node[0] Epoch[216] Batch [100]	Speed: 55.38 samples/sec	Train-accuracy=0.963125
+2016-12-02 04:21:53,997 Node[0] Epoch[216] Resetting Data Iterator
+2016-12-02 04:21:53,997 Node[0] Epoch[216] Time cost=251.386
+2016-12-02 04:22:01,377 Node[0] Epoch[216] Validation-accuracy=0.558594
+2016-12-02 04:23:30,264 Node[0] Epoch[217] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.963125
+2016-12-02 04:25:00,541 Node[0] Epoch[217] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.969063
+2016-12-02 04:26:14,541 Node[0] Epoch[217] Resetting Data Iterator
+2016-12-02 04:26:14,541 Node[0] Epoch[217] Time cost=253.164
+2016-12-02 04:26:21,922 Node[0] Epoch[217] Validation-accuracy=0.562500
+2016-12-02 04:27:50,759 Node[0] Epoch[218] Batch [50]	Speed: 56.54 samples/sec	Train-accuracy=0.964375
+2016-12-02 04:29:20,993 Node[0] Epoch[218] Batch [100]	Speed: 55.41 samples/sec	Train-accuracy=0.965000
+2016-12-02 04:30:35,016 Node[0] Epoch[218] Resetting Data Iterator
+2016-12-02 04:30:35,016 Node[0] Epoch[218] Time cost=253.094
+2016-12-02 04:30:42,019 Node[0] Epoch[218] Validation-accuracy=0.561458
+2016-12-02 04:32:10,888 Node[0] Epoch[219] Batch [50]	Speed: 56.52 samples/sec	Train-accuracy=0.971250
+2016-12-02 04:33:41,177 Node[0] Epoch[219] Batch [100]	Speed: 55.38 samples/sec	Train-accuracy=0.964688
+2016-12-02 04:34:53,370 Node[0] Epoch[219] Resetting Data Iterator
+2016-12-02 04:34:53,370 Node[0] Epoch[219] Time cost=251.351
+2016-12-02 04:35:00,365 Node[0] Epoch[219] Validation-accuracy=0.552083
+2016-12-02 04:36:29,254 Node[0] Epoch[220] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.970313
+2016-12-02 04:37:59,536 Node[0] Epoch[220] Batch [100]	Speed: 55.38 samples/sec	Train-accuracy=0.961250
+2016-12-02 04:39:13,525 Node[0] Epoch[220] Resetting Data Iterator
+2016-12-02 04:39:13,525 Node[0] Epoch[220] Time cost=253.159
+2016-12-02 04:39:20,925 Node[0] Epoch[220] Validation-accuracy=0.556641
+2016-12-02 04:40:49,742 Node[0] Epoch[221] Batch [50]	Speed: 56.55 samples/sec	Train-accuracy=0.966250
+2016-12-02 04:42:19,991 Node[0] Epoch[221] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.962187
+2016-12-02 04:43:32,289 Node[0] Epoch[221] Resetting Data Iterator
+2016-12-02 04:43:32,289 Node[0] Epoch[221] Time cost=251.364
+2016-12-02 04:43:39,615 Node[0] Epoch[221] Validation-accuracy=0.558594
+2016-12-02 04:45:08,510 Node[0] Epoch[222] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.969375
+2016-12-02 04:46:38,773 Node[0] Epoch[222] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.967812
+2016-12-02 04:47:52,771 Node[0] Epoch[222] Resetting Data Iterator
+2016-12-02 04:47:52,771 Node[0] Epoch[222] Time cost=253.156
+2016-12-02 04:47:59,767 Node[0] Epoch[222] Validation-accuracy=0.558333
+2016-12-02 04:49:28,652 Node[0] Epoch[223] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.965000
+2016-12-02 04:50:58,944 Node[0] Epoch[223] Batch [100]	Speed: 55.38 samples/sec	Train-accuracy=0.969688
+2016-12-02 04:52:11,121 Node[0] Epoch[223] Resetting Data Iterator
+2016-12-02 04:52:11,121 Node[0] Epoch[223] Time cost=251.354
+2016-12-02 04:52:18,132 Node[0] Epoch[223] Validation-accuracy=0.565625
+2016-12-02 04:53:47,029 Node[0] Epoch[224] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.967812
+2016-12-02 04:55:17,281 Node[0] Epoch[224] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.966875
+2016-12-02 04:56:32,068 Node[0] Epoch[224] Resetting Data Iterator
+2016-12-02 04:56:32,068 Node[0] Epoch[224] Time cost=253.935
+2016-12-02 04:56:38,746 Node[0] Epoch[224] Validation-accuracy=0.563477
+2016-12-02 04:58:07,575 Node[0] Epoch[225] Batch [50]	Speed: 56.54 samples/sec	Train-accuracy=0.969688
+2016-12-02 04:59:37,841 Node[0] Epoch[225] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.966250
+2016-12-02 05:00:51,859 Node[0] Epoch[225] Resetting Data Iterator
+2016-12-02 05:00:51,860 Node[0] Epoch[225] Time cost=253.113
+2016-12-02 05:00:59,244 Node[0] Epoch[225] Validation-accuracy=0.551758
+2016-12-02 05:02:28,053 Node[0] Epoch[226] Batch [50]	Speed: 56.55 samples/sec	Train-accuracy=0.967812
+2016-12-02 05:03:58,310 Node[0] Epoch[226] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.968750
+2016-12-02 05:05:10,537 Node[0] Epoch[226] Resetting Data Iterator
+2016-12-02 05:05:10,538 Node[0] Epoch[226] Time cost=251.293
+2016-12-02 05:05:17,559 Node[0] Epoch[226] Validation-accuracy=0.568750
+2016-12-02 05:06:46,415 Node[0] Epoch[227] Batch [50]	Speed: 56.52 samples/sec	Train-accuracy=0.968125
+2016-12-02 05:08:16,683 Node[0] Epoch[227] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.971875
+2016-12-02 05:09:30,707 Node[0] Epoch[227] Resetting Data Iterator
+2016-12-02 05:09:30,707 Node[0] Epoch[227] Time cost=253.148
+2016-12-02 05:09:37,689 Node[0] Epoch[227] Validation-accuracy=0.562500
+2016-12-02 05:11:06,579 Node[0] Epoch[228] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.972187
+2016-12-02 05:12:36,854 Node[0] Epoch[228] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.968125
+2016-12-02 05:13:49,064 Node[0] Epoch[228] Resetting Data Iterator
+2016-12-02 05:13:49,065 Node[0] Epoch[228] Time cost=251.375
+2016-12-02 05:13:56,447 Node[0] Epoch[228] Validation-accuracy=0.550781
+2016-12-02 05:15:25,350 Node[0] Epoch[229] Batch [50]	Speed: 56.49 samples/sec	Train-accuracy=0.974063
+2016-12-02 05:16:55,611 Node[0] Epoch[229] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.969375
+2016-12-02 05:18:09,962 Node[0] Epoch[229] Resetting Data Iterator
+2016-12-02 05:18:09,962 Node[0] Epoch[229] Time cost=253.515
+2016-12-02 05:18:17,052 Node[0] Epoch[229] Validation-accuracy=0.557617
+2016-12-02 05:19:45,912 Node[0] Epoch[230] Batch [50]	Speed: 56.52 samples/sec	Train-accuracy=0.971250
+2016-12-02 05:21:16,161 Node[0] Epoch[230] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.963437
+2016-12-02 05:22:30,183 Node[0] Epoch[230] Resetting Data Iterator
+2016-12-02 05:22:30,183 Node[0] Epoch[230] Time cost=253.131
+2016-12-02 05:22:37,184 Node[0] Epoch[230] Validation-accuracy=0.558333
+2016-12-02 05:24:06,092 Node[0] Epoch[231] Batch [50]	Speed: 56.49 samples/sec	Train-accuracy=0.968750
+2016-12-02 05:25:36,348 Node[0] Epoch[231] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.970313
+2016-12-02 05:26:48,577 Node[0] Epoch[231] Resetting Data Iterator
+2016-12-02 05:26:48,578 Node[0] Epoch[231] Time cost=251.394
+2016-12-02 05:26:55,547 Node[0] Epoch[231] Validation-accuracy=0.552083
+2016-12-02 05:28:24,441 Node[0] Epoch[232] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.968437
+2016-12-02 05:29:54,714 Node[0] Epoch[232] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.971875
+2016-12-02 05:31:08,731 Node[0] Epoch[232] Resetting Data Iterator
+2016-12-02 05:31:08,731 Node[0] Epoch[232] Time cost=253.183
+2016-12-02 05:31:16,113 Node[0] Epoch[232] Validation-accuracy=0.560547
+2016-12-02 05:32:45,007 Node[0] Epoch[233] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.972500
+2016-12-02 05:34:15,299 Node[0] Epoch[233] Batch [100]	Speed: 55.38 samples/sec	Train-accuracy=0.972500
+2016-12-02 05:35:27,499 Node[0] Epoch[233] Resetting Data Iterator
+2016-12-02 05:35:27,499 Node[0] Epoch[233] Time cost=251.385
+2016-12-02 05:35:34,885 Node[0] Epoch[233] Validation-accuracy=0.550781
+2016-12-02 05:37:03,773 Node[0] Epoch[234] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.975000
+2016-12-02 05:38:34,047 Node[0] Epoch[234] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.970313
+2016-12-02 05:39:48,063 Node[0] Epoch[234] Resetting Data Iterator
+2016-12-02 05:39:48,063 Node[0] Epoch[234] Time cost=253.178
+2016-12-02 05:39:55,069 Node[0] Epoch[234] Validation-accuracy=0.547917
+2016-12-02 05:41:23,940 Node[0] Epoch[235] Batch [50]	Speed: 56.51 samples/sec	Train-accuracy=0.971250
+2016-12-02 05:42:54,215 Node[0] Epoch[235] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.970625
+2016-12-02 05:44:08,255 Node[0] Epoch[235] Resetting Data Iterator
+2016-12-02 05:44:08,255 Node[0] Epoch[235] Time cost=253.186
+2016-12-02 05:44:15,241 Node[0] Epoch[235] Validation-accuracy=0.552083
+2016-12-02 05:45:44,135 Node[0] Epoch[236] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.968437
+2016-12-02 05:47:14,396 Node[0] Epoch[236] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.974375
+2016-12-02 05:48:26,701 Node[0] Epoch[236] Resetting Data Iterator
+2016-12-02 05:48:26,701 Node[0] Epoch[236] Time cost=251.460
+2016-12-02 05:48:34,133 Node[0] Epoch[236] Validation-accuracy=0.551758
+2016-12-02 05:50:03,100 Node[0] Epoch[237] Batch [50]	Speed: 56.45 samples/sec	Train-accuracy=0.969063
+2016-12-02 05:51:33,365 Node[0] Epoch[237] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.972187
+2016-12-02 05:52:47,378 Node[0] Epoch[237] Resetting Data Iterator
+2016-12-02 05:52:47,378 Node[0] Epoch[237] Time cost=253.245
+2016-12-02 05:52:54,759 Node[0] Epoch[237] Validation-accuracy=0.549805
+2016-12-02 05:54:23,639 Node[0] Epoch[238] Batch [50]	Speed: 56.51 samples/sec	Train-accuracy=0.975625
+2016-12-02 05:55:53,926 Node[0] Epoch[238] Batch [100]	Speed: 55.38 samples/sec	Train-accuracy=0.975000
+2016-12-02 05:57:06,119 Node[0] Epoch[238] Resetting Data Iterator
+2016-12-02 05:57:06,119 Node[0] Epoch[238] Time cost=251.359
+2016-12-02 05:57:13,114 Node[0] Epoch[238] Validation-accuracy=0.568750
+2016-12-02 05:58:41,922 Node[0] Epoch[239] Batch [50]	Speed: 56.55 samples/sec	Train-accuracy=0.971562
+2016-12-02 06:00:12,179 Node[0] Epoch[239] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.977187
+2016-12-02 06:01:26,186 Node[0] Epoch[239] Resetting Data Iterator
+2016-12-02 06:01:26,186 Node[0] Epoch[239] Time cost=253.073
+2016-12-02 06:01:33,175 Node[0] Epoch[239] Validation-accuracy=0.554167
+2016-12-02 06:03:01,982 Node[0] Epoch[240] Batch [50]	Speed: 56.56 samples/sec	Train-accuracy=0.974063
+2016-12-02 06:04:32,247 Node[0] Epoch[240] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.978750
+2016-12-02 06:05:46,718 Node[0] Epoch[240] Resetting Data Iterator
+2016-12-02 06:05:46,719 Node[0] Epoch[240] Time cost=253.544
+2016-12-02 06:05:53,806 Node[0] Epoch[240] Validation-accuracy=0.555664
+2016-12-02 06:07:22,663 Node[0] Epoch[241] Batch [50]	Speed: 56.52 samples/sec	Train-accuracy=0.973437
+2016-12-02 06:08:52,909 Node[0] Epoch[241] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.979688
+2016-12-02 06:10:05,111 Node[0] Epoch[241] Resetting Data Iterator
+2016-12-02 06:10:05,111 Node[0] Epoch[241] Time cost=251.305
+2016-12-02 06:10:12,517 Node[0] Epoch[241] Validation-accuracy=0.546875
+2016-12-02 06:11:41,419 Node[0] Epoch[242] Batch [50]	Speed: 56.49 samples/sec	Train-accuracy=0.974688
+2016-12-02 06:13:11,676 Node[0] Epoch[242] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.975313
+2016-12-02 06:14:25,680 Node[0] Epoch[242] Resetting Data Iterator
+2016-12-02 06:14:25,681 Node[0] Epoch[242] Time cost=253.164
+2016-12-02 06:14:32,682 Node[0] Epoch[242] Validation-accuracy=0.552083
+2016-12-02 06:16:01,563 Node[0] Epoch[243] Batch [50]	Speed: 56.51 samples/sec	Train-accuracy=0.979688
+2016-12-02 06:17:31,831 Node[0] Epoch[243] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.971875
+2016-12-02 06:18:44,043 Node[0] Epoch[243] Resetting Data Iterator
+2016-12-02 06:18:44,044 Node[0] Epoch[243] Time cost=251.362
+2016-12-02 06:18:51,042 Node[0] Epoch[243] Validation-accuracy=0.553125
+2016-12-02 06:20:19,937 Node[0] Epoch[244] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.975625
+2016-12-02 06:21:50,204 Node[0] Epoch[244] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.971562
+2016-12-02 06:23:05,023 Node[0] Epoch[244] Resetting Data Iterator
+2016-12-02 06:23:05,024 Node[0] Epoch[244] Time cost=253.981
+2016-12-02 06:23:11,650 Node[0] Epoch[244] Validation-accuracy=0.551758
+2016-12-02 06:24:40,481 Node[0] Epoch[245] Batch [50]	Speed: 56.54 samples/sec	Train-accuracy=0.975000
+2016-12-02 06:26:10,767 Node[0] Epoch[245] Batch [100]	Speed: 55.38 samples/sec	Train-accuracy=0.977812
+2016-12-02 06:27:24,778 Node[0] Epoch[245] Resetting Data Iterator
+2016-12-02 06:27:24,778 Node[0] Epoch[245] Time cost=253.128
+2016-12-02 06:27:32,171 Node[0] Epoch[245] Validation-accuracy=0.554688
+2016-12-02 06:29:00,982 Node[0] Epoch[246] Batch [50]	Speed: 56.55 samples/sec	Train-accuracy=0.975938
+2016-12-02 06:30:31,220 Node[0] Epoch[246] Batch [100]	Speed: 55.41 samples/sec	Train-accuracy=0.979062
+2016-12-02 06:31:43,451 Node[0] Epoch[246] Resetting Data Iterator
+2016-12-02 06:31:43,451 Node[0] Epoch[246] Time cost=251.280
+2016-12-02 06:31:50,465 Node[0] Epoch[246] Validation-accuracy=0.548958
+2016-12-02 06:33:19,351 Node[0] Epoch[247] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.974063
+2016-12-02 06:34:49,713 Node[0] Epoch[247] Batch [100]	Speed: 55.33 samples/sec	Train-accuracy=0.977187
+2016-12-02 06:36:03,739 Node[0] Epoch[247] Resetting Data Iterator
+2016-12-02 06:36:03,739 Node[0] Epoch[247] Time cost=253.274
+2016-12-02 06:36:10,715 Node[0] Epoch[247] Validation-accuracy=0.557292
+2016-12-02 06:37:39,602 Node[0] Epoch[248] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.981250
+2016-12-02 06:39:09,874 Node[0] Epoch[248] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.978125
+2016-12-02 06:40:22,088 Node[0] Epoch[248] Resetting Data Iterator
+2016-12-02 06:40:22,088 Node[0] Epoch[248] Time cost=251.373
+2016-12-02 06:40:29,485 Node[0] Epoch[248] Validation-accuracy=0.555664
+2016-12-02 06:41:58,380 Node[0] Epoch[249] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.976875
+2016-12-02 06:43:28,634 Node[0] Epoch[249] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.978125
+2016-12-02 06:44:42,758 Node[0] Epoch[249] Resetting Data Iterator
+2016-12-02 06:44:42,758 Node[0] Epoch[249] Time cost=253.273
+2016-12-02 06:44:50,133 Node[0] Epoch[249] Validation-accuracy=0.550781
+2016-12-02 06:46:19,037 Node[0] Epoch[250] Batch [50]	Speed: 56.49 samples/sec	Train-accuracy=0.981563
+2016-12-02 06:47:49,298 Node[0] Epoch[250] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.979688
+2016-12-02 06:49:03,446 Node[0] Epoch[250] Resetting Data Iterator
+2016-12-02 06:49:03,447 Node[0] Epoch[250] Time cost=253.314
+2016-12-02 06:49:10,466 Node[0] Epoch[250] Validation-accuracy=0.558333
+2016-12-02 06:50:39,298 Node[0] Epoch[251] Batch [50]	Speed: 56.54 samples/sec	Train-accuracy=0.978125
+2016-12-02 06:52:09,667 Node[0] Epoch[251] Batch [100]	Speed: 55.33 samples/sec	Train-accuracy=0.977500
+2016-12-02 06:53:21,906 Node[0] Epoch[251] Resetting Data Iterator
+2016-12-02 06:53:21,906 Node[0] Epoch[251] Time cost=251.440
+2016-12-02 06:53:28,894 Node[0] Epoch[251] Validation-accuracy=0.556250
+2016-12-02 06:54:57,764 Node[0] Epoch[252] Batch [50]	Speed: 56.52 samples/sec	Train-accuracy=0.981875
+2016-12-02 06:56:28,033 Node[0] Epoch[252] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.981563
+2016-12-02 06:57:42,044 Node[0] Epoch[252] Resetting Data Iterator
+2016-12-02 06:57:42,044 Node[0] Epoch[252] Time cost=253.150
+2016-12-02 06:57:49,420 Node[0] Epoch[252] Validation-accuracy=0.549805
+2016-12-02 06:59:18,314 Node[0] Epoch[253] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.983750
+2016-12-02 07:00:48,585 Node[0] Epoch[253] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.979062
+2016-12-02 07:02:00,802 Node[0] Epoch[253] Resetting Data Iterator
+2016-12-02 07:02:00,803 Node[0] Epoch[253] Time cost=251.382
+2016-12-02 07:02:08,184 Node[0] Epoch[253] Validation-accuracy=0.546875
+2016-12-02 07:03:37,088 Node[0] Epoch[254] Batch [50]	Speed: 56.49 samples/sec	Train-accuracy=0.980313
+2016-12-02 07:05:07,457 Node[0] Epoch[254] Batch [100]	Speed: 55.33 samples/sec	Train-accuracy=0.979062
+2016-12-02 07:06:21,513 Node[0] Epoch[254] Resetting Data Iterator
+2016-12-02 07:06:21,513 Node[0] Epoch[254] Time cost=253.328
+2016-12-02 07:06:28,533 Node[0] Epoch[254] Validation-accuracy=0.551042
+2016-12-02 07:07:57,456 Node[0] Epoch[255] Batch [50]	Speed: 56.48 samples/sec	Train-accuracy=0.981875
+2016-12-02 07:09:27,729 Node[0] Epoch[255] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.980938
+2016-12-02 07:10:39,926 Node[0] Epoch[255] Resetting Data Iterator
+2016-12-02 07:10:39,926 Node[0] Epoch[255] Time cost=251.393
+2016-12-02 07:10:46,956 Node[0] Epoch[255] Validation-accuracy=0.562500
+2016-12-02 07:12:15,915 Node[0] Epoch[256] Batch [50]	Speed: 56.46 samples/sec	Train-accuracy=0.980313
+2016-12-02 07:13:46,226 Node[0] Epoch[256] Batch [100]	Speed: 55.36 samples/sec	Train-accuracy=0.977812
+2016-12-02 07:15:00,417 Node[0] Epoch[256] Resetting Data Iterator
+2016-12-02 07:15:00,418 Node[0] Epoch[256] Time cost=253.461
+2016-12-02 07:15:07,889 Node[0] Epoch[256] Validation-accuracy=0.553711
+2016-12-02 07:16:36,786 Node[0] Epoch[257] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.979688
+2016-12-02 07:18:07,062 Node[0] Epoch[257] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.984688
+2016-12-02 07:19:21,079 Node[0] Epoch[257] Resetting Data Iterator
+2016-12-02 07:19:21,079 Node[0] Epoch[257] Time cost=253.191
+2016-12-02 07:19:28,469 Node[0] Epoch[257] Validation-accuracy=0.552734
+2016-12-02 07:20:57,334 Node[0] Epoch[258] Batch [50]	Speed: 56.52 samples/sec	Train-accuracy=0.982500
+2016-12-02 07:22:27,637 Node[0] Epoch[258] Batch [100]	Speed: 55.37 samples/sec	Train-accuracy=0.976875
+2016-12-02 07:23:40,635 Node[0] Epoch[258] Resetting Data Iterator
+2016-12-02 07:23:40,636 Node[0] Epoch[258] Time cost=252.167
+2016-12-02 07:23:46,902 Node[0] Epoch[258] Validation-accuracy=0.551042
+2016-12-02 07:25:15,820 Node[0] Epoch[259] Batch [50]	Speed: 56.48 samples/sec	Train-accuracy=0.984688
+2016-12-02 07:26:46,106 Node[0] Epoch[259] Batch [100]	Speed: 55.38 samples/sec	Train-accuracy=0.977500
+2016-12-02 07:28:00,215 Node[0] Epoch[259] Resetting Data Iterator
+2016-12-02 07:28:00,215 Node[0] Epoch[259] Time cost=253.313
+2016-12-02 07:28:07,196 Node[0] Epoch[259] Validation-accuracy=0.552083
+2016-12-02 07:29:36,081 Node[0] Epoch[260] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.981875
+2016-12-02 07:31:06,343 Node[0] Epoch[260] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.981875
+2016-12-02 07:32:19,002 Node[0] Epoch[260] Resetting Data Iterator
+2016-12-02 07:32:19,003 Node[0] Epoch[260] Time cost=251.806
+2016-12-02 07:32:26,098 Node[0] Epoch[260] Validation-accuracy=0.553711
+2016-12-02 07:33:54,956 Node[0] Epoch[261] Batch [50]	Speed: 56.52 samples/sec	Train-accuracy=0.980625
+2016-12-02 07:35:25,208 Node[0] Epoch[261] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.981250
+2016-12-02 07:36:39,203 Node[0] Epoch[261] Resetting Data Iterator
+2016-12-02 07:36:39,203 Node[0] Epoch[261] Time cost=253.105
+2016-12-02 07:36:46,588 Node[0] Epoch[261] Validation-accuracy=0.556641
+2016-12-02 07:38:15,502 Node[0] Epoch[262] Batch [50]	Speed: 56.49 samples/sec	Train-accuracy=0.979062
+2016-12-02 07:39:45,784 Node[0] Epoch[262] Batch [100]	Speed: 55.38 samples/sec	Train-accuracy=0.977187
+2016-12-02 07:40:59,806 Node[0] Epoch[262] Resetting Data Iterator
+2016-12-02 07:40:59,806 Node[0] Epoch[262] Time cost=253.217
+2016-12-02 07:41:06,812 Node[0] Epoch[262] Validation-accuracy=0.554167
+2016-12-02 07:42:35,677 Node[0] Epoch[263] Batch [50]	Speed: 56.52 samples/sec	Train-accuracy=0.979688
+2016-12-02 07:44:06,050 Node[0] Epoch[263] Batch [100]	Speed: 55.33 samples/sec	Train-accuracy=0.983125
+2016-12-02 07:45:18,254 Node[0] Epoch[263] Resetting Data Iterator
+2016-12-02 07:45:18,254 Node[0] Epoch[263] Time cost=251.442
+2016-12-02 07:45:25,241 Node[0] Epoch[263] Validation-accuracy=0.553125
+2016-12-02 07:46:54,147 Node[0] Epoch[264] Batch [50]	Speed: 56.49 samples/sec	Train-accuracy=0.984375
+2016-12-02 07:48:24,408 Node[0] Epoch[264] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.979688
+2016-12-02 07:49:38,684 Node[0] Epoch[264] Resetting Data Iterator
+2016-12-02 07:49:38,685 Node[0] Epoch[264] Time cost=253.443
+2016-12-02 07:49:45,847 Node[0] Epoch[264] Validation-accuracy=0.556641
+2016-12-02 07:51:14,793 Node[0] Epoch[265] Batch [50]	Speed: 56.47 samples/sec	Train-accuracy=0.980313
+2016-12-02 07:52:45,077 Node[0] Epoch[265] Batch [100]	Speed: 55.38 samples/sec	Train-accuracy=0.984688
+2016-12-02 07:53:57,284 Node[0] Epoch[265] Resetting Data Iterator
+2016-12-02 07:53:57,285 Node[0] Epoch[265] Time cost=251.437
+2016-12-02 07:54:04,665 Node[0] Epoch[265] Validation-accuracy=0.551758
+2016-12-02 07:55:33,586 Node[0] Epoch[266] Batch [50]	Speed: 56.48 samples/sec	Train-accuracy=0.984062
+2016-12-02 07:57:03,836 Node[0] Epoch[266] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.983125
+2016-12-02 07:58:17,907 Node[0] Epoch[266] Resetting Data Iterator
+2016-12-02 07:58:17,907 Node[0] Epoch[266] Time cost=253.242
+2016-12-02 07:58:24,855 Node[0] Epoch[266] Validation-accuracy=0.548958
+2016-12-02 07:59:53,737 Node[0] Epoch[267] Batch [50]	Speed: 56.51 samples/sec	Train-accuracy=0.981563
+2016-12-02 08:01:24,015 Node[0] Epoch[267] Batch [100]	Speed: 55.38 samples/sec	Train-accuracy=0.979375
+2016-12-02 08:02:38,007 Node[0] Epoch[267] Resetting Data Iterator
+2016-12-02 08:02:38,007 Node[0] Epoch[267] Time cost=253.152
+2016-12-02 08:02:44,998 Node[0] Epoch[267] Validation-accuracy=0.560417
+2016-12-02 08:04:13,893 Node[0] Epoch[268] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.982812
+2016-12-02 08:05:44,179 Node[0] Epoch[268] Batch [100]	Speed: 55.38 samples/sec	Train-accuracy=0.985000
+2016-12-02 08:06:56,479 Node[0] Epoch[268] Resetting Data Iterator
+2016-12-02 08:06:56,479 Node[0] Epoch[268] Time cost=251.481
+2016-12-02 08:07:03,838 Node[0] Epoch[268] Validation-accuracy=0.550781
+2016-12-02 08:08:32,678 Node[0] Epoch[269] Batch [50]	Speed: 56.53 samples/sec	Train-accuracy=0.982812
+2016-12-02 08:10:02,946 Node[0] Epoch[269] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.985938
+2016-12-02 08:11:16,940 Node[0] Epoch[269] Resetting Data Iterator
+2016-12-02 08:11:16,940 Node[0] Epoch[269] Time cost=253.102
+2016-12-02 08:11:24,333 Node[0] Epoch[269] Validation-accuracy=0.549805
+2016-12-02 08:12:53,243 Node[0] Epoch[270] Batch [50]	Speed: 56.49 samples/sec	Train-accuracy=0.983437
+2016-12-02 08:14:23,635 Node[0] Epoch[270] Batch [100]	Speed: 55.31 samples/sec	Train-accuracy=0.984375
+2016-12-02 08:15:36,257 Node[0] Epoch[270] Resetting Data Iterator
+2016-12-02 08:15:36,257 Node[0] Epoch[270] Time cost=251.924
+2016-12-02 08:15:42,976 Node[0] Epoch[270] Validation-accuracy=0.546875
+2016-12-02 08:17:11,908 Node[0] Epoch[271] Batch [50]	Speed: 56.47 samples/sec	Train-accuracy=0.984375
+2016-12-02 08:18:42,188 Node[0] Epoch[271] Batch [100]	Speed: 55.38 samples/sec	Train-accuracy=0.983125
+2016-12-02 08:19:56,207 Node[0] Epoch[271] Resetting Data Iterator
+2016-12-02 08:19:56,207 Node[0] Epoch[271] Time cost=253.231
+2016-12-02 08:20:03,176 Node[0] Epoch[271] Validation-accuracy=0.550000
+2016-12-02 08:21:32,065 Node[0] Epoch[272] Batch [50]	Speed: 56.51 samples/sec	Train-accuracy=0.980938
+2016-12-02 08:23:02,402 Node[0] Epoch[272] Batch [100]	Speed: 55.35 samples/sec	Train-accuracy=0.983437
+2016-12-02 08:24:16,556 Node[0] Epoch[272] Resetting Data Iterator
+2016-12-02 08:24:16,556 Node[0] Epoch[272] Time cost=253.380
+2016-12-02 08:24:23,951 Node[0] Epoch[272] Validation-accuracy=0.557617
+2016-12-02 08:25:52,849 Node[0] Epoch[273] Batch [50]	Speed: 56.49 samples/sec	Train-accuracy=0.983125
+2016-12-02 08:27:23,211 Node[0] Epoch[273] Batch [100]	Speed: 55.33 samples/sec	Train-accuracy=0.987500
+2016-12-02 08:28:35,423 Node[0] Epoch[273] Resetting Data Iterator
+2016-12-02 08:28:35,423 Node[0] Epoch[273] Time cost=251.472
+2016-12-02 08:28:42,805 Node[0] Epoch[273] Validation-accuracy=0.557617
+2016-12-02 08:30:11,711 Node[0] Epoch[274] Batch [50]	Speed: 56.49 samples/sec	Train-accuracy=0.983437
+2016-12-02 08:31:41,965 Node[0] Epoch[274] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.983750
+2016-12-02 08:32:57,000 Node[0] Epoch[274] Resetting Data Iterator
+2016-12-02 08:32:57,000 Node[0] Epoch[274] Time cost=254.195
+2016-12-02 08:33:03,378 Node[0] Epoch[274] Validation-accuracy=0.561458
+2016-12-02 08:34:32,270 Node[0] Epoch[275] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.987187
+2016-12-02 08:36:02,549 Node[0] Epoch[275] Batch [100]	Speed: 55.38 samples/sec	Train-accuracy=0.985625
+2016-12-02 08:37:14,742 Node[0] Epoch[275] Resetting Data Iterator
+2016-12-02 08:37:14,742 Node[0] Epoch[275] Time cost=251.364
+2016-12-02 08:37:21,739 Node[0] Epoch[275] Validation-accuracy=0.554167
+2016-12-02 08:38:50,650 Node[0] Epoch[276] Batch [50]	Speed: 56.49 samples/sec	Train-accuracy=0.985938
+2016-12-02 08:40:20,893 Node[0] Epoch[276] Batch [100]	Speed: 55.41 samples/sec	Train-accuracy=0.982500
+2016-12-02 08:41:34,912 Node[0] Epoch[276] Resetting Data Iterator
+2016-12-02 08:41:34,912 Node[0] Epoch[276] Time cost=253.173
+2016-12-02 08:41:42,303 Node[0] Epoch[276] Validation-accuracy=0.566406
+2016-12-02 08:43:11,207 Node[0] Epoch[277] Batch [50]	Speed: 56.49 samples/sec	Train-accuracy=0.985625
+2016-12-02 08:44:41,482 Node[0] Epoch[277] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.984375
+2016-12-02 08:45:55,577 Node[0] Epoch[277] Resetting Data Iterator
+2016-12-02 08:45:55,577 Node[0] Epoch[277] Time cost=253.274
+2016-12-02 08:46:02,973 Node[0] Epoch[277] Validation-accuracy=0.556641
+2016-12-02 08:47:31,867 Node[0] Epoch[278] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.982812
+2016-12-02 08:49:02,127 Node[0] Epoch[278] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.982500
+2016-12-02 08:50:14,359 Node[0] Epoch[278] Resetting Data Iterator
+2016-12-02 08:50:14,360 Node[0] Epoch[278] Time cost=251.386
+2016-12-02 08:50:21,374 Node[0] Epoch[278] Validation-accuracy=0.551042
+2016-12-02 08:51:50,246 Node[0] Epoch[279] Batch [50]	Speed: 56.51 samples/sec	Train-accuracy=0.986250
+2016-12-02 08:53:20,510 Node[0] Epoch[279] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.980625
+2016-12-02 08:54:34,545 Node[0] Epoch[279] Resetting Data Iterator
+2016-12-02 08:54:34,545 Node[0] Epoch[279] Time cost=253.171
+2016-12-02 08:54:41,544 Node[0] Epoch[279] Validation-accuracy=0.553125
+2016-12-02 08:56:10,509 Node[0] Epoch[280] Batch [50]	Speed: 56.45 samples/sec	Train-accuracy=0.983125
+2016-12-02 08:57:40,799 Node[0] Epoch[280] Batch [100]	Speed: 55.38 samples/sec	Train-accuracy=0.984688
+2016-12-02 08:58:52,994 Node[0] Epoch[280] Resetting Data Iterator
+2016-12-02 08:58:52,994 Node[0] Epoch[280] Time cost=251.450
+2016-12-02 08:59:00,367 Node[0] Epoch[280] Validation-accuracy=0.541992
+2016-12-02 09:00:29,270 Node[0] Epoch[281] Batch [50]	Speed: 56.49 samples/sec	Train-accuracy=0.986563
+2016-12-02 09:01:59,542 Node[0] Epoch[281] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.985625
+2016-12-02 09:03:13,541 Node[0] Epoch[281] Resetting Data Iterator
+2016-12-02 09:03:13,542 Node[0] Epoch[281] Time cost=253.174
+2016-12-02 09:03:20,940 Node[0] Epoch[281] Validation-accuracy=0.547852
+2016-12-02 09:04:49,826 Node[0] Epoch[282] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.987812
+2016-12-02 09:06:20,092 Node[0] Epoch[282] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.988750
+2016-12-02 09:07:34,172 Node[0] Epoch[282] Resetting Data Iterator
+2016-12-02 09:07:34,172 Node[0] Epoch[282] Time cost=253.232
+2016-12-02 09:07:41,196 Node[0] Epoch[282] Validation-accuracy=0.553125
+2016-12-02 09:09:10,108 Node[0] Epoch[283] Batch [50]	Speed: 56.49 samples/sec	Train-accuracy=0.985938
+2016-12-02 09:10:40,364 Node[0] Epoch[283] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.988437
+2016-12-02 09:11:52,577 Node[0] Epoch[283] Resetting Data Iterator
+2016-12-02 09:11:52,577 Node[0] Epoch[283] Time cost=251.380
+2016-12-02 09:11:59,590 Node[0] Epoch[283] Validation-accuracy=0.557292
+2016-12-02 09:13:28,473 Node[0] Epoch[284] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.985000
+2016-12-02 09:14:58,811 Node[0] Epoch[284] Batch [100]	Speed: 55.35 samples/sec	Train-accuracy=0.988125
+2016-12-02 09:16:12,863 Node[0] Epoch[284] Resetting Data Iterator
+2016-12-02 09:16:12,863 Node[0] Epoch[284] Time cost=253.273
+2016-12-02 09:16:20,264 Node[0] Epoch[284] Validation-accuracy=0.551758
+2016-12-02 09:17:49,115 Node[0] Epoch[285] Batch [50]	Speed: 56.53 samples/sec	Train-accuracy=0.986563
+2016-12-02 09:19:19,388 Node[0] Epoch[285] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.986563
+2016-12-02 09:20:31,708 Node[0] Epoch[285] Resetting Data Iterator
+2016-12-02 09:20:31,708 Node[0] Epoch[285] Time cost=251.444
+2016-12-02 09:20:39,114 Node[0] Epoch[285] Validation-accuracy=0.548828
+2016-12-02 09:22:07,992 Node[0] Epoch[286] Batch [50]	Speed: 56.51 samples/sec	Train-accuracy=0.986875
+2016-12-02 09:23:38,279 Node[0] Epoch[286] Batch [100]	Speed: 55.38 samples/sec	Train-accuracy=0.986250
+2016-12-02 09:24:52,297 Node[0] Epoch[286] Resetting Data Iterator
+2016-12-02 09:24:52,297 Node[0] Epoch[286] Time cost=253.183
+2016-12-02 09:24:59,283 Node[0] Epoch[286] Validation-accuracy=0.558333
+2016-12-02 09:26:28,170 Node[0] Epoch[287] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.986250
+2016-12-02 09:27:58,452 Node[0] Epoch[287] Batch [100]	Speed: 55.38 samples/sec	Train-accuracy=0.985625
+2016-12-02 09:29:10,741 Node[0] Epoch[287] Resetting Data Iterator
+2016-12-02 09:29:10,742 Node[0] Epoch[287] Time cost=251.459
+2016-12-02 09:29:17,775 Node[0] Epoch[287] Validation-accuracy=0.554167
+2016-12-02 09:30:46,609 Node[0] Epoch[288] Batch [50]	Speed: 56.54 samples/sec	Train-accuracy=0.987500
+2016-12-02 09:32:16,883 Node[0] Epoch[288] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.986563
+2016-12-02 09:33:31,005 Node[0] Epoch[288] Resetting Data Iterator
+2016-12-02 09:33:31,005 Node[0] Epoch[288] Time cost=253.230
+2016-12-02 09:33:38,467 Node[0] Epoch[288] Validation-accuracy=0.549805
+2016-12-02 09:35:07,330 Node[0] Epoch[289] Batch [50]	Speed: 56.52 samples/sec	Train-accuracy=0.990000
+2016-12-02 09:36:37,656 Node[0] Epoch[289] Batch [100]	Speed: 55.35 samples/sec	Train-accuracy=0.985000
+2016-12-02 09:37:51,684 Node[0] Epoch[289] Resetting Data Iterator
+2016-12-02 09:37:51,684 Node[0] Epoch[289] Time cost=253.217
+2016-12-02 09:37:59,075 Node[0] Epoch[289] Validation-accuracy=0.548828
+2016-12-02 09:39:27,985 Node[0] Epoch[290] Batch [50]	Speed: 56.49 samples/sec	Train-accuracy=0.987812
+2016-12-02 09:40:58,348 Node[0] Epoch[290] Batch [100]	Speed: 55.33 samples/sec	Train-accuracy=0.987187
+2016-12-02 09:42:10,540 Node[0] Epoch[290] Resetting Data Iterator
+2016-12-02 09:42:10,540 Node[0] Epoch[290] Time cost=251.464
+2016-12-02 09:42:17,557 Node[0] Epoch[290] Validation-accuracy=0.554167
+2016-12-02 09:43:46,416 Node[0] Epoch[291] Batch [50]	Speed: 56.52 samples/sec	Train-accuracy=0.986250
+2016-12-02 09:45:16,662 Node[0] Epoch[291] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.989062
+2016-12-02 09:46:30,698 Node[0] Epoch[291] Resetting Data Iterator
+2016-12-02 09:46:30,699 Node[0] Epoch[291] Time cost=253.141
+2016-12-02 09:46:37,679 Node[0] Epoch[291] Validation-accuracy=0.551042
+2016-12-02 09:48:06,681 Node[0] Epoch[292] Batch [50]	Speed: 56.43 samples/sec	Train-accuracy=0.989375
+2016-12-02 09:49:37,038 Node[0] Epoch[292] Batch [100]	Speed: 55.34 samples/sec	Train-accuracy=0.987812
+2016-12-02 09:50:49,257 Node[0] Epoch[292] Resetting Data Iterator
+2016-12-02 09:50:49,257 Node[0] Epoch[292] Time cost=251.578
+2016-12-02 09:50:56,646 Node[0] Epoch[292] Validation-accuracy=0.551758
+2016-12-02 09:52:25,623 Node[0] Epoch[293] Batch [50]	Speed: 56.45 samples/sec	Train-accuracy=0.984688
+2016-12-02 09:53:56,000 Node[0] Epoch[293] Batch [100]	Speed: 55.32 samples/sec	Train-accuracy=0.985938
+2016-12-02 09:55:10,030 Node[0] Epoch[293] Resetting Data Iterator
+2016-12-02 09:55:10,030 Node[0] Epoch[293] Time cost=253.383
+2016-12-02 09:55:17,427 Node[0] Epoch[293] Validation-accuracy=0.554688
+2016-12-02 09:56:46,348 Node[0] Epoch[294] Batch [50]	Speed: 56.48 samples/sec	Train-accuracy=0.985938
+2016-12-02 09:58:16,588 Node[0] Epoch[294] Batch [100]	Speed: 55.41 samples/sec	Train-accuracy=0.985313
+2016-12-02 09:59:30,592 Node[0] Epoch[294] Resetting Data Iterator
+2016-12-02 09:59:30,592 Node[0] Epoch[294] Time cost=253.165
+2016-12-02 09:59:37,583 Node[0] Epoch[294] Validation-accuracy=0.552083
+2016-12-02 10:01:06,468 Node[0] Epoch[295] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.983125
+2016-12-02 10:02:36,753 Node[0] Epoch[295] Batch [100]	Speed: 55.38 samples/sec	Train-accuracy=0.987812
+2016-12-02 10:03:49,064 Node[0] Epoch[295] Resetting Data Iterator
+2016-12-02 10:03:49,064 Node[0] Epoch[295] Time cost=251.481
+2016-12-02 10:03:56,048 Node[0] Epoch[295] Validation-accuracy=0.555208
+2016-12-02 10:05:24,941 Node[0] Epoch[296] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.988125
+2016-12-02 10:06:55,212 Node[0] Epoch[296] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.990000
+2016-12-02 10:08:09,300 Node[0] Epoch[296] Resetting Data Iterator
+2016-12-02 10:08:09,300 Node[0] Epoch[296] Time cost=253.252
+2016-12-02 10:08:16,700 Node[0] Epoch[296] Validation-accuracy=0.553711
+2016-12-02 10:09:45,615 Node[0] Epoch[297] Batch [50]	Speed: 56.48 samples/sec	Train-accuracy=0.986875
+2016-12-02 10:11:15,885 Node[0] Epoch[297] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.985938
+2016-12-02 10:12:28,886 Node[0] Epoch[297] Resetting Data Iterator
+2016-12-02 10:12:28,887 Node[0] Epoch[297] Time cost=252.187
+2016-12-02 10:12:35,521 Node[0] Epoch[297] Validation-accuracy=0.547852
+2016-12-02 10:14:04,388 Node[0] Epoch[298] Batch [50]	Speed: 56.51 samples/sec	Train-accuracy=0.989688
+2016-12-02 10:15:34,638 Node[0] Epoch[298] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.985000
+2016-12-02 10:16:48,664 Node[0] Epoch[298] Resetting Data Iterator
+2016-12-02 10:16:48,664 Node[0] Epoch[298] Time cost=253.142
+2016-12-02 10:16:55,671 Node[0] Epoch[298] Validation-accuracy=0.553125
+2016-12-02 10:18:24,531 Node[0] Epoch[299] Batch [50]	Speed: 56.52 samples/sec	Train-accuracy=0.985938
+2016-12-02 10:19:54,814 Node[0] Epoch[299] Batch [100]	Speed: 55.38 samples/sec	Train-accuracy=0.987500
+2016-12-02 10:21:08,825 Node[0] Epoch[299] Resetting Data Iterator
+2016-12-02 10:21:08,825 Node[0] Epoch[299] Time cost=253.154
+2016-12-02 10:21:15,813 Node[0] Epoch[299] Validation-accuracy=0.561458
+2016-12-02 10:22:44,697 Node[0] Epoch[300] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.990938
+2016-12-02 10:24:14,964 Node[0] Epoch[300] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.990000
+2016-12-02 10:25:27,171 Node[0] Epoch[300] Resetting Data Iterator
+2016-12-02 10:25:27,171 Node[0] Epoch[300] Time cost=251.358
+2016-12-02 10:25:34,557 Node[0] Epoch[300] Validation-accuracy=0.552734
+2016-12-02 10:27:03,480 Node[0] Epoch[301] Batch [50]	Speed: 56.48 samples/sec	Train-accuracy=0.988125
+2016-12-02 10:28:33,828 Node[0] Epoch[301] Batch [100]	Speed: 55.34 samples/sec	Train-accuracy=0.987500
+2016-12-02 10:29:47,851 Node[0] Epoch[301] Resetting Data Iterator
+2016-12-02 10:29:47,851 Node[0] Epoch[301] Time cost=253.293
+2016-12-02 10:29:55,229 Node[0] Epoch[301] Validation-accuracy=0.552734
+2016-12-02 10:31:24,142 Node[0] Epoch[302] Batch [50]	Speed: 56.49 samples/sec	Train-accuracy=0.988437
+2016-12-02 10:32:54,411 Node[0] Epoch[302] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.985313
+2016-12-02 10:34:06,602 Node[0] Epoch[302] Resetting Data Iterator
+2016-12-02 10:34:06,602 Node[0] Epoch[302] Time cost=251.373
+2016-12-02 10:34:13,637 Node[0] Epoch[302] Validation-accuracy=0.559375
+2016-12-02 10:35:42,510 Node[0] Epoch[303] Batch [50]	Speed: 56.51 samples/sec	Train-accuracy=0.984688
+2016-12-02 10:37:12,866 Node[0] Epoch[303] Batch [100]	Speed: 55.34 samples/sec	Train-accuracy=0.988750
+2016-12-02 10:38:26,967 Node[0] Epoch[303] Resetting Data Iterator
+2016-12-02 10:38:26,968 Node[0] Epoch[303] Time cost=253.330
+2016-12-02 10:38:33,959 Node[0] Epoch[303] Validation-accuracy=0.552083
+2016-12-02 10:40:02,870 Node[0] Epoch[304] Batch [50]	Speed: 56.49 samples/sec	Train-accuracy=0.987187
+2016-12-02 10:41:33,248 Node[0] Epoch[304] Batch [100]	Speed: 55.32 samples/sec	Train-accuracy=0.990000
+2016-12-02 10:42:47,333 Node[0] Epoch[304] Resetting Data Iterator
+2016-12-02 10:42:47,333 Node[0] Epoch[304] Time cost=253.373
+2016-12-02 10:42:54,723 Node[0] Epoch[304] Validation-accuracy=0.557617
+2016-12-02 10:44:23,641 Node[0] Epoch[305] Batch [50]	Speed: 56.48 samples/sec	Train-accuracy=0.987187
+2016-12-02 10:45:53,912 Node[0] Epoch[305] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.990938
+2016-12-02 10:47:06,111 Node[0] Epoch[305] Resetting Data Iterator
+2016-12-02 10:47:06,112 Node[0] Epoch[305] Time cost=251.388
+2016-12-02 10:47:13,507 Node[0] Epoch[305] Validation-accuracy=0.555664
+2016-12-02 10:48:42,511 Node[0] Epoch[306] Batch [50]	Speed: 56.43 samples/sec	Train-accuracy=0.990625
+2016-12-02 10:50:12,758 Node[0] Epoch[306] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.987500
+2016-12-02 10:51:26,821 Node[0] Epoch[306] Resetting Data Iterator
+2016-12-02 10:51:26,821 Node[0] Epoch[306] Time cost=253.314
+2016-12-02 10:51:33,790 Node[0] Epoch[306] Validation-accuracy=0.553125
+2016-12-02 10:53:02,648 Node[0] Epoch[307] Batch [50]	Speed: 56.52 samples/sec	Train-accuracy=0.988437
+2016-12-02 10:54:32,956 Node[0] Epoch[307] Batch [100]	Speed: 55.37 samples/sec	Train-accuracy=0.987812
+2016-12-02 10:55:45,162 Node[0] Epoch[307] Resetting Data Iterator
+2016-12-02 10:55:45,162 Node[0] Epoch[307] Time cost=251.372
+2016-12-02 10:55:52,136 Node[0] Epoch[307] Validation-accuracy=0.550000
+2016-12-02 10:57:21,138 Node[0] Epoch[308] Batch [50]	Speed: 56.43 samples/sec	Train-accuracy=0.988750
+2016-12-02 10:58:51,398 Node[0] Epoch[308] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.989375
+2016-12-02 11:00:05,422 Node[0] Epoch[308] Resetting Data Iterator
+2016-12-02 11:00:05,422 Node[0] Epoch[308] Time cost=253.286
+2016-12-02 11:00:12,798 Node[0] Epoch[308] Validation-accuracy=0.555664
+2016-12-02 11:01:41,709 Node[0] Epoch[309] Batch [50]	Speed: 56.49 samples/sec	Train-accuracy=0.990625
+2016-12-02 11:03:11,966 Node[0] Epoch[309] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.990000
+2016-12-02 11:04:25,983 Node[0] Epoch[309] Resetting Data Iterator
+2016-12-02 11:04:25,983 Node[0] Epoch[309] Time cost=253.185
+2016-12-02 11:04:33,383 Node[0] Epoch[309] Validation-accuracy=0.556641
+2016-12-02 11:06:02,271 Node[0] Epoch[310] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.986875
+2016-12-02 11:07:32,547 Node[0] Epoch[310] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.989375
+2016-12-02 11:08:44,817 Node[0] Epoch[310] Resetting Data Iterator
+2016-12-02 11:08:44,817 Node[0] Epoch[310] Time cost=251.434
+2016-12-02 11:08:51,743 Node[0] Epoch[310] Validation-accuracy=0.550000
+2016-12-02 11:10:20,626 Node[0] Epoch[311] Batch [50]	Speed: 56.51 samples/sec	Train-accuracy=0.986875
+2016-12-02 11:11:50,897 Node[0] Epoch[311] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.989375
+2016-12-02 11:13:04,917 Node[0] Epoch[311] Resetting Data Iterator
+2016-12-02 11:13:04,917 Node[0] Epoch[311] Time cost=253.174
+2016-12-02 11:13:11,906 Node[0] Epoch[311] Validation-accuracy=0.560417
+2016-12-02 11:14:40,788 Node[0] Epoch[312] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.991875
+2016-12-02 11:16:11,076 Node[0] Epoch[312] Batch [100]	Speed: 55.38 samples/sec	Train-accuracy=0.988750
+2016-12-02 11:17:23,333 Node[0] Epoch[312] Resetting Data Iterator
+2016-12-02 11:17:23,333 Node[0] Epoch[312] Time cost=251.427
+2016-12-02 11:17:30,691 Node[0] Epoch[312] Validation-accuracy=0.543945
+2016-12-02 11:18:59,566 Node[0] Epoch[313] Batch [50]	Speed: 56.51 samples/sec	Train-accuracy=0.990625
+2016-12-02 11:20:29,844 Node[0] Epoch[313] Batch [100]	Speed: 55.38 samples/sec	Train-accuracy=0.990000
+2016-12-02 11:21:44,765 Node[0] Epoch[313] Resetting Data Iterator
+2016-12-02 11:21:44,766 Node[0] Epoch[313] Time cost=254.075
+2016-12-02 11:21:51,401 Node[0] Epoch[313] Validation-accuracy=0.553711
+2016-12-02 11:23:20,475 Node[0] Epoch[314] Batch [50]	Speed: 56.38 samples/sec	Train-accuracy=0.990625
+2016-12-02 11:24:50,601 Node[0] Epoch[314] Batch [100]	Speed: 55.48 samples/sec	Train-accuracy=0.989062
+2016-12-02 11:26:04,657 Node[0] Epoch[314] Resetting Data Iterator
+2016-12-02 11:26:04,657 Node[0] Epoch[314] Time cost=253.255
+2016-12-02 11:26:11,625 Node[0] Epoch[314] Validation-accuracy=0.555208
+2016-12-02 11:27:40,606 Node[0] Epoch[315] Batch [50]	Speed: 56.44 samples/sec	Train-accuracy=0.990313
+2016-12-02 11:29:10,877 Node[0] Epoch[315] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.992188
+2016-12-02 11:30:23,091 Node[0] Epoch[315] Resetting Data Iterator
+2016-12-02 11:30:23,091 Node[0] Epoch[315] Time cost=251.466
+2016-12-02 11:30:30,075 Node[0] Epoch[315] Validation-accuracy=0.557292
+2016-12-02 11:31:58,960 Node[0] Epoch[316] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.987812
+2016-12-02 11:33:29,228 Node[0] Epoch[316] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.990000
+2016-12-02 11:34:44,033 Node[0] Epoch[316] Resetting Data Iterator
+2016-12-02 11:34:44,034 Node[0] Epoch[316] Time cost=253.959
+2016-12-02 11:34:50,673 Node[0] Epoch[316] Validation-accuracy=0.546875
+2016-12-02 11:36:19,549 Node[0] Epoch[317] Batch [50]	Speed: 56.51 samples/sec	Train-accuracy=0.985000
+2016-12-02 11:37:49,801 Node[0] Epoch[317] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.990625
+2016-12-02 11:39:02,103 Node[0] Epoch[317] Resetting Data Iterator
+2016-12-02 11:39:02,103 Node[0] Epoch[317] Time cost=251.429
+2016-12-02 11:39:09,495 Node[0] Epoch[317] Validation-accuracy=0.540039
+2016-12-02 11:40:38,398 Node[0] Epoch[318] Batch [50]	Speed: 56.49 samples/sec	Train-accuracy=0.990000
+2016-12-02 11:42:08,667 Node[0] Epoch[318] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.992500
+2016-12-02 11:43:22,670 Node[0] Epoch[318] Resetting Data Iterator
+2016-12-02 11:43:22,670 Node[0] Epoch[318] Time cost=253.175
+2016-12-02 11:43:29,679 Node[0] Epoch[318] Validation-accuracy=0.551042
+2016-12-02 11:44:58,568 Node[0] Epoch[319] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.989375
+2016-12-02 11:46:28,832 Node[0] Epoch[319] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.990625
+2016-12-02 11:47:41,036 Node[0] Epoch[319] Resetting Data Iterator
+2016-12-02 11:47:41,036 Node[0] Epoch[319] Time cost=251.357
+2016-12-02 11:47:48,058 Node[0] Epoch[319] Validation-accuracy=0.546875
+2016-12-02 11:49:16,920 Node[0] Epoch[320] Batch [50]	Speed: 56.52 samples/sec	Train-accuracy=0.989375
+2016-12-02 11:50:47,192 Node[0] Epoch[320] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.987812
+2016-12-02 11:52:01,977 Node[0] Epoch[320] Resetting Data Iterator
+2016-12-02 11:52:01,978 Node[0] Epoch[320] Time cost=253.919
+2016-12-02 11:52:08,616 Node[0] Epoch[320] Validation-accuracy=0.548828
+2016-12-02 11:53:37,494 Node[0] Epoch[321] Batch [50]	Speed: 56.51 samples/sec	Train-accuracy=0.992500
+2016-12-02 11:55:07,759 Node[0] Epoch[321] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.987187
+2016-12-02 11:56:21,857 Node[0] Epoch[321] Resetting Data Iterator
+2016-12-02 11:56:21,857 Node[0] Epoch[321] Time cost=253.241
+2016-12-02 11:56:29,243 Node[0] Epoch[321] Validation-accuracy=0.549805
+2016-12-02 11:57:58,139 Node[0] Epoch[322] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.990313
+2016-12-02 11:59:28,418 Node[0] Epoch[322] Batch [100]	Speed: 55.38 samples/sec	Train-accuracy=0.989375
+2016-12-02 12:00:40,620 Node[0] Epoch[322] Resetting Data Iterator
+2016-12-02 12:00:40,621 Node[0] Epoch[322] Time cost=251.377
+2016-12-02 12:00:47,617 Node[0] Epoch[322] Validation-accuracy=0.544792
+2016-12-02 12:02:16,522 Node[0] Epoch[323] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.991563
+2016-12-02 12:03:46,787 Node[0] Epoch[323] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.989688
+2016-12-02 12:05:00,806 Node[0] Epoch[323] Resetting Data Iterator
+2016-12-02 12:05:00,806 Node[0] Epoch[323] Time cost=253.189
+2016-12-02 12:05:07,781 Node[0] Epoch[323] Validation-accuracy=0.548958
+2016-12-02 12:06:36,694 Node[0] Epoch[324] Batch [50]	Speed: 56.49 samples/sec	Train-accuracy=0.989688
+2016-12-02 12:08:06,936 Node[0] Epoch[324] Batch [100]	Speed: 55.41 samples/sec	Train-accuracy=0.992188
+2016-12-02 12:09:19,155 Node[0] Epoch[324] Resetting Data Iterator
+2016-12-02 12:09:19,155 Node[0] Epoch[324] Time cost=251.374
+2016-12-02 12:09:26,521 Node[0] Epoch[324] Validation-accuracy=0.549805
+2016-12-02 12:10:55,449 Node[0] Epoch[325] Batch [50]	Speed: 56.48 samples/sec	Train-accuracy=0.992188
+2016-12-02 12:12:25,716 Node[0] Epoch[325] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.989062
+2016-12-02 12:13:39,730 Node[0] Epoch[325] Resetting Data Iterator
+2016-12-02 12:13:39,731 Node[0] Epoch[325] Time cost=253.210
+2016-12-02 12:13:47,110 Node[0] Epoch[325] Validation-accuracy=0.557617
+2016-12-02 12:15:16,012 Node[0] Epoch[326] Batch [50]	Speed: 56.49 samples/sec	Train-accuracy=0.988437
+2016-12-02 12:16:46,289 Node[0] Epoch[326] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.987812
+2016-12-02 12:18:00,308 Node[0] Epoch[326] Resetting Data Iterator
+2016-12-02 12:18:00,308 Node[0] Epoch[326] Time cost=253.199
+2016-12-02 12:18:07,318 Node[0] Epoch[326] Validation-accuracy=0.550000
+2016-12-02 12:19:36,178 Node[0] Epoch[327] Batch [50]	Speed: 56.52 samples/sec	Train-accuracy=0.991875
+2016-12-02 12:21:06,564 Node[0] Epoch[327] Batch [100]	Speed: 55.32 samples/sec	Train-accuracy=0.988125
+2016-12-02 12:22:18,780 Node[0] Epoch[327] Resetting Data Iterator
+2016-12-02 12:22:18,780 Node[0] Epoch[327] Time cost=251.462
+2016-12-02 12:22:25,785 Node[0] Epoch[327] Validation-accuracy=0.553125
+2016-12-02 12:23:54,746 Node[0] Epoch[328] Batch [50]	Speed: 56.46 samples/sec	Train-accuracy=0.990938
+2016-12-02 12:25:25,022 Node[0] Epoch[328] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.993437
+2016-12-02 12:26:39,025 Node[0] Epoch[328] Resetting Data Iterator
+2016-12-02 12:26:39,025 Node[0] Epoch[328] Time cost=253.239
+2016-12-02 12:26:46,415 Node[0] Epoch[328] Validation-accuracy=0.550781
+2016-12-02 12:28:15,410 Node[0] Epoch[329] Batch [50]	Speed: 56.43 samples/sec	Train-accuracy=0.991875
+2016-12-02 12:29:45,691 Node[0] Epoch[329] Batch [100]	Speed: 55.38 samples/sec	Train-accuracy=0.988437
+2016-12-02 12:30:58,056 Node[0] Epoch[329] Resetting Data Iterator
+2016-12-02 12:30:58,056 Node[0] Epoch[329] Time cost=251.641
+2016-12-02 12:31:05,396 Node[0] Epoch[329] Validation-accuracy=0.547852
+2016-12-02 12:32:34,274 Node[0] Epoch[330] Batch [50]	Speed: 56.51 samples/sec	Train-accuracy=0.991250
+2016-12-02 12:34:04,591 Node[0] Epoch[330] Batch [100]	Speed: 55.36 samples/sec	Train-accuracy=0.990938
+2016-12-02 12:35:18,592 Node[0] Epoch[330] Resetting Data Iterator
+2016-12-02 12:35:18,593 Node[0] Epoch[330] Time cost=253.196
+2016-12-02 12:35:25,595 Node[0] Epoch[330] Validation-accuracy=0.546875
+2016-12-02 12:36:54,456 Node[0] Epoch[331] Batch [50]	Speed: 56.52 samples/sec	Train-accuracy=0.991875
+2016-12-02 12:38:24,749 Node[0] Epoch[331] Batch [100]	Speed: 55.38 samples/sec	Train-accuracy=0.989062
+2016-12-02 12:39:38,738 Node[0] Epoch[331] Resetting Data Iterator
+2016-12-02 12:39:38,738 Node[0] Epoch[331] Time cost=253.143
+2016-12-02 12:39:45,750 Node[0] Epoch[331] Validation-accuracy=0.558333
+2016-12-02 12:41:14,709 Node[0] Epoch[332] Batch [50]	Speed: 56.45 samples/sec	Train-accuracy=0.992500
+2016-12-02 12:42:44,988 Node[0] Epoch[332] Batch [100]	Speed: 55.38 samples/sec	Train-accuracy=0.989062
+2016-12-02 12:43:57,201 Node[0] Epoch[332] Resetting Data Iterator
+2016-12-02 12:43:57,201 Node[0] Epoch[332] Time cost=251.451
+2016-12-02 12:44:04,678 Node[0] Epoch[332] Validation-accuracy=0.548828
+2016-12-02 12:45:33,650 Node[0] Epoch[333] Batch [50]	Speed: 56.45 samples/sec	Train-accuracy=0.993437
+2016-12-02 12:47:03,968 Node[0] Epoch[333] Batch [100]	Speed: 55.36 samples/sec	Train-accuracy=0.990625
+2016-12-02 12:48:17,975 Node[0] Epoch[333] Resetting Data Iterator
+2016-12-02 12:48:17,976 Node[0] Epoch[333] Time cost=253.298
+2016-12-02 12:48:25,338 Node[0] Epoch[333] Validation-accuracy=0.546875
+2016-12-02 12:49:54,243 Node[0] Epoch[334] Batch [50]	Speed: 56.49 samples/sec	Train-accuracy=0.992812
+2016-12-02 12:51:24,535 Node[0] Epoch[334] Batch [100]	Speed: 55.38 samples/sec	Train-accuracy=0.990313
+2016-12-02 12:52:36,734 Node[0] Epoch[334] Resetting Data Iterator
+2016-12-02 12:52:36,734 Node[0] Epoch[334] Time cost=251.395
+2016-12-02 12:52:43,761 Node[0] Epoch[334] Validation-accuracy=0.548958
+2016-12-02 12:54:12,718 Node[0] Epoch[335] Batch [50]	Speed: 56.45 samples/sec	Train-accuracy=0.990938
+2016-12-02 12:55:42,982 Node[0] Epoch[335] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.987187
+2016-12-02 12:56:57,018 Node[0] Epoch[335] Resetting Data Iterator
+2016-12-02 12:56:57,018 Node[0] Epoch[335] Time cost=253.257
+2016-12-02 12:57:04,019 Node[0] Epoch[335] Validation-accuracy=0.545833
+2016-12-02 12:58:32,891 Node[0] Epoch[336] Batch [50]	Speed: 56.51 samples/sec	Train-accuracy=0.992812
+2016-12-02 13:00:03,144 Node[0] Epoch[336] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.990938
+2016-12-02 13:01:17,150 Node[0] Epoch[336] Resetting Data Iterator
+2016-12-02 13:01:17,150 Node[0] Epoch[336] Time cost=253.131
+2016-12-02 13:01:24,553 Node[0] Epoch[336] Validation-accuracy=0.554688
+2016-12-02 13:02:53,443 Node[0] Epoch[337] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.994062
+2016-12-02 13:04:23,749 Node[0] Epoch[337] Batch [100]	Speed: 55.37 samples/sec	Train-accuracy=0.992500
+2016-12-02 13:05:35,911 Node[0] Epoch[337] Resetting Data Iterator
+2016-12-02 13:05:35,911 Node[0] Epoch[337] Time cost=251.359
+2016-12-02 13:05:43,300 Node[0] Epoch[337] Validation-accuracy=0.554688
+2016-12-02 13:07:12,212 Node[0] Epoch[338] Batch [50]	Speed: 56.49 samples/sec	Train-accuracy=0.991563
+2016-12-02 13:08:42,484 Node[0] Epoch[338] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.991563
+2016-12-02 13:09:56,501 Node[0] Epoch[338] Resetting Data Iterator
+2016-12-02 13:09:56,501 Node[0] Epoch[338] Time cost=253.201
+2016-12-02 13:10:03,500 Node[0] Epoch[338] Validation-accuracy=0.547917
+2016-12-02 13:11:32,353 Node[0] Epoch[339] Batch [50]	Speed: 56.52 samples/sec	Train-accuracy=0.995000
+2016-12-02 13:13:02,657 Node[0] Epoch[339] Batch [100]	Speed: 55.37 samples/sec	Train-accuracy=0.990938
+2016-12-02 13:14:14,862 Node[0] Epoch[339] Resetting Data Iterator
+2016-12-02 13:14:14,862 Node[0] Epoch[339] Time cost=251.362
+2016-12-02 13:14:21,849 Node[0] Epoch[339] Validation-accuracy=0.548958
+2016-12-02 13:15:50,746 Node[0] Epoch[340] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.993125
+2016-12-02 13:17:21,009 Node[0] Epoch[340] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.991563
+2016-12-02 13:18:35,035 Node[0] Epoch[340] Resetting Data Iterator
+2016-12-02 13:18:35,035 Node[0] Epoch[340] Time cost=253.186
+2016-12-02 13:18:42,400 Node[0] Epoch[340] Validation-accuracy=0.560547
+2016-12-02 13:20:11,329 Node[0] Epoch[341] Batch [50]	Speed: 56.48 samples/sec	Train-accuracy=0.993125
+2016-12-02 13:21:41,577 Node[0] Epoch[341] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.989375
+2016-12-02 13:22:55,652 Node[0] Epoch[341] Resetting Data Iterator
+2016-12-02 13:22:55,652 Node[0] Epoch[341] Time cost=253.251
+2016-12-02 13:23:03,016 Node[0] Epoch[341] Validation-accuracy=0.553711
+2016-12-02 13:24:31,992 Node[0] Epoch[342] Batch [50]	Speed: 56.45 samples/sec	Train-accuracy=0.991875
+2016-12-02 13:26:02,258 Node[0] Epoch[342] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.991875
+2016-12-02 13:27:14,455 Node[0] Epoch[342] Resetting Data Iterator
+2016-12-02 13:27:14,456 Node[0] Epoch[342] Time cost=251.439
+2016-12-02 13:27:21,450 Node[0] Epoch[342] Validation-accuracy=0.552083
+2016-12-02 13:28:50,458 Node[0] Epoch[343] Batch [50]	Speed: 56.43 samples/sec	Train-accuracy=0.991875
+2016-12-02 13:30:20,733 Node[0] Epoch[343] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.991875
+2016-12-02 13:31:34,823 Node[0] Epoch[343] Resetting Data Iterator
+2016-12-02 13:31:34,823 Node[0] Epoch[343] Time cost=253.373
+2016-12-02 13:31:41,808 Node[0] Epoch[343] Validation-accuracy=0.551042
+2016-12-02 13:33:10,713 Node[0] Epoch[344] Batch [50]	Speed: 56.49 samples/sec	Train-accuracy=0.993125
+2016-12-02 13:34:40,971 Node[0] Epoch[344] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.992812
+2016-12-02 13:35:53,200 Node[0] Epoch[344] Resetting Data Iterator
+2016-12-02 13:35:53,200 Node[0] Epoch[344] Time cost=251.392
+2016-12-02 13:36:00,581 Node[0] Epoch[344] Validation-accuracy=0.548828
+2016-12-02 13:37:29,484 Node[0] Epoch[345] Batch [50]	Speed: 56.49 samples/sec	Train-accuracy=0.987812
+2016-12-02 13:38:59,861 Node[0] Epoch[345] Batch [100]	Speed: 55.32 samples/sec	Train-accuracy=0.990938
+2016-12-02 13:40:13,858 Node[0] Epoch[345] Resetting Data Iterator
+2016-12-02 13:40:13,859 Node[0] Epoch[345] Time cost=253.277
+2016-12-02 13:40:21,243 Node[0] Epoch[345] Validation-accuracy=0.553711
+2016-12-02 13:41:50,145 Node[0] Epoch[346] Batch [50]	Speed: 56.49 samples/sec	Train-accuracy=0.994375
+2016-12-02 13:43:20,419 Node[0] Epoch[346] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.993437
+2016-12-02 13:44:34,669 Node[0] Epoch[346] Resetting Data Iterator
+2016-12-02 13:44:34,669 Node[0] Epoch[346] Time cost=253.426
+2016-12-02 13:44:41,473 Node[0] Epoch[346] Validation-accuracy=0.541667
+2016-12-02 13:46:10,322 Node[0] Epoch[347] Batch [50]	Speed: 56.53 samples/sec	Train-accuracy=0.993437
+2016-12-02 13:47:40,580 Node[0] Epoch[347] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.990625
+2016-12-02 13:48:52,815 Node[0] Epoch[347] Resetting Data Iterator
+2016-12-02 13:48:52,815 Node[0] Epoch[347] Time cost=251.342
+2016-12-02 13:48:59,786 Node[0] Epoch[347] Validation-accuracy=0.557292
+2016-12-02 13:50:28,768 Node[0] Epoch[348] Batch [50]	Speed: 56.44 samples/sec	Train-accuracy=0.991250
+2016-12-02 13:51:59,052 Node[0] Epoch[348] Batch [100]	Speed: 55.38 samples/sec	Train-accuracy=0.993437
+2016-12-02 13:53:13,064 Node[0] Epoch[348] Resetting Data Iterator
+2016-12-02 13:53:13,064 Node[0] Epoch[348] Time cost=253.277
+2016-12-02 13:53:20,434 Node[0] Epoch[348] Validation-accuracy=0.543945
+2016-12-02 13:54:49,348 Node[0] Epoch[349] Batch [50]	Speed: 56.49 samples/sec	Train-accuracy=0.992500
+2016-12-02 13:56:19,611 Node[0] Epoch[349] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.992188
+2016-12-02 13:57:31,836 Node[0] Epoch[349] Resetting Data Iterator
+2016-12-02 13:57:31,836 Node[0] Epoch[349] Time cost=251.402
+2016-12-02 13:57:39,221 Node[0] Epoch[349] Validation-accuracy=0.547852
+2016-12-02 13:59:08,120 Node[0] Epoch[350] Batch [50]	Speed: 56.49 samples/sec	Train-accuracy=0.991563
+2016-12-02 14:00:38,365 Node[0] Epoch[350] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.992500
+2016-12-02 14:01:52,490 Node[0] Epoch[350] Resetting Data Iterator
+2016-12-02 14:01:52,490 Node[0] Epoch[350] Time cost=253.269
+2016-12-02 14:01:59,513 Node[0] Epoch[350] Validation-accuracy=0.553125
+2016-12-02 14:03:28,385 Node[0] Epoch[351] Batch [50]	Speed: 56.51 samples/sec	Train-accuracy=0.993125
+2016-12-02 14:04:58,744 Node[0] Epoch[351] Batch [100]	Speed: 55.34 samples/sec	Train-accuracy=0.994062
+2016-12-02 14:06:10,960 Node[0] Epoch[351] Resetting Data Iterator
+2016-12-02 14:06:10,960 Node[0] Epoch[351] Time cost=251.447
+2016-12-02 14:06:17,988 Node[0] Epoch[351] Validation-accuracy=0.543750
+2016-12-02 14:07:46,871 Node[0] Epoch[352] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.991563
+2016-12-02 14:09:17,101 Node[0] Epoch[352] Batch [100]	Speed: 55.41 samples/sec	Train-accuracy=0.990625
+2016-12-02 14:10:31,113 Node[0] Epoch[352] Resetting Data Iterator
+2016-12-02 14:10:31,113 Node[0] Epoch[352] Time cost=253.125
+2016-12-02 14:10:38,497 Node[0] Epoch[352] Validation-accuracy=0.545898
+2016-12-02 14:12:07,402 Node[0] Epoch[353] Batch [50]	Speed: 56.49 samples/sec	Train-accuracy=0.992500
+2016-12-02 14:13:37,686 Node[0] Epoch[353] Batch [100]	Speed: 55.38 samples/sec	Train-accuracy=0.992812
+2016-12-02 14:14:51,897 Node[0] Epoch[353] Resetting Data Iterator
+2016-12-02 14:14:51,897 Node[0] Epoch[353] Time cost=253.400
+2016-12-02 14:14:59,320 Node[0] Epoch[353] Validation-accuracy=0.543945
+2016-12-02 14:16:28,270 Node[0] Epoch[354] Batch [50]	Speed: 56.46 samples/sec	Train-accuracy=0.995000
+2016-12-02 14:17:58,554 Node[0] Epoch[354] Batch [100]	Speed: 55.38 samples/sec	Train-accuracy=0.992500
+2016-12-02 14:19:10,758 Node[0] Epoch[354] Resetting Data Iterator
+2016-12-02 14:19:10,758 Node[0] Epoch[354] Time cost=251.438
+2016-12-02 14:19:17,775 Node[0] Epoch[354] Validation-accuracy=0.548958
+2016-12-02 14:20:46,622 Node[0] Epoch[355] Batch [50]	Speed: 56.53 samples/sec	Train-accuracy=0.991563
+2016-12-02 14:22:16,939 Node[0] Epoch[355] Batch [100]	Speed: 55.36 samples/sec	Train-accuracy=0.990313
+2016-12-02 14:23:31,714 Node[0] Epoch[355] Resetting Data Iterator
+2016-12-02 14:23:31,714 Node[0] Epoch[355] Time cost=253.939
+2016-12-02 14:23:37,985 Node[0] Epoch[355] Validation-accuracy=0.545833
+2016-12-02 14:25:06,907 Node[0] Epoch[356] Batch [50]	Speed: 56.48 samples/sec	Train-accuracy=0.989688
+2016-12-02 14:26:37,254 Node[0] Epoch[356] Batch [100]	Speed: 55.34 samples/sec	Train-accuracy=0.990000
+2016-12-02 14:27:49,474 Node[0] Epoch[356] Resetting Data Iterator
+2016-12-02 14:27:49,474 Node[0] Epoch[356] Time cost=251.489
+2016-12-02 14:27:56,861 Node[0] Epoch[356] Validation-accuracy=0.549805
+2016-12-02 14:29:25,868 Node[0] Epoch[357] Batch [50]	Speed: 56.43 samples/sec	Train-accuracy=0.990938
+2016-12-02 14:30:56,146 Node[0] Epoch[357] Batch [100]	Speed: 55.38 samples/sec	Train-accuracy=0.993750
+2016-12-02 14:32:10,160 Node[0] Epoch[357] Resetting Data Iterator
+2016-12-02 14:32:10,160 Node[0] Epoch[357] Time cost=253.299
+2016-12-02 14:32:17,542 Node[0] Epoch[357] Validation-accuracy=0.553711
+2016-12-02 14:33:46,438 Node[0] Epoch[358] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.994062
+2016-12-02 14:35:16,687 Node[0] Epoch[358] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.990625
+2016-12-02 14:36:30,738 Node[0] Epoch[358] Resetting Data Iterator
+2016-12-02 14:36:30,738 Node[0] Epoch[358] Time cost=253.196
+2016-12-02 14:36:37,845 Node[0] Epoch[358] Validation-accuracy=0.550000
+2016-12-02 14:38:06,694 Node[0] Epoch[359] Batch [50]	Speed: 56.53 samples/sec	Train-accuracy=0.991563
+2016-12-02 14:39:36,971 Node[0] Epoch[359] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.994375
+2016-12-02 14:40:49,970 Node[0] Epoch[359] Resetting Data Iterator
+2016-12-02 14:40:49,971 Node[0] Epoch[359] Time cost=252.126
+2016-12-02 14:40:56,253 Node[0] Epoch[359] Validation-accuracy=0.552083
+2016-12-02 14:42:25,194 Node[0] Epoch[360] Batch [50]	Speed: 56.47 samples/sec	Train-accuracy=0.991875
+2016-12-02 14:43:55,424 Node[0] Epoch[360] Batch [100]	Speed: 55.41 samples/sec	Train-accuracy=0.992812
+2016-12-02 14:45:09,463 Node[0] Epoch[360] Resetting Data Iterator
+2016-12-02 14:45:09,463 Node[0] Epoch[360] Time cost=253.211
+2016-12-02 14:45:16,838 Node[0] Epoch[360] Validation-accuracy=0.555664
+2016-12-02 14:46:45,729 Node[0] Epoch[361] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.995000
+2016-12-02 14:48:16,002 Node[0] Epoch[361] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.990000
+2016-12-02 14:49:28,218 Node[0] Epoch[361] Resetting Data Iterator
+2016-12-02 14:49:28,219 Node[0] Epoch[361] Time cost=251.380
+2016-12-02 14:49:35,593 Node[0] Epoch[361] Validation-accuracy=0.545898
+2016-12-02 14:51:04,559 Node[0] Epoch[362] Batch [50]	Speed: 56.45 samples/sec	Train-accuracy=0.993125
+2016-12-02 14:52:34,793 Node[0] Epoch[362] Batch [100]	Speed: 55.41 samples/sec	Train-accuracy=0.993125
+2016-12-02 14:53:48,794 Node[0] Epoch[362] Resetting Data Iterator
+2016-12-02 14:53:48,794 Node[0] Epoch[362] Time cost=253.200
+2016-12-02 14:53:55,794 Node[0] Epoch[362] Validation-accuracy=0.547917
+2016-12-02 14:55:24,668 Node[0] Epoch[363] Batch [50]	Speed: 56.51 samples/sec	Train-accuracy=0.993437
+2016-12-02 14:56:54,929 Node[0] Epoch[363] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.992500
+2016-12-02 14:58:08,951 Node[0] Epoch[363] Resetting Data Iterator
+2016-12-02 14:58:08,951 Node[0] Epoch[363] Time cost=253.157
+2016-12-02 14:58:15,922 Node[0] Epoch[363] Validation-accuracy=0.544792
+2016-12-02 14:59:44,763 Node[0] Epoch[364] Batch [50]	Speed: 56.53 samples/sec	Train-accuracy=0.995313
+2016-12-02 15:01:15,023 Node[0] Epoch[364] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.997500
+2016-12-02 15:02:27,324 Node[0] Epoch[364] Resetting Data Iterator
+2016-12-02 15:02:27,324 Node[0] Epoch[364] Time cost=251.402
+2016-12-02 15:02:34,705 Node[0] Epoch[364] Validation-accuracy=0.545898
+2016-12-02 15:04:03,618 Node[0] Epoch[365] Batch [50]	Speed: 56.49 samples/sec	Train-accuracy=0.991875
+2016-12-02 15:05:33,871 Node[0] Epoch[365] Batch [100]	Speed: 55.40 samples/sec	Train-accuracy=0.996250
+2016-12-02 15:06:48,225 Node[0] Epoch[365] Resetting Data Iterator
+2016-12-02 15:06:48,225 Node[0] Epoch[365] Time cost=253.520
+2016-12-02 15:06:55,316 Node[0] Epoch[365] Validation-accuracy=0.552734
+2016-12-02 15:08:24,153 Node[0] Epoch[366] Batch [50]	Speed: 56.53 samples/sec	Train-accuracy=0.994062
+2016-12-02 15:09:54,424 Node[0] Epoch[366] Batch [100]	Speed: 55.39 samples/sec	Train-accuracy=0.993437
+2016-12-02 15:11:06,661 Node[0] Epoch[366] Resetting Data Iterator
+2016-12-02 15:11:06,661 Node[0] Epoch[366] Time cost=251.345
+2016-12-02 15:11:13,737 Node[0] Epoch[366] Validation-accuracy=0.557292
+2016-12-02 15:12:42,614 Node[0] Epoch[367] Batch [50]	Speed: 56.51 samples/sec	Train-accuracy=0.990313
+2016-12-02 15:14:13,090 Node[0] Epoch[367] Batch [100]	Speed: 55.26 samples/sec	Train-accuracy=0.992812
+2016-12-02 15:15:27,408 Node[0] Epoch[367] Resetting Data Iterator
+2016-12-02 15:15:27,408 Node[0] Epoch[367] Time cost=253.671
+2016-12-02 15:15:34,123 Node[0] Epoch[367] Validation-accuracy=0.547917
+2016-12-02 15:17:03,016 Node[0] Epoch[368] Batch [50]	Speed: 56.50 samples/sec	Train-accuracy=0.994062

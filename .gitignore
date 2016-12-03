@@ -1,3 +1,7 @@
 mnist/
 cifar10/
 *.zip
+day2/17flowers/*/*.jpg
+day4/102flowers-0260.params
+day4/102flower-symbol.json
+day4/test.lst

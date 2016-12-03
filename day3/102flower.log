@@ -1,0 +1,1446 @@
+2016-11-15 14:12:47,897 Node[0] start with arguments Namespace(batch_size=100, data_dir='./102flowers/', data_shape='3,299,299', gpus='0,1,2,3,4,5,6,7', kv_store='local', load_epoch=None, log_dir='./102flowers_log/', log_file='102flower.log', lr=0.001, lr_factor=1, lr_factor_epoch=1, model_prefix=None, num_epochs=150, num_examples=5778, save_model_prefix=None)
+2016-11-15 14:12:49,627 Node[0] Start training with [gpu(0), gpu(1), gpu(2), gpu(3), gpu(4), gpu(5), gpu(6), gpu(7)]
+2016-11-15 14:17:37,950 Node[0] Epoch[0] Batch [50]	Speed: 19.84 samples/sec	Train-accuracy=0.011600
+2016-11-15 14:17:37,951 Node[0] Epoch[0] Batch [50]	Speed: 19.84 samples/sec	Train-top_k_accuracy_5=0.049600
+2016-11-15 14:17:37,951 Node[0] Epoch[0] Batch [50]	Speed: 19.84 samples/sec	Train-top_k_accuracy_10=0.092000
+2016-11-15 14:17:37,951 Node[0] Epoch[0] Batch [50]	Speed: 19.84 samples/sec	Train-top_k_accuracy_20=0.178400
+2016-11-15 14:18:18,982 Node[0] Epoch[0] Resetting Data Iterator
+2016-11-15 14:18:18,982 Node[0] Epoch[0] Time cost=303.723
+2016-11-15 14:18:32,202 Node[0] Epoch[0] Validation-accuracy=0.044800
+2016-11-15 14:18:32,202 Node[0] Epoch[0] Validation-top_k_accuracy_5=0.177600
+2016-11-15 14:18:32,202 Node[0] Epoch[0] Validation-top_k_accuracy_10=0.292800
+2016-11-15 14:18:32,202 Node[0] Epoch[0] Validation-top_k_accuracy_20=0.446800
+2016-11-15 14:22:48,787 Node[0] Epoch[1] Batch [50]	Speed: 19.89 samples/sec	Train-accuracy=0.010600
+2016-11-15 14:22:48,788 Node[0] Epoch[1] Batch [50]	Speed: 19.89 samples/sec	Train-top_k_accuracy_5=0.068600
+2016-11-15 14:22:48,788 Node[0] Epoch[1] Batch [50]	Speed: 19.89 samples/sec	Train-top_k_accuracy_10=0.136400
+2016-11-15 14:22:48,788 Node[0] Epoch[1] Batch [50]	Speed: 19.89 samples/sec	Train-top_k_accuracy_20=0.268000
+2016-11-15 14:23:29,637 Node[0] Epoch[1] Resetting Data Iterator
+2016-11-15 14:23:29,637 Node[0] Epoch[1] Time cost=297.435
+2016-11-15 14:23:42,782 Node[0] Epoch[1] Validation-accuracy=0.096400
+2016-11-15 14:23:42,782 Node[0] Epoch[1] Validation-top_k_accuracy_5=0.216000
+2016-11-15 14:23:42,782 Node[0] Epoch[1] Validation-top_k_accuracy_10=0.341600
+2016-11-15 14:23:42,782 Node[0] Epoch[1] Validation-top_k_accuracy_20=0.535200
+2016-11-15 14:27:53,897 Node[0] Epoch[2] Batch [50]	Speed: 20.34 samples/sec	Train-accuracy=0.018200
+2016-11-15 14:27:53,897 Node[0] Epoch[2] Batch [50]	Speed: 20.34 samples/sec	Train-top_k_accuracy_5=0.094400
+2016-11-15 14:27:53,897 Node[0] Epoch[2] Batch [50]	Speed: 20.34 samples/sec	Train-top_k_accuracy_10=0.181000
+2016-11-15 14:27:53,897 Node[0] Epoch[2] Batch [50]	Speed: 20.34 samples/sec	Train-top_k_accuracy_20=0.330200
+2016-11-15 14:28:33,862 Node[0] Epoch[2] Resetting Data Iterator
+2016-11-15 14:28:33,862 Node[0] Epoch[2] Time cost=291.080
+2016-11-15 14:28:46,760 Node[0] Epoch[2] Validation-accuracy=0.093600
+2016-11-15 14:28:46,760 Node[0] Epoch[2] Validation-top_k_accuracy_5=0.262000
+2016-11-15 14:28:46,760 Node[0] Epoch[2] Validation-top_k_accuracy_10=0.384000
+2016-11-15 14:28:46,760 Node[0] Epoch[2] Validation-top_k_accuracy_20=0.590000
+2016-11-15 14:32:56,106 Node[0] Epoch[3] Batch [50]	Speed: 20.46 samples/sec	Train-accuracy=0.022200
+2016-11-15 14:32:56,106 Node[0] Epoch[3] Batch [50]	Speed: 20.46 samples/sec	Train-top_k_accuracy_5=0.125000
+2016-11-15 14:32:56,106 Node[0] Epoch[3] Batch [50]	Speed: 20.46 samples/sec	Train-top_k_accuracy_10=0.234200
+2016-11-15 14:32:56,107 Node[0] Epoch[3] Batch [50]	Speed: 20.46 samples/sec	Train-top_k_accuracy_20=0.403200
+2016-11-15 14:33:36,054 Node[0] Epoch[3] Resetting Data Iterator
+2016-11-15 14:33:36,055 Node[0] Epoch[3] Time cost=289.295
+2016-11-15 14:33:48,930 Node[0] Epoch[3] Validation-accuracy=0.115200
+2016-11-15 14:33:48,930 Node[0] Epoch[3] Validation-top_k_accuracy_5=0.298000
+2016-11-15 14:33:48,930 Node[0] Epoch[3] Validation-top_k_accuracy_10=0.462400
+2016-11-15 14:33:48,930 Node[0] Epoch[3] Validation-top_k_accuracy_20=0.682400
+2016-11-15 14:37:58,121 Node[0] Epoch[4] Batch [50]	Speed: 20.47 samples/sec	Train-accuracy=0.028600
+2016-11-15 14:37:58,121 Node[0] Epoch[4] Batch [50]	Speed: 20.47 samples/sec	Train-top_k_accuracy_5=0.151600
+2016-11-15 14:37:58,121 Node[0] Epoch[4] Batch [50]	Speed: 20.47 samples/sec	Train-top_k_accuracy_10=0.271800
+2016-11-15 14:37:58,121 Node[0] Epoch[4] Batch [50]	Speed: 20.47 samples/sec	Train-top_k_accuracy_20=0.462600
+2016-11-15 14:38:33,023 Node[0] Epoch[4] Resetting Data Iterator
+2016-11-15 14:38:33,023 Node[0] Epoch[4] Time cost=284.093
+2016-11-15 14:38:45,934 Node[0] Epoch[4] Validation-accuracy=0.127200
+2016-11-15 14:38:45,934 Node[0] Epoch[4] Validation-top_k_accuracy_5=0.339200
+2016-11-15 14:38:45,934 Node[0] Epoch[4] Validation-top_k_accuracy_10=0.507600
+2016-11-15 14:38:45,934 Node[0] Epoch[4] Validation-top_k_accuracy_20=0.716000
+2016-11-15 14:42:55,310 Node[0] Epoch[5] Batch [50]	Speed: 20.46 samples/sec	Train-accuracy=0.038000
+2016-11-15 14:42:55,310 Node[0] Epoch[5] Batch [50]	Speed: 20.46 samples/sec	Train-top_k_accuracy_5=0.177200
+2016-11-15 14:42:55,310 Node[0] Epoch[5] Batch [50]	Speed: 20.46 samples/sec	Train-top_k_accuracy_10=0.316000
+2016-11-15 14:42:55,310 Node[0] Epoch[5] Batch [50]	Speed: 20.46 samples/sec	Train-top_k_accuracy_20=0.491600
+2016-11-15 14:43:34,956 Node[0] Epoch[5] Resetting Data Iterator
+2016-11-15 14:43:34,957 Node[0] Epoch[5] Time cost=289.023
+2016-11-15 14:43:48,024 Node[0] Epoch[5] Validation-accuracy=0.142000
+2016-11-15 14:43:48,024 Node[0] Epoch[5] Validation-top_k_accuracy_5=0.366000
+2016-11-15 14:43:48,024 Node[0] Epoch[5] Validation-top_k_accuracy_10=0.538800
+2016-11-15 14:43:48,024 Node[0] Epoch[5] Validation-top_k_accuracy_20=0.738800
+2016-11-15 14:47:56,888 Node[0] Epoch[6] Batch [50]	Speed: 20.50 samples/sec	Train-accuracy=0.044400
+2016-11-15 14:47:56,888 Node[0] Epoch[6] Batch [50]	Speed: 20.50 samples/sec	Train-top_k_accuracy_5=0.194200
+2016-11-15 14:47:56,888 Node[0] Epoch[6] Batch [50]	Speed: 20.50 samples/sec	Train-top_k_accuracy_10=0.340800
+2016-11-15 14:47:56,888 Node[0] Epoch[6] Batch [50]	Speed: 20.50 samples/sec	Train-top_k_accuracy_20=0.533000
+2016-11-15 14:48:36,856 Node[0] Epoch[6] Resetting Data Iterator
+2016-11-15 14:48:36,856 Node[0] Epoch[6] Time cost=288.832
+2016-11-15 14:48:49,749 Node[0] Epoch[6] Validation-accuracy=0.155200
+2016-11-15 14:48:49,749 Node[0] Epoch[6] Validation-top_k_accuracy_5=0.391600
+2016-11-15 14:48:49,749 Node[0] Epoch[6] Validation-top_k_accuracy_10=0.574800
+2016-11-15 14:48:49,749 Node[0] Epoch[6] Validation-top_k_accuracy_20=0.764000
+2016-11-15 14:52:58,432 Node[0] Epoch[7] Batch [50]	Speed: 20.52 samples/sec	Train-accuracy=0.053000
+2016-11-15 14:52:58,432 Node[0] Epoch[7] Batch [50]	Speed: 20.52 samples/sec	Train-top_k_accuracy_5=0.229200
+2016-11-15 14:52:58,432 Node[0] Epoch[7] Batch [50]	Speed: 20.52 samples/sec	Train-top_k_accuracy_10=0.385800
+2016-11-15 14:52:58,432 Node[0] Epoch[7] Batch [50]	Speed: 20.52 samples/sec	Train-top_k_accuracy_20=0.583000
+2016-11-15 14:53:38,171 Node[0] Epoch[7] Resetting Data Iterator
+2016-11-15 14:53:38,172 Node[0] Epoch[7] Time cost=288.423
+2016-11-15 14:53:51,091 Node[0] Epoch[7] Validation-accuracy=0.161200
+2016-11-15 14:53:51,091 Node[0] Epoch[7] Validation-top_k_accuracy_5=0.409600
+2016-11-15 14:53:51,091 Node[0] Epoch[7] Validation-top_k_accuracy_10=0.587200
+2016-11-15 14:53:51,091 Node[0] Epoch[7] Validation-top_k_accuracy_20=0.783600
+2016-11-15 14:57:59,673 Node[0] Epoch[8] Batch [50]	Speed: 20.52 samples/sec	Train-accuracy=0.066800
+2016-11-15 14:57:59,673 Node[0] Epoch[8] Batch [50]	Speed: 20.52 samples/sec	Train-top_k_accuracy_5=0.254800
+2016-11-15 14:57:59,674 Node[0] Epoch[8] Batch [50]	Speed: 20.52 samples/sec	Train-top_k_accuracy_10=0.402400
+2016-11-15 14:57:59,674 Node[0] Epoch[8] Batch [50]	Speed: 20.52 samples/sec	Train-top_k_accuracy_20=0.596200
+2016-11-15 14:58:39,693 Node[0] Epoch[8] Resetting Data Iterator
+2016-11-15 14:58:39,693 Node[0] Epoch[8] Time cost=288.602
+2016-11-15 14:58:52,649 Node[0] Epoch[8] Validation-accuracy=0.158000
+2016-11-15 14:58:52,649 Node[0] Epoch[8] Validation-top_k_accuracy_5=0.431600
+2016-11-15 14:58:52,650 Node[0] Epoch[8] Validation-top_k_accuracy_10=0.617600
+2016-11-15 14:58:52,650 Node[0] Epoch[8] Validation-top_k_accuracy_20=0.796400
+2016-11-15 15:03:01,691 Node[0] Epoch[9] Batch [50]	Speed: 20.49 samples/sec	Train-accuracy=0.071000
+2016-11-15 15:03:01,691 Node[0] Epoch[9] Batch [50]	Speed: 20.49 samples/sec	Train-top_k_accuracy_5=0.282400
+2016-11-15 15:03:01,691 Node[0] Epoch[9] Batch [50]	Speed: 20.49 samples/sec	Train-top_k_accuracy_10=0.441000
+2016-11-15 15:03:01,691 Node[0] Epoch[9] Batch [50]	Speed: 20.49 samples/sec	Train-top_k_accuracy_20=0.636400
+2016-11-15 15:03:36,711 Node[0] Epoch[9] Resetting Data Iterator
+2016-11-15 15:03:36,712 Node[0] Epoch[9] Time cost=284.062
+2016-11-15 15:03:49,826 Node[0] Epoch[9] Validation-accuracy=0.198800
+2016-11-15 15:03:49,826 Node[0] Epoch[9] Validation-top_k_accuracy_5=0.463600
+2016-11-15 15:03:49,826 Node[0] Epoch[9] Validation-top_k_accuracy_10=0.637200
+2016-11-15 15:03:49,826 Node[0] Epoch[9] Validation-top_k_accuracy_20=0.814800
+2016-11-15 15:07:58,831 Node[0] Epoch[10] Batch [50]	Speed: 20.49 samples/sec	Train-accuracy=0.084400
+2016-11-15 15:07:58,831 Node[0] Epoch[10] Batch [50]	Speed: 20.49 samples/sec	Train-top_k_accuracy_5=0.301400
+2016-11-15 15:07:58,831 Node[0] Epoch[10] Batch [50]	Speed: 20.49 samples/sec	Train-top_k_accuracy_10=0.465800
+2016-11-15 15:07:58,831 Node[0] Epoch[10] Batch [50]	Speed: 20.49 samples/sec	Train-top_k_accuracy_20=0.663400
+2016-11-15 15:08:38,933 Node[0] Epoch[10] Resetting Data Iterator
+2016-11-15 15:08:38,933 Node[0] Epoch[10] Time cost=289.107
+2016-11-15 15:08:52,077 Node[0] Epoch[10] Validation-accuracy=0.205200
+2016-11-15 15:08:52,077 Node[0] Epoch[10] Validation-top_k_accuracy_5=0.488400
+2016-11-15 15:08:52,077 Node[0] Epoch[10] Validation-top_k_accuracy_10=0.657200
+2016-11-15 15:08:52,077 Node[0] Epoch[10] Validation-top_k_accuracy_20=0.824800
+2016-11-15 15:13:01,443 Node[0] Epoch[11] Batch [50]	Speed: 20.46 samples/sec	Train-accuracy=0.086400
+2016-11-15 15:13:01,443 Node[0] Epoch[11] Batch [50]	Speed: 20.46 samples/sec	Train-top_k_accuracy_5=0.324200
+2016-11-15 15:13:01,443 Node[0] Epoch[11] Batch [50]	Speed: 20.46 samples/sec	Train-top_k_accuracy_10=0.492200
+2016-11-15 15:13:01,443 Node[0] Epoch[11] Batch [50]	Speed: 20.46 samples/sec	Train-top_k_accuracy_20=0.685600
+2016-11-15 15:13:41,364 Node[0] Epoch[11] Resetting Data Iterator
+2016-11-15 15:13:41,364 Node[0] Epoch[11] Time cost=289.287
+2016-11-15 15:13:54,242 Node[0] Epoch[11] Validation-accuracy=0.208000
+2016-11-15 15:13:54,242 Node[0] Epoch[11] Validation-top_k_accuracy_5=0.502400
+2016-11-15 15:13:54,242 Node[0] Epoch[11] Validation-top_k_accuracy_10=0.672400
+2016-11-15 15:13:54,242 Node[0] Epoch[11] Validation-top_k_accuracy_20=0.826800
+2016-11-15 15:18:03,687 Node[0] Epoch[12] Batch [50]	Speed: 20.45 samples/sec	Train-accuracy=0.092600
+2016-11-15 15:18:03,687 Node[0] Epoch[12] Batch [50]	Speed: 20.45 samples/sec	Train-top_k_accuracy_5=0.339200
+2016-11-15 15:18:03,687 Node[0] Epoch[12] Batch [50]	Speed: 20.45 samples/sec	Train-top_k_accuracy_10=0.511200
+2016-11-15 15:18:03,687 Node[0] Epoch[12] Batch [50]	Speed: 20.45 samples/sec	Train-top_k_accuracy_20=0.698000
+2016-11-15 15:18:43,594 Node[0] Epoch[12] Resetting Data Iterator
+2016-11-15 15:18:43,594 Node[0] Epoch[12] Time cost=289.352
+2016-11-15 15:18:56,527 Node[0] Epoch[12] Validation-accuracy=0.208800
+2016-11-15 15:18:56,527 Node[0] Epoch[12] Validation-top_k_accuracy_5=0.509200
+2016-11-15 15:18:56,527 Node[0] Epoch[12] Validation-top_k_accuracy_10=0.688000
+2016-11-15 15:18:56,527 Node[0] Epoch[12] Validation-top_k_accuracy_20=0.832400
+2016-11-15 15:23:05,821 Node[0] Epoch[13] Batch [50]	Speed: 20.47 samples/sec	Train-accuracy=0.106800
+2016-11-15 15:23:05,821 Node[0] Epoch[13] Batch [50]	Speed: 20.47 samples/sec	Train-top_k_accuracy_5=0.353200
+2016-11-15 15:23:05,821 Node[0] Epoch[13] Batch [50]	Speed: 20.47 samples/sec	Train-top_k_accuracy_10=0.520600
+2016-11-15 15:23:05,821 Node[0] Epoch[13] Batch [50]	Speed: 20.47 samples/sec	Train-top_k_accuracy_20=0.715400
+2016-11-15 15:23:40,839 Node[0] Epoch[13] Resetting Data Iterator
+2016-11-15 15:23:40,839 Node[0] Epoch[13] Time cost=284.312
+2016-11-15 15:23:53,771 Node[0] Epoch[13] Validation-accuracy=0.220800
+2016-11-15 15:23:53,772 Node[0] Epoch[13] Validation-top_k_accuracy_5=0.521600
+2016-11-15 15:23:53,772 Node[0] Epoch[13] Validation-top_k_accuracy_10=0.693600
+2016-11-15 15:23:53,772 Node[0] Epoch[13] Validation-top_k_accuracy_20=0.852400
+2016-11-15 15:28:02,699 Node[0] Epoch[14] Batch [50]	Speed: 20.50 samples/sec	Train-accuracy=0.115200
+2016-11-15 15:28:02,699 Node[0] Epoch[14] Batch [50]	Speed: 20.50 samples/sec	Train-top_k_accuracy_5=0.377000
+2016-11-15 15:28:02,699 Node[0] Epoch[14] Batch [50]	Speed: 20.50 samples/sec	Train-top_k_accuracy_10=0.551800
+2016-11-15 15:28:02,699 Node[0] Epoch[14] Batch [50]	Speed: 20.50 samples/sec	Train-top_k_accuracy_20=0.740200
+2016-11-15 15:28:42,809 Node[0] Epoch[14] Resetting Data Iterator
+2016-11-15 15:28:42,810 Node[0] Epoch[14] Time cost=289.038
+2016-11-15 15:28:55,729 Node[0] Epoch[14] Validation-accuracy=0.231600
+2016-11-15 15:28:55,729 Node[0] Epoch[14] Validation-top_k_accuracy_5=0.511200
+2016-11-15 15:28:55,729 Node[0] Epoch[14] Validation-top_k_accuracy_10=0.699600
+2016-11-15 15:28:55,729 Node[0] Epoch[14] Validation-top_k_accuracy_20=0.844000
+2016-11-15 15:33:04,747 Node[0] Epoch[15] Batch [50]	Speed: 20.49 samples/sec	Train-accuracy=0.125800
+2016-11-15 15:33:04,747 Node[0] Epoch[15] Batch [50]	Speed: 20.49 samples/sec	Train-top_k_accuracy_5=0.390200
+2016-11-15 15:33:04,747 Node[0] Epoch[15] Batch [50]	Speed: 20.49 samples/sec	Train-top_k_accuracy_10=0.557200
+2016-11-15 15:33:04,747 Node[0] Epoch[15] Batch [50]	Speed: 20.49 samples/sec	Train-top_k_accuracy_20=0.738000
+2016-11-15 15:33:44,840 Node[0] Epoch[15] Resetting Data Iterator
+2016-11-15 15:33:44,840 Node[0] Epoch[15] Time cost=289.111
+2016-11-15 15:33:57,802 Node[0] Epoch[15] Validation-accuracy=0.228400
+2016-11-15 15:33:57,802 Node[0] Epoch[15] Validation-top_k_accuracy_5=0.518000
+2016-11-15 15:33:57,802 Node[0] Epoch[15] Validation-top_k_accuracy_10=0.698000
+2016-11-15 15:33:57,802 Node[0] Epoch[15] Validation-top_k_accuracy_20=0.844400
+2016-11-15 15:38:06,460 Node[0] Epoch[16] Batch [50]	Speed: 20.52 samples/sec	Train-accuracy=0.135000
+2016-11-15 15:38:06,460 Node[0] Epoch[16] Batch [50]	Speed: 20.52 samples/sec	Train-top_k_accuracy_5=0.408400
+2016-11-15 15:38:06,460 Node[0] Epoch[16] Batch [50]	Speed: 20.52 samples/sec	Train-top_k_accuracy_10=0.576600
+2016-11-15 15:38:06,460 Node[0] Epoch[16] Batch [50]	Speed: 20.52 samples/sec	Train-top_k_accuracy_20=0.745400
+2016-11-15 15:38:46,451 Node[0] Epoch[16] Resetting Data Iterator
+2016-11-15 15:38:46,451 Node[0] Epoch[16] Time cost=288.649
+2016-11-15 15:38:59,380 Node[0] Epoch[16] Validation-accuracy=0.223600
+2016-11-15 15:38:59,380 Node[0] Epoch[16] Validation-top_k_accuracy_5=0.527600
+2016-11-15 15:38:59,380 Node[0] Epoch[16] Validation-top_k_accuracy_10=0.703200
+2016-11-15 15:38:59,380 Node[0] Epoch[16] Validation-top_k_accuracy_20=0.857600
+2016-11-15 15:43:08,547 Node[0] Epoch[17] Batch [50]	Speed: 20.48 samples/sec	Train-accuracy=0.152800
+2016-11-15 15:43:08,547 Node[0] Epoch[17] Batch [50]	Speed: 20.48 samples/sec	Train-top_k_accuracy_5=0.416600
+2016-11-15 15:43:08,547 Node[0] Epoch[17] Batch [50]	Speed: 20.48 samples/sec	Train-top_k_accuracy_10=0.598000
+2016-11-15 15:43:08,548 Node[0] Epoch[17] Batch [50]	Speed: 20.48 samples/sec	Train-top_k_accuracy_20=0.773600
+2016-11-15 15:43:48,424 Node[0] Epoch[17] Resetting Data Iterator
+2016-11-15 15:43:48,424 Node[0] Epoch[17] Time cost=289.044
+2016-11-15 15:44:01,542 Node[0] Epoch[17] Validation-accuracy=0.232800
+2016-11-15 15:44:01,542 Node[0] Epoch[17] Validation-top_k_accuracy_5=0.555200
+2016-11-15 15:44:01,543 Node[0] Epoch[17] Validation-top_k_accuracy_10=0.725600
+2016-11-15 15:44:01,543 Node[0] Epoch[17] Validation-top_k_accuracy_20=0.863200
+2016-11-15 15:48:10,726 Node[0] Epoch[18] Batch [50]	Speed: 20.48 samples/sec	Train-accuracy=0.166800
+2016-11-15 15:48:10,726 Node[0] Epoch[18] Batch [50]	Speed: 20.48 samples/sec	Train-top_k_accuracy_5=0.447600
+2016-11-15 15:48:10,726 Node[0] Epoch[18] Batch [50]	Speed: 20.48 samples/sec	Train-top_k_accuracy_10=0.617600
+2016-11-15 15:48:10,726 Node[0] Epoch[18] Batch [50]	Speed: 20.48 samples/sec	Train-top_k_accuracy_20=0.789000
+2016-11-15 15:48:45,558 Node[0] Epoch[18] Resetting Data Iterator
+2016-11-15 15:48:45,559 Node[0] Epoch[18] Time cost=284.016
+2016-11-15 15:48:58,691 Node[0] Epoch[18] Validation-accuracy=0.262400
+2016-11-15 15:48:58,691 Node[0] Epoch[18] Validation-top_k_accuracy_5=0.565600
+2016-11-15 15:48:58,691 Node[0] Epoch[18] Validation-top_k_accuracy_10=0.728800
+2016-11-15 15:48:58,691 Node[0] Epoch[18] Validation-top_k_accuracy_20=0.860800
+2016-11-15 15:53:07,638 Node[0] Epoch[19] Batch [50]	Speed: 20.50 samples/sec	Train-accuracy=0.174000
+2016-11-15 15:53:07,639 Node[0] Epoch[19] Batch [50]	Speed: 20.50 samples/sec	Train-top_k_accuracy_5=0.456600
+2016-11-15 15:53:07,639 Node[0] Epoch[19] Batch [50]	Speed: 20.50 samples/sec	Train-top_k_accuracy_10=0.623200
+2016-11-15 15:53:07,639 Node[0] Epoch[19] Batch [50]	Speed: 20.50 samples/sec	Train-top_k_accuracy_20=0.797600
+2016-11-15 15:53:47,530 Node[0] Epoch[19] Resetting Data Iterator
+2016-11-15 15:53:47,530 Node[0] Epoch[19] Time cost=288.839
+2016-11-15 15:54:00,635 Node[0] Epoch[19] Validation-accuracy=0.235600
+2016-11-15 15:54:00,635 Node[0] Epoch[19] Validation-top_k_accuracy_5=0.546400
+2016-11-15 15:54:00,635 Node[0] Epoch[19] Validation-top_k_accuracy_10=0.719600
+2016-11-15 15:54:00,635 Node[0] Epoch[19] Validation-top_k_accuracy_20=0.860400
+2016-11-15 15:58:09,878 Node[0] Epoch[20] Batch [50]	Speed: 20.47 samples/sec	Train-accuracy=0.179200
+2016-11-15 15:58:09,878 Node[0] Epoch[20] Batch [50]	Speed: 20.47 samples/sec	Train-top_k_accuracy_5=0.464000
+2016-11-15 15:58:09,878 Node[0] Epoch[20] Batch [50]	Speed: 20.47 samples/sec	Train-top_k_accuracy_10=0.631600
+2016-11-15 15:58:09,878 Node[0] Epoch[20] Batch [50]	Speed: 20.47 samples/sec	Train-top_k_accuracy_20=0.805400
+2016-11-15 15:58:49,700 Node[0] Epoch[20] Resetting Data Iterator
+2016-11-15 15:58:49,701 Node[0] Epoch[20] Time cost=289.065
+2016-11-15 15:59:02,881 Node[0] Epoch[20] Validation-accuracy=0.260000
+2016-11-15 15:59:02,881 Node[0] Epoch[20] Validation-top_k_accuracy_5=0.563200
+2016-11-15 15:59:02,881 Node[0] Epoch[20] Validation-top_k_accuracy_10=0.724400
+2016-11-15 15:59:02,881 Node[0] Epoch[20] Validation-top_k_accuracy_20=0.866800
+2016-11-15 16:03:12,290 Node[0] Epoch[21] Batch [50]	Speed: 20.46 samples/sec	Train-accuracy=0.189000
+2016-11-15 16:03:12,290 Node[0] Epoch[21] Batch [50]	Speed: 20.46 samples/sec	Train-top_k_accuracy_5=0.484000
+2016-11-15 16:03:12,290 Node[0] Epoch[21] Batch [50]	Speed: 20.46 samples/sec	Train-top_k_accuracy_10=0.646800
+2016-11-15 16:03:12,291 Node[0] Epoch[21] Batch [50]	Speed: 20.46 samples/sec	Train-top_k_accuracy_20=0.813000
+2016-11-15 16:03:52,246 Node[0] Epoch[21] Resetting Data Iterator
+2016-11-15 16:03:52,246 Node[0] Epoch[21] Time cost=289.365
+2016-11-15 16:04:05,361 Node[0] Epoch[21] Validation-accuracy=0.251600
+2016-11-15 16:04:05,362 Node[0] Epoch[21] Validation-top_k_accuracy_5=0.571200
+2016-11-15 16:04:05,362 Node[0] Epoch[21] Validation-top_k_accuracy_10=0.732400
+2016-11-15 16:04:05,362 Node[0] Epoch[21] Validation-top_k_accuracy_20=0.872800
+2016-11-15 16:08:14,532 Node[0] Epoch[22] Batch [50]	Speed: 20.48 samples/sec	Train-accuracy=0.202600
+2016-11-15 16:08:14,532 Node[0] Epoch[22] Batch [50]	Speed: 20.48 samples/sec	Train-top_k_accuracy_5=0.495200
+2016-11-15 16:08:14,532 Node[0] Epoch[22] Batch [50]	Speed: 20.48 samples/sec	Train-top_k_accuracy_10=0.666400
+2016-11-15 16:08:14,532 Node[0] Epoch[22] Batch [50]	Speed: 20.48 samples/sec	Train-top_k_accuracy_20=0.820200
+2016-11-15 16:08:49,749 Node[0] Epoch[22] Resetting Data Iterator
+2016-11-15 16:08:49,749 Node[0] Epoch[22] Time cost=284.387
+2016-11-15 16:09:02,932 Node[0] Epoch[22] Validation-accuracy=0.262000
+2016-11-15 16:09:02,932 Node[0] Epoch[22] Validation-top_k_accuracy_5=0.570000
+2016-11-15 16:09:02,932 Node[0] Epoch[22] Validation-top_k_accuracy_10=0.724400
+2016-11-15 16:09:02,932 Node[0] Epoch[22] Validation-top_k_accuracy_20=0.867200
+2016-11-15 16:13:12,461 Node[0] Epoch[23] Batch [50]	Speed: 20.44 samples/sec	Train-accuracy=0.204800
+2016-11-15 16:13:12,461 Node[0] Epoch[23] Batch [50]	Speed: 20.44 samples/sec	Train-top_k_accuracy_5=0.498800
+2016-11-15 16:13:12,461 Node[0] Epoch[23] Batch [50]	Speed: 20.44 samples/sec	Train-top_k_accuracy_10=0.664000
+2016-11-15 16:13:12,461 Node[0] Epoch[23] Batch [50]	Speed: 20.44 samples/sec	Train-top_k_accuracy_20=0.831200
+2016-11-15 16:13:52,382 Node[0] Epoch[23] Resetting Data Iterator
+2016-11-15 16:13:52,382 Node[0] Epoch[23] Time cost=289.449
+2016-11-15 16:14:05,484 Node[0] Epoch[23] Validation-accuracy=0.268800
+2016-11-15 16:14:05,484 Node[0] Epoch[23] Validation-top_k_accuracy_5=0.589200
+2016-11-15 16:14:05,484 Node[0] Epoch[23] Validation-top_k_accuracy_10=0.750800
+2016-11-15 16:14:05,484 Node[0] Epoch[23] Validation-top_k_accuracy_20=0.876400
+2016-11-15 16:18:14,259 Node[0] Epoch[24] Batch [50]	Speed: 20.51 samples/sec	Train-accuracy=0.210800
+2016-11-15 16:18:14,259 Node[0] Epoch[24] Batch [50]	Speed: 20.51 samples/sec	Train-top_k_accuracy_5=0.503600
+2016-11-15 16:18:14,259 Node[0] Epoch[24] Batch [50]	Speed: 20.51 samples/sec	Train-top_k_accuracy_10=0.667400
+2016-11-15 16:18:14,260 Node[0] Epoch[24] Batch [50]	Speed: 20.51 samples/sec	Train-top_k_accuracy_20=0.829200
+2016-11-15 16:18:53,917 Node[0] Epoch[24] Resetting Data Iterator
+2016-11-15 16:18:53,917 Node[0] Epoch[24] Time cost=288.433
+2016-11-15 16:19:07,039 Node[0] Epoch[24] Validation-accuracy=0.262000
+2016-11-15 16:19:07,039 Node[0] Epoch[24] Validation-top_k_accuracy_5=0.576800
+2016-11-15 16:19:07,039 Node[0] Epoch[24] Validation-top_k_accuracy_10=0.746800
+2016-11-15 16:19:07,039 Node[0] Epoch[24] Validation-top_k_accuracy_20=0.873600
+2016-11-15 16:23:16,441 Node[0] Epoch[25] Batch [50]	Speed: 20.46 samples/sec	Train-accuracy=0.214000
+2016-11-15 16:23:16,441 Node[0] Epoch[25] Batch [50]	Speed: 20.46 samples/sec	Train-top_k_accuracy_5=0.513200
+2016-11-15 16:23:16,441 Node[0] Epoch[25] Batch [50]	Speed: 20.46 samples/sec	Train-top_k_accuracy_10=0.678800
+2016-11-15 16:23:16,441 Node[0] Epoch[25] Batch [50]	Speed: 20.46 samples/sec	Train-top_k_accuracy_20=0.829000
+2016-11-15 16:23:56,203 Node[0] Epoch[25] Resetting Data Iterator
+2016-11-15 16:23:56,204 Node[0] Epoch[25] Time cost=289.165
+2016-11-15 16:24:09,138 Node[0] Epoch[25] Validation-accuracy=0.280000
+2016-11-15 16:24:09,138 Node[0] Epoch[25] Validation-top_k_accuracy_5=0.592800
+2016-11-15 16:24:09,138 Node[0] Epoch[25] Validation-top_k_accuracy_10=0.756000
+2016-11-15 16:24:09,138 Node[0] Epoch[25] Validation-top_k_accuracy_20=0.889200
+2016-11-15 16:28:17,696 Node[0] Epoch[26] Batch [50]	Speed: 20.53 samples/sec	Train-accuracy=0.221200
+2016-11-15 16:28:17,696 Node[0] Epoch[26] Batch [50]	Speed: 20.53 samples/sec	Train-top_k_accuracy_5=0.524600
+2016-11-15 16:28:17,696 Node[0] Epoch[26] Batch [50]	Speed: 20.53 samples/sec	Train-top_k_accuracy_10=0.689800
+2016-11-15 16:28:17,696 Node[0] Epoch[26] Batch [50]	Speed: 20.53 samples/sec	Train-top_k_accuracy_20=0.846800
+2016-11-15 16:28:57,491 Node[0] Epoch[26] Resetting Data Iterator
+2016-11-15 16:28:57,491 Node[0] Epoch[26] Time cost=288.353
+2016-11-15 16:29:10,401 Node[0] Epoch[26] Validation-accuracy=0.294400
+2016-11-15 16:29:10,401 Node[0] Epoch[26] Validation-top_k_accuracy_5=0.588000
+2016-11-15 16:29:10,401 Node[0] Epoch[26] Validation-top_k_accuracy_10=0.755200
+2016-11-15 16:29:10,401 Node[0] Epoch[26] Validation-top_k_accuracy_20=0.899600
+2016-11-15 16:33:19,744 Node[0] Epoch[27] Batch [50]	Speed: 20.46 samples/sec	Train-accuracy=0.238400
+2016-11-15 16:33:19,744 Node[0] Epoch[27] Batch [50]	Speed: 20.46 samples/sec	Train-top_k_accuracy_5=0.543200
+2016-11-15 16:33:19,744 Node[0] Epoch[27] Batch [50]	Speed: 20.46 samples/sec	Train-top_k_accuracy_10=0.700600
+2016-11-15 16:33:19,744 Node[0] Epoch[27] Batch [50]	Speed: 20.46 samples/sec	Train-top_k_accuracy_20=0.847800
+2016-11-15 16:33:54,550 Node[0] Epoch[27] Resetting Data Iterator
+2016-11-15 16:33:54,550 Node[0] Epoch[27] Time cost=284.149
+2016-11-15 16:34:07,428 Node[0] Epoch[27] Validation-accuracy=0.302000
+2016-11-15 16:34:07,429 Node[0] Epoch[27] Validation-top_k_accuracy_5=0.613600
+2016-11-15 16:34:07,429 Node[0] Epoch[27] Validation-top_k_accuracy_10=0.772400
+2016-11-15 16:34:07,429 Node[0] Epoch[27] Validation-top_k_accuracy_20=0.895200
+2016-11-15 16:38:16,108 Node[0] Epoch[28] Batch [50]	Speed: 20.52 samples/sec	Train-accuracy=0.238800
+2016-11-15 16:38:16,108 Node[0] Epoch[28] Batch [50]	Speed: 20.52 samples/sec	Train-top_k_accuracy_5=0.555200
+2016-11-15 16:38:16,108 Node[0] Epoch[28] Batch [50]	Speed: 20.52 samples/sec	Train-top_k_accuracy_10=0.715400
+2016-11-15 16:38:16,108 Node[0] Epoch[28] Batch [50]	Speed: 20.52 samples/sec	Train-top_k_accuracy_20=0.856800
+2016-11-15 16:38:55,835 Node[0] Epoch[28] Resetting Data Iterator
+2016-11-15 16:38:55,835 Node[0] Epoch[28] Time cost=288.406
+2016-11-15 16:39:08,739 Node[0] Epoch[28] Validation-accuracy=0.317200
+2016-11-15 16:39:08,739 Node[0] Epoch[28] Validation-top_k_accuracy_5=0.623200
+2016-11-15 16:39:08,739 Node[0] Epoch[28] Validation-top_k_accuracy_10=0.780000
+2016-11-15 16:39:08,739 Node[0] Epoch[28] Validation-top_k_accuracy_20=0.908000
+2016-11-15 16:43:17,929 Node[0] Epoch[29] Batch [50]	Speed: 20.47 samples/sec	Train-accuracy=0.246800
+2016-11-15 16:43:17,929 Node[0] Epoch[29] Batch [50]	Speed: 20.47 samples/sec	Train-top_k_accuracy_5=0.556600
+2016-11-15 16:43:17,929 Node[0] Epoch[29] Batch [50]	Speed: 20.47 samples/sec	Train-top_k_accuracy_10=0.722200
+2016-11-15 16:43:17,929 Node[0] Epoch[29] Batch [50]	Speed: 20.47 samples/sec	Train-top_k_accuracy_20=0.862200
+2016-11-15 16:43:57,777 Node[0] Epoch[29] Resetting Data Iterator
+2016-11-15 16:43:57,777 Node[0] Epoch[29] Time cost=289.038
+2016-11-15 16:44:10,652 Node[0] Epoch[29] Validation-accuracy=0.332400
+2016-11-15 16:44:10,652 Node[0] Epoch[29] Validation-top_k_accuracy_5=0.642400
+2016-11-15 16:44:10,652 Node[0] Epoch[29] Validation-top_k_accuracy_10=0.792000
+2016-11-15 16:44:10,652 Node[0] Epoch[29] Validation-top_k_accuracy_20=0.908400
+2016-11-15 16:48:19,225 Node[0] Epoch[30] Batch [50]	Speed: 20.53 samples/sec	Train-accuracy=0.253600
+2016-11-15 16:48:19,225 Node[0] Epoch[30] Batch [50]	Speed: 20.53 samples/sec	Train-top_k_accuracy_5=0.579200
+2016-11-15 16:48:19,225 Node[0] Epoch[30] Batch [50]	Speed: 20.53 samples/sec	Train-top_k_accuracy_10=0.724400
+2016-11-15 16:48:19,225 Node[0] Epoch[30] Batch [50]	Speed: 20.53 samples/sec	Train-top_k_accuracy_20=0.863800
+2016-11-15 16:48:59,143 Node[0] Epoch[30] Resetting Data Iterator
+2016-11-15 16:48:59,143 Node[0] Epoch[30] Time cost=288.491
+2016-11-15 16:49:12,213 Node[0] Epoch[30] Validation-accuracy=0.336400
+2016-11-15 16:49:12,213 Node[0] Epoch[30] Validation-top_k_accuracy_5=0.640800
+2016-11-15 16:49:12,213 Node[0] Epoch[30] Validation-top_k_accuracy_10=0.792800
+2016-11-15 16:49:12,213 Node[0] Epoch[30] Validation-top_k_accuracy_20=0.907600
+2016-11-15 16:53:21,118 Node[0] Epoch[31] Batch [50]	Speed: 20.50 samples/sec	Train-accuracy=0.272600
+2016-11-15 16:53:21,118 Node[0] Epoch[31] Batch [50]	Speed: 20.50 samples/sec	Train-top_k_accuracy_5=0.588800
+2016-11-15 16:53:21,118 Node[0] Epoch[31] Batch [50]	Speed: 20.50 samples/sec	Train-top_k_accuracy_10=0.738800
+2016-11-15 16:53:21,118 Node[0] Epoch[31] Batch [50]	Speed: 20.50 samples/sec	Train-top_k_accuracy_20=0.872600
+2016-11-15 16:53:56,158 Node[0] Epoch[31] Resetting Data Iterator
+2016-11-15 16:53:56,158 Node[0] Epoch[31] Time cost=283.945
+2016-11-15 16:54:09,173 Node[0] Epoch[31] Validation-accuracy=0.339200
+2016-11-15 16:54:09,173 Node[0] Epoch[31] Validation-top_k_accuracy_5=0.638800
+2016-11-15 16:54:09,173 Node[0] Epoch[31] Validation-top_k_accuracy_10=0.790400
+2016-11-15 16:54:09,173 Node[0] Epoch[31] Validation-top_k_accuracy_20=0.906800
+2016-11-15 16:58:17,548 Node[0] Epoch[32] Batch [50]	Speed: 20.55 samples/sec	Train-accuracy=0.281200
+2016-11-15 16:58:17,548 Node[0] Epoch[32] Batch [50]	Speed: 20.55 samples/sec	Train-top_k_accuracy_5=0.612000
+2016-11-15 16:58:17,548 Node[0] Epoch[32] Batch [50]	Speed: 20.55 samples/sec	Train-top_k_accuracy_10=0.758000
+2016-11-15 16:58:17,548 Node[0] Epoch[32] Batch [50]	Speed: 20.55 samples/sec	Train-top_k_accuracy_20=0.879200
+2016-11-15 16:58:57,265 Node[0] Epoch[32] Resetting Data Iterator
+2016-11-15 16:58:57,265 Node[0] Epoch[32] Time cost=288.092
+2016-11-15 16:59:10,368 Node[0] Epoch[32] Validation-accuracy=0.323600
+2016-11-15 16:59:10,368 Node[0] Epoch[32] Validation-top_k_accuracy_5=0.639200
+2016-11-15 16:59:10,368 Node[0] Epoch[32] Validation-top_k_accuracy_10=0.793600
+2016-11-15 16:59:10,368 Node[0] Epoch[32] Validation-top_k_accuracy_20=0.907200
+2016-11-15 17:03:18,967 Node[0] Epoch[33] Batch [50]	Speed: 20.52 samples/sec	Train-accuracy=0.284200
+2016-11-15 17:03:18,967 Node[0] Epoch[33] Batch [50]	Speed: 20.52 samples/sec	Train-top_k_accuracy_5=0.613600
+2016-11-15 17:03:18,967 Node[0] Epoch[33] Batch [50]	Speed: 20.52 samples/sec	Train-top_k_accuracy_10=0.758200
+2016-11-15 17:03:18,967 Node[0] Epoch[33] Batch [50]	Speed: 20.52 samples/sec	Train-top_k_accuracy_20=0.882000
+2016-11-15 17:03:58,610 Node[0] Epoch[33] Resetting Data Iterator
+2016-11-15 17:03:58,610 Node[0] Epoch[33] Time cost=288.242
+2016-11-15 17:04:11,593 Node[0] Epoch[33] Validation-accuracy=0.320800
+2016-11-15 17:04:11,594 Node[0] Epoch[33] Validation-top_k_accuracy_5=0.655200
+2016-11-15 17:04:11,594 Node[0] Epoch[33] Validation-top_k_accuracy_10=0.793200
+2016-11-15 17:04:11,594 Node[0] Epoch[33] Validation-top_k_accuracy_20=0.908800
+2016-11-15 17:08:20,081 Node[0] Epoch[34] Batch [50]	Speed: 20.54 samples/sec	Train-accuracy=0.294400
+2016-11-15 17:08:20,081 Node[0] Epoch[34] Batch [50]	Speed: 20.54 samples/sec	Train-top_k_accuracy_5=0.624800
+2016-11-15 17:08:20,081 Node[0] Epoch[34] Batch [50]	Speed: 20.54 samples/sec	Train-top_k_accuracy_10=0.774000
+2016-11-15 17:08:20,081 Node[0] Epoch[34] Batch [50]	Speed: 20.54 samples/sec	Train-top_k_accuracy_20=0.898000
+2016-11-15 17:08:59,926 Node[0] Epoch[34] Resetting Data Iterator
+2016-11-15 17:08:59,926 Node[0] Epoch[34] Time cost=288.333
+2016-11-15 17:09:12,883 Node[0] Epoch[34] Validation-accuracy=0.325600
+2016-11-15 17:09:12,884 Node[0] Epoch[34] Validation-top_k_accuracy_5=0.648800
+2016-11-15 17:09:12,884 Node[0] Epoch[34] Validation-top_k_accuracy_10=0.797200
+2016-11-15 17:09:12,884 Node[0] Epoch[34] Validation-top_k_accuracy_20=0.907600
+2016-11-15 17:13:21,407 Node[0] Epoch[35] Batch [50]	Speed: 20.53 samples/sec	Train-accuracy=0.320800
+2016-11-15 17:13:21,407 Node[0] Epoch[35] Batch [50]	Speed: 20.53 samples/sec	Train-top_k_accuracy_5=0.635600
+2016-11-15 17:13:21,407 Node[0] Epoch[35] Batch [50]	Speed: 20.53 samples/sec	Train-top_k_accuracy_10=0.768200
+2016-11-15 17:13:21,407 Node[0] Epoch[35] Batch [50]	Speed: 20.53 samples/sec	Train-top_k_accuracy_20=0.891400
+2016-11-15 17:14:01,290 Node[0] Epoch[35] Resetting Data Iterator
+2016-11-15 17:14:01,291 Node[0] Epoch[35] Time cost=288.407
+2016-11-15 17:14:14,251 Node[0] Epoch[35] Validation-accuracy=0.337600
+2016-11-15 17:14:14,251 Node[0] Epoch[35] Validation-top_k_accuracy_5=0.656800
+2016-11-15 17:14:14,251 Node[0] Epoch[35] Validation-top_k_accuracy_10=0.801600
+2016-11-15 17:14:14,251 Node[0] Epoch[35] Validation-top_k_accuracy_20=0.908800
+2016-11-15 17:18:23,076 Node[0] Epoch[36] Batch [50]	Speed: 20.51 samples/sec	Train-accuracy=0.326400
+2016-11-15 17:18:23,077 Node[0] Epoch[36] Batch [50]	Speed: 20.51 samples/sec	Train-top_k_accuracy_5=0.646800
+2016-11-15 17:18:23,077 Node[0] Epoch[36] Batch [50]	Speed: 20.51 samples/sec	Train-top_k_accuracy_10=0.786200
+2016-11-15 17:18:23,077 Node[0] Epoch[36] Batch [50]	Speed: 20.51 samples/sec	Train-top_k_accuracy_20=0.900600
+2016-11-15 17:18:57,892 Node[0] Epoch[36] Resetting Data Iterator
+2016-11-15 17:18:57,892 Node[0] Epoch[36] Time cost=283.641
+2016-11-15 17:19:10,803 Node[0] Epoch[36] Validation-accuracy=0.336800
+2016-11-15 17:19:10,803 Node[0] Epoch[36] Validation-top_k_accuracy_5=0.655200
+2016-11-15 17:19:10,803 Node[0] Epoch[36] Validation-top_k_accuracy_10=0.804000
+2016-11-15 17:19:10,803 Node[0] Epoch[36] Validation-top_k_accuracy_20=0.907600
+2016-11-15 17:23:19,102 Node[0] Epoch[37] Batch [50]	Speed: 20.55 samples/sec	Train-accuracy=0.332200
+2016-11-15 17:23:19,102 Node[0] Epoch[37] Batch [50]	Speed: 20.55 samples/sec	Train-top_k_accuracy_5=0.644200
+2016-11-15 17:23:19,102 Node[0] Epoch[37] Batch [50]	Speed: 20.55 samples/sec	Train-top_k_accuracy_10=0.782800
+2016-11-15 17:23:19,102 Node[0] Epoch[37] Batch [50]	Speed: 20.55 samples/sec	Train-top_k_accuracy_20=0.893400
+2016-11-15 17:23:59,095 Node[0] Epoch[37] Resetting Data Iterator
+2016-11-15 17:23:59,095 Node[0] Epoch[37] Time cost=288.292
+2016-11-15 17:24:12,155 Node[0] Epoch[37] Validation-accuracy=0.339600
+2016-11-15 17:24:12,155 Node[0] Epoch[37] Validation-top_k_accuracy_5=0.669600
+2016-11-15 17:24:12,155 Node[0] Epoch[37] Validation-top_k_accuracy_10=0.800400
+2016-11-15 17:24:12,155 Node[0] Epoch[37] Validation-top_k_accuracy_20=0.908800
+2016-11-15 17:28:21,069 Node[0] Epoch[38] Batch [50]	Speed: 20.50 samples/sec	Train-accuracy=0.340200
+2016-11-15 17:28:21,069 Node[0] Epoch[38] Batch [50]	Speed: 20.50 samples/sec	Train-top_k_accuracy_5=0.644800
+2016-11-15 17:28:21,070 Node[0] Epoch[38] Batch [50]	Speed: 20.50 samples/sec	Train-top_k_accuracy_10=0.788800
+2016-11-15 17:28:21,070 Node[0] Epoch[38] Batch [50]	Speed: 20.50 samples/sec	Train-top_k_accuracy_20=0.897800
+2016-11-15 17:29:01,013 Node[0] Epoch[38] Resetting Data Iterator
+2016-11-15 17:29:01,013 Node[0] Epoch[38] Time cost=288.858
+2016-11-15 17:29:13,896 Node[0] Epoch[38] Validation-accuracy=0.346800
+2016-11-15 17:29:13,896 Node[0] Epoch[38] Validation-top_k_accuracy_5=0.665200
+2016-11-15 17:29:13,896 Node[0] Epoch[38] Validation-top_k_accuracy_10=0.803600
+2016-11-15 17:29:13,896 Node[0] Epoch[38] Validation-top_k_accuracy_20=0.904400
+2016-11-15 17:33:22,794 Node[0] Epoch[39] Batch [50]	Speed: 20.50 samples/sec	Train-accuracy=0.353400
+2016-11-15 17:33:22,794 Node[0] Epoch[39] Batch [50]	Speed: 20.50 samples/sec	Train-top_k_accuracy_5=0.663000
+2016-11-15 17:33:22,794 Node[0] Epoch[39] Batch [50]	Speed: 20.50 samples/sec	Train-top_k_accuracy_10=0.800400
+2016-11-15 17:33:22,794 Node[0] Epoch[39] Batch [50]	Speed: 20.50 samples/sec	Train-top_k_accuracy_20=0.906800
+2016-11-15 17:34:02,867 Node[0] Epoch[39] Resetting Data Iterator
+2016-11-15 17:34:02,867 Node[0] Epoch[39] Time cost=288.971
+2016-11-15 17:34:15,787 Node[0] Epoch[39] Validation-accuracy=0.323600
+2016-11-15 17:34:15,787 Node[0] Epoch[39] Validation-top_k_accuracy_5=0.648400
+2016-11-15 17:34:15,787 Node[0] Epoch[39] Validation-top_k_accuracy_10=0.782800
+2016-11-15 17:34:15,787 Node[0] Epoch[39] Validation-top_k_accuracy_20=0.904800
+2016-11-15 17:38:25,334 Node[0] Epoch[40] Batch [50]	Speed: 20.44 samples/sec	Train-accuracy=0.342000
+2016-11-15 17:38:25,334 Node[0] Epoch[40] Batch [50]	Speed: 20.44 samples/sec	Train-top_k_accuracy_5=0.667800
+2016-11-15 17:38:25,334 Node[0] Epoch[40] Batch [50]	Speed: 20.44 samples/sec	Train-top_k_accuracy_10=0.804800
+2016-11-15 17:38:25,334 Node[0] Epoch[40] Batch [50]	Speed: 20.44 samples/sec	Train-top_k_accuracy_20=0.909200
+2016-11-15 17:39:00,279 Node[0] Epoch[40] Resetting Data Iterator
+2016-11-15 17:39:00,279 Node[0] Epoch[40] Time cost=284.492
+2016-11-15 17:39:13,142 Node[0] Epoch[40] Validation-accuracy=0.364800
+2016-11-15 17:39:13,143 Node[0] Epoch[40] Validation-top_k_accuracy_5=0.675600
+2016-11-15 17:39:13,143 Node[0] Epoch[40] Validation-top_k_accuracy_10=0.813200
+2016-11-15 17:39:13,143 Node[0] Epoch[40] Validation-top_k_accuracy_20=0.912000
+2016-11-15 17:43:22,165 Node[0] Epoch[41] Batch [50]	Speed: 20.49 samples/sec	Train-accuracy=0.364200
+2016-11-15 17:43:22,166 Node[0] Epoch[41] Batch [50]	Speed: 20.49 samples/sec	Train-top_k_accuracy_5=0.668000
+2016-11-15 17:43:22,166 Node[0] Epoch[41] Batch [50]	Speed: 20.49 samples/sec	Train-top_k_accuracy_10=0.802000
+2016-11-15 17:43:22,166 Node[0] Epoch[41] Batch [50]	Speed: 20.49 samples/sec	Train-top_k_accuracy_20=0.907400
+2016-11-15 17:44:02,130 Node[0] Epoch[41] Resetting Data Iterator
+2016-11-15 17:44:02,130 Node[0] Epoch[41] Time cost=288.987
+2016-11-15 17:44:15,075 Node[0] Epoch[41] Validation-accuracy=0.374800
+2016-11-15 17:44:15,075 Node[0] Epoch[41] Validation-top_k_accuracy_5=0.684000
+2016-11-15 17:44:15,075 Node[0] Epoch[41] Validation-top_k_accuracy_10=0.809200
+2016-11-15 17:44:15,075 Node[0] Epoch[41] Validation-top_k_accuracy_20=0.912400
+2016-11-15 17:48:23,656 Node[0] Epoch[42] Batch [50]	Speed: 20.53 samples/sec	Train-accuracy=0.379800
+2016-11-15 17:48:23,657 Node[0] Epoch[42] Batch [50]	Speed: 20.53 samples/sec	Train-top_k_accuracy_5=0.681200
+2016-11-15 17:48:23,657 Node[0] Epoch[42] Batch [50]	Speed: 20.53 samples/sec	Train-top_k_accuracy_10=0.807800
+2016-11-15 17:48:23,657 Node[0] Epoch[42] Batch [50]	Speed: 20.53 samples/sec	Train-top_k_accuracy_20=0.907600
+2016-11-15 17:49:03,809 Node[0] Epoch[42] Resetting Data Iterator
+2016-11-15 17:49:03,810 Node[0] Epoch[42] Time cost=288.735
+2016-11-15 17:49:16,758 Node[0] Epoch[42] Validation-accuracy=0.385200
+2016-11-15 17:49:16,758 Node[0] Epoch[42] Validation-top_k_accuracy_5=0.691200
+2016-11-15 17:49:16,758 Node[0] Epoch[42] Validation-top_k_accuracy_10=0.817600
+2016-11-15 17:49:16,758 Node[0] Epoch[42] Validation-top_k_accuracy_20=0.913200
+2016-11-15 17:53:25,543 Node[0] Epoch[43] Batch [50]	Speed: 20.51 samples/sec	Train-accuracy=0.383000
+2016-11-15 17:53:25,543 Node[0] Epoch[43] Batch [50]	Speed: 20.51 samples/sec	Train-top_k_accuracy_5=0.686800
+2016-11-15 17:53:25,543 Node[0] Epoch[43] Batch [50]	Speed: 20.51 samples/sec	Train-top_k_accuracy_10=0.809800
+2016-11-15 17:53:25,543 Node[0] Epoch[43] Batch [50]	Speed: 20.51 samples/sec	Train-top_k_accuracy_20=0.915400
+2016-11-15 17:54:05,230 Node[0] Epoch[43] Resetting Data Iterator
+2016-11-15 17:54:05,230 Node[0] Epoch[43] Time cost=288.472
+2016-11-15 17:54:18,131 Node[0] Epoch[43] Validation-accuracy=0.391200
+2016-11-15 17:54:18,132 Node[0] Epoch[43] Validation-top_k_accuracy_5=0.698800
+2016-11-15 17:54:18,132 Node[0] Epoch[43] Validation-top_k_accuracy_10=0.827200
+2016-11-15 17:54:18,132 Node[0] Epoch[43] Validation-top_k_accuracy_20=0.919600
+2016-11-15 17:58:26,904 Node[0] Epoch[44] Batch [50]	Speed: 20.51 samples/sec	Train-accuracy=0.380600
+2016-11-15 17:58:26,904 Node[0] Epoch[44] Batch [50]	Speed: 20.51 samples/sec	Train-top_k_accuracy_5=0.691400
+2016-11-15 17:58:26,905 Node[0] Epoch[44] Batch [50]	Speed: 20.51 samples/sec	Train-top_k_accuracy_10=0.807400
+2016-11-15 17:58:26,905 Node[0] Epoch[44] Batch [50]	Speed: 20.51 samples/sec	Train-top_k_accuracy_20=0.914000
+2016-11-15 17:59:06,684 Node[0] Epoch[44] Resetting Data Iterator
+2016-11-15 17:59:06,684 Node[0] Epoch[44] Time cost=288.552
+2016-11-15 17:59:19,558 Node[0] Epoch[44] Validation-accuracy=0.395200
+2016-11-15 17:59:19,558 Node[0] Epoch[44] Validation-top_k_accuracy_5=0.703600
+2016-11-15 17:59:19,558 Node[0] Epoch[44] Validation-top_k_accuracy_10=0.832800
+2016-11-15 17:59:19,558 Node[0] Epoch[44] Validation-top_k_accuracy_20=0.917600
+2016-11-15 18:03:28,357 Node[0] Epoch[45] Batch [50]	Speed: 20.50 samples/sec	Train-accuracy=0.387000
+2016-11-15 18:03:28,358 Node[0] Epoch[45] Batch [50]	Speed: 20.50 samples/sec	Train-top_k_accuracy_5=0.700200
+2016-11-15 18:03:28,358 Node[0] Epoch[45] Batch [50]	Speed: 20.50 samples/sec	Train-top_k_accuracy_10=0.824200
+2016-11-15 18:03:28,358 Node[0] Epoch[45] Batch [50]	Speed: 20.50 samples/sec	Train-top_k_accuracy_20=0.923600
+2016-11-15 18:04:03,384 Node[0] Epoch[45] Resetting Data Iterator
+2016-11-15 18:04:03,384 Node[0] Epoch[45] Time cost=283.825
+2016-11-15 18:04:16,294 Node[0] Epoch[45] Validation-accuracy=0.370800
+2016-11-15 18:04:16,294 Node[0] Epoch[45] Validation-top_k_accuracy_5=0.712000
+2016-11-15 18:04:16,294 Node[0] Epoch[45] Validation-top_k_accuracy_10=0.839200
+2016-11-15 18:04:16,294 Node[0] Epoch[45] Validation-top_k_accuracy_20=0.924800
+2016-11-15 18:08:25,874 Node[0] Epoch[46] Batch [50]	Speed: 20.44 samples/sec	Train-accuracy=0.398000
+2016-11-15 18:08:25,874 Node[0] Epoch[46] Batch [50]	Speed: 20.44 samples/sec	Train-top_k_accuracy_5=0.708200
+2016-11-15 18:08:25,874 Node[0] Epoch[46] Batch [50]	Speed: 20.44 samples/sec	Train-top_k_accuracy_10=0.829800
+2016-11-15 18:08:25,874 Node[0] Epoch[46] Batch [50]	Speed: 20.44 samples/sec	Train-top_k_accuracy_20=0.931800
+2016-11-15 18:09:05,696 Node[0] Epoch[46] Resetting Data Iterator
+2016-11-15 18:09:05,696 Node[0] Epoch[46] Time cost=289.402
+2016-11-15 18:09:18,625 Node[0] Epoch[46] Validation-accuracy=0.371200
+2016-11-15 18:09:18,625 Node[0] Epoch[46] Validation-top_k_accuracy_5=0.715600
+2016-11-15 18:09:18,625 Node[0] Epoch[46] Validation-top_k_accuracy_10=0.843200
+2016-11-15 18:09:18,625 Node[0] Epoch[46] Validation-top_k_accuracy_20=0.924400
+2016-11-15 18:13:25,666 Node[0] Epoch[47] Batch [50]	Speed: 20.66 samples/sec	Train-accuracy=0.386200
+2016-11-15 18:13:25,666 Node[0] Epoch[47] Batch [50]	Speed: 20.66 samples/sec	Train-top_k_accuracy_5=0.706800
+2016-11-15 18:13:25,666 Node[0] Epoch[47] Batch [50]	Speed: 20.66 samples/sec	Train-top_k_accuracy_10=0.831400
+2016-11-15 18:13:25,667 Node[0] Epoch[47] Batch [50]	Speed: 20.66 samples/sec	Train-top_k_accuracy_20=0.928800
+2016-11-15 18:14:04,873 Node[0] Epoch[47] Resetting Data Iterator
+2016-11-15 18:14:04,873 Node[0] Epoch[47] Time cost=286.248
+2016-11-15 18:14:17,790 Node[0] Epoch[47] Validation-accuracy=0.390800
+2016-11-15 18:14:17,791 Node[0] Epoch[47] Validation-top_k_accuracy_5=0.719600
+2016-11-15 18:14:17,791 Node[0] Epoch[47] Validation-top_k_accuracy_10=0.841600
+2016-11-15 18:14:17,791 Node[0] Epoch[47] Validation-top_k_accuracy_20=0.930400
+2016-11-15 18:18:21,561 Node[0] Epoch[48] Batch [50]	Speed: 20.93 samples/sec	Train-accuracy=0.402200
+2016-11-15 18:18:21,561 Node[0] Epoch[48] Batch [50]	Speed: 20.93 samples/sec	Train-top_k_accuracy_5=0.713800
+2016-11-15 18:18:21,561 Node[0] Epoch[48] Batch [50]	Speed: 20.93 samples/sec	Train-top_k_accuracy_10=0.833000
+2016-11-15 18:18:21,561 Node[0] Epoch[48] Batch [50]	Speed: 20.93 samples/sec	Train-top_k_accuracy_20=0.925400
+2016-11-15 18:19:00,767 Node[0] Epoch[48] Resetting Data Iterator
+2016-11-15 18:19:00,768 Node[0] Epoch[48] Time cost=282.977
+2016-11-15 18:19:13,838 Node[0] Epoch[48] Validation-accuracy=0.399600
+2016-11-15 18:19:13,838 Node[0] Epoch[48] Validation-top_k_accuracy_5=0.727600
+2016-11-15 18:19:13,838 Node[0] Epoch[48] Validation-top_k_accuracy_10=0.841600
+2016-11-15 18:19:13,838 Node[0] Epoch[48] Validation-top_k_accuracy_20=0.928400
+2016-11-15 18:23:17,874 Node[0] Epoch[49] Batch [50]	Speed: 20.91 samples/sec	Train-accuracy=0.412400
+2016-11-15 18:23:17,874 Node[0] Epoch[49] Batch [50]	Speed: 20.91 samples/sec	Train-top_k_accuracy_5=0.725000
+2016-11-15 18:23:17,874 Node[0] Epoch[49] Batch [50]	Speed: 20.91 samples/sec	Train-top_k_accuracy_10=0.843800
+2016-11-15 18:23:17,874 Node[0] Epoch[49] Batch [50]	Speed: 20.91 samples/sec	Train-top_k_accuracy_20=0.931800
+2016-11-15 18:23:52,414 Node[0] Epoch[49] Resetting Data Iterator
+2016-11-15 18:23:52,414 Node[0] Epoch[49] Time cost=278.576
+2016-11-15 18:24:05,558 Node[0] Epoch[49] Validation-accuracy=0.404000
+2016-11-15 18:24:05,558 Node[0] Epoch[49] Validation-top_k_accuracy_5=0.711200
+2016-11-15 18:24:05,558 Node[0] Epoch[49] Validation-top_k_accuracy_10=0.841200
+2016-11-15 18:24:05,558 Node[0] Epoch[49] Validation-top_k_accuracy_20=0.919200
+2016-11-15 18:28:09,144 Node[0] Epoch[50] Batch [50]	Speed: 20.94 samples/sec	Train-accuracy=0.415400
+2016-11-15 18:28:09,144 Node[0] Epoch[50] Batch [50]	Speed: 20.94 samples/sec	Train-top_k_accuracy_5=0.726600
+2016-11-15 18:28:09,144 Node[0] Epoch[50] Batch [50]	Speed: 20.94 samples/sec	Train-top_k_accuracy_10=0.848200
+2016-11-15 18:28:09,144 Node[0] Epoch[50] Batch [50]	Speed: 20.94 samples/sec	Train-top_k_accuracy_20=0.933600
+2016-11-15 18:28:48,256 Node[0] Epoch[50] Resetting Data Iterator
+2016-11-15 18:28:48,256 Node[0] Epoch[50] Time cost=282.698
+2016-11-15 18:29:01,401 Node[0] Epoch[50] Validation-accuracy=0.388400
+2016-11-15 18:29:01,401 Node[0] Epoch[50] Validation-top_k_accuracy_5=0.700800
+2016-11-15 18:29:01,401 Node[0] Epoch[50] Validation-top_k_accuracy_10=0.824400
+2016-11-15 18:29:01,401 Node[0] Epoch[50] Validation-top_k_accuracy_20=0.921200
+2016-11-15 18:33:04,543 Node[0] Epoch[51] Batch [50]	Speed: 20.98 samples/sec	Train-accuracy=0.420800
+2016-11-15 18:33:04,544 Node[0] Epoch[51] Batch [50]	Speed: 20.98 samples/sec	Train-top_k_accuracy_5=0.734600
+2016-11-15 18:33:04,544 Node[0] Epoch[51] Batch [50]	Speed: 20.98 samples/sec	Train-top_k_accuracy_10=0.851200
+2016-11-15 18:33:04,544 Node[0] Epoch[51] Batch [50]	Speed: 20.98 samples/sec	Train-top_k_accuracy_20=0.928000
+2016-11-15 18:33:43,312 Node[0] Epoch[51] Resetting Data Iterator
+2016-11-15 18:33:43,312 Node[0] Epoch[51] Time cost=281.911
+2016-11-15 18:33:56,245 Node[0] Epoch[51] Validation-accuracy=0.385200
+2016-11-15 18:33:56,245 Node[0] Epoch[51] Validation-top_k_accuracy_5=0.709200
+2016-11-15 18:33:56,245 Node[0] Epoch[51] Validation-top_k_accuracy_10=0.832000
+2016-11-15 18:33:56,246 Node[0] Epoch[51] Validation-top_k_accuracy_20=0.930400
+2016-11-15 18:38:00,049 Node[0] Epoch[52] Batch [50]	Speed: 20.93 samples/sec	Train-accuracy=0.432800
+2016-11-15 18:38:00,049 Node[0] Epoch[52] Batch [50]	Speed: 20.93 samples/sec	Train-top_k_accuracy_5=0.751800
+2016-11-15 18:38:00,049 Node[0] Epoch[52] Batch [50]	Speed: 20.93 samples/sec	Train-top_k_accuracy_10=0.866200
+2016-11-15 18:38:00,049 Node[0] Epoch[52] Batch [50]	Speed: 20.93 samples/sec	Train-top_k_accuracy_20=0.937000
+2016-11-15 18:38:39,273 Node[0] Epoch[52] Resetting Data Iterator
+2016-11-15 18:38:39,274 Node[0] Epoch[52] Time cost=283.028
+2016-11-15 18:38:52,203 Node[0] Epoch[52] Validation-accuracy=0.377200
+2016-11-15 18:38:52,203 Node[0] Epoch[52] Validation-top_k_accuracy_5=0.700400
+2016-11-15 18:38:52,203 Node[0] Epoch[52] Validation-top_k_accuracy_10=0.826400
+2016-11-15 18:38:52,203 Node[0] Epoch[52] Validation-top_k_accuracy_20=0.922800
+2016-11-15 18:42:56,714 Node[0] Epoch[53] Batch [50]	Speed: 20.86 samples/sec	Train-accuracy=0.448600
+2016-11-15 18:42:56,715 Node[0] Epoch[53] Batch [50]	Speed: 20.86 samples/sec	Train-top_k_accuracy_5=0.749600
+2016-11-15 18:42:56,715 Node[0] Epoch[53] Batch [50]	Speed: 20.86 samples/sec	Train-top_k_accuracy_10=0.860400
+2016-11-15 18:42:56,715 Node[0] Epoch[53] Batch [50]	Speed: 20.86 samples/sec	Train-top_k_accuracy_20=0.943200
+2016-11-15 18:43:36,154 Node[0] Epoch[53] Resetting Data Iterator
+2016-11-15 18:43:36,154 Node[0] Epoch[53] Time cost=283.951
+2016-11-15 18:43:49,242 Node[0] Epoch[53] Validation-accuracy=0.402800
+2016-11-15 18:43:49,242 Node[0] Epoch[53] Validation-top_k_accuracy_5=0.717600
+2016-11-15 18:43:49,242 Node[0] Epoch[53] Validation-top_k_accuracy_10=0.840000
+2016-11-15 18:43:49,242 Node[0] Epoch[53] Validation-top_k_accuracy_20=0.931600
+2016-11-15 18:47:53,152 Node[0] Epoch[54] Batch [50]	Speed: 20.92 samples/sec	Train-accuracy=0.456600
+2016-11-15 18:47:53,153 Node[0] Epoch[54] Batch [50]	Speed: 20.92 samples/sec	Train-top_k_accuracy_5=0.755000
+2016-11-15 18:47:53,153 Node[0] Epoch[54] Batch [50]	Speed: 20.92 samples/sec	Train-top_k_accuracy_10=0.863000
+2016-11-15 18:47:53,153 Node[0] Epoch[54] Batch [50]	Speed: 20.92 samples/sec	Train-top_k_accuracy_20=0.944200
+2016-11-15 18:48:27,593 Node[0] Epoch[54] Resetting Data Iterator
+2016-11-15 18:48:27,593 Node[0] Epoch[54] Time cost=278.351
+2016-11-15 18:48:40,711 Node[0] Epoch[54] Validation-accuracy=0.398800
+2016-11-15 18:48:40,711 Node[0] Epoch[54] Validation-top_k_accuracy_5=0.704800
+2016-11-15 18:48:40,711 Node[0] Epoch[54] Validation-top_k_accuracy_10=0.831200
+2016-11-15 18:48:40,711 Node[0] Epoch[54] Validation-top_k_accuracy_20=0.923600
+2016-11-15 18:52:44,303 Node[0] Epoch[55] Batch [50]	Speed: 20.94 samples/sec	Train-accuracy=0.465000
+2016-11-15 18:52:44,304 Node[0] Epoch[55] Batch [50]	Speed: 20.94 samples/sec	Train-top_k_accuracy_5=0.761200
+2016-11-15 18:52:44,304 Node[0] Epoch[55] Batch [50]	Speed: 20.94 samples/sec	Train-top_k_accuracy_10=0.864400
+2016-11-15 18:52:44,304 Node[0] Epoch[55] Batch [50]	Speed: 20.94 samples/sec	Train-top_k_accuracy_20=0.941400
+2016-11-15 18:53:23,765 Node[0] Epoch[55] Resetting Data Iterator
+2016-11-15 18:53:23,765 Node[0] Epoch[55] Time cost=283.054
+2016-11-15 18:53:36,645 Node[0] Epoch[55] Validation-accuracy=0.410800
+2016-11-15 18:53:36,645 Node[0] Epoch[55] Validation-top_k_accuracy_5=0.728000
+2016-11-15 18:53:36,645 Node[0] Epoch[55] Validation-top_k_accuracy_10=0.851600
+2016-11-15 18:53:36,645 Node[0] Epoch[55] Validation-top_k_accuracy_20=0.935600
+2016-11-15 18:57:40,268 Node[0] Epoch[56] Batch [50]	Speed: 20.94 samples/sec	Train-accuracy=0.468800
+2016-11-15 18:57:40,269 Node[0] Epoch[56] Batch [50]	Speed: 20.94 samples/sec	Train-top_k_accuracy_5=0.772200
+2016-11-15 18:57:40,269 Node[0] Epoch[56] Batch [50]	Speed: 20.94 samples/sec	Train-top_k_accuracy_10=0.875000
+2016-11-15 18:57:40,269 Node[0] Epoch[56] Batch [50]	Speed: 20.94 samples/sec	Train-top_k_accuracy_20=0.952600
+2016-11-15 18:58:19,325 Node[0] Epoch[56] Resetting Data Iterator
+2016-11-15 18:58:19,326 Node[0] Epoch[56] Time cost=282.680
+2016-11-15 18:58:32,390 Node[0] Epoch[56] Validation-accuracy=0.408400
+2016-11-15 18:58:32,391 Node[0] Epoch[56] Validation-top_k_accuracy_5=0.728800
+2016-11-15 18:58:32,391 Node[0] Epoch[56] Validation-top_k_accuracy_10=0.849600
+2016-11-15 18:58:32,391 Node[0] Epoch[56] Validation-top_k_accuracy_20=0.930800
+2016-11-15 19:02:36,024 Node[0] Epoch[57] Batch [50]	Speed: 20.94 samples/sec	Train-accuracy=0.472400
+2016-11-15 19:02:36,025 Node[0] Epoch[57] Batch [50]	Speed: 20.94 samples/sec	Train-top_k_accuracy_5=0.763200
+2016-11-15 19:02:36,025 Node[0] Epoch[57] Batch [50]	Speed: 20.94 samples/sec	Train-top_k_accuracy_10=0.873600
+2016-11-15 19:02:36,025 Node[0] Epoch[57] Batch [50]	Speed: 20.94 samples/sec	Train-top_k_accuracy_20=0.947400
+2016-11-15 19:03:15,103 Node[0] Epoch[57] Resetting Data Iterator
+2016-11-15 19:03:15,103 Node[0] Epoch[57] Time cost=282.713
+2016-11-15 19:03:28,055 Node[0] Epoch[57] Validation-accuracy=0.430000
+2016-11-15 19:03:28,055 Node[0] Epoch[57] Validation-top_k_accuracy_5=0.746000
+2016-11-15 19:03:28,055 Node[0] Epoch[57] Validation-top_k_accuracy_10=0.869600
+2016-11-15 19:03:28,055 Node[0] Epoch[57] Validation-top_k_accuracy_20=0.947200
+2016-11-15 19:07:31,994 Node[0] Epoch[58] Batch [50]	Speed: 20.92 samples/sec	Train-accuracy=0.485400
+2016-11-15 19:07:31,994 Node[0] Epoch[58] Batch [50]	Speed: 20.92 samples/sec	Train-top_k_accuracy_5=0.788000
+2016-11-15 19:07:31,994 Node[0] Epoch[58] Batch [50]	Speed: 20.92 samples/sec	Train-top_k_accuracy_10=0.881600
+2016-11-15 19:07:31,995 Node[0] Epoch[58] Batch [50]	Speed: 20.92 samples/sec	Train-top_k_accuracy_20=0.953200
+2016-11-15 19:08:10,759 Node[0] Epoch[58] Resetting Data Iterator
+2016-11-15 19:08:10,759 Node[0] Epoch[58] Time cost=282.704
+2016-11-15 19:08:23,649 Node[0] Epoch[58] Validation-accuracy=0.434000
+2016-11-15 19:08:23,649 Node[0] Epoch[58] Validation-top_k_accuracy_5=0.747200
+2016-11-15 19:08:23,649 Node[0] Epoch[58] Validation-top_k_accuracy_10=0.862400
+2016-11-15 19:08:23,649 Node[0] Epoch[58] Validation-top_k_accuracy_20=0.940000
+2016-11-15 19:12:26,589 Node[0] Epoch[59] Batch [50]	Speed: 21.00 samples/sec	Train-accuracy=0.500000
+2016-11-15 19:12:26,589 Node[0] Epoch[59] Batch [50]	Speed: 21.00 samples/sec	Train-top_k_accuracy_5=0.781400
+2016-11-15 19:12:26,589 Node[0] Epoch[59] Batch [50]	Speed: 21.00 samples/sec	Train-top_k_accuracy_10=0.881200
+2016-11-15 19:12:26,589 Node[0] Epoch[59] Batch [50]	Speed: 21.00 samples/sec	Train-top_k_accuracy_20=0.949000
+2016-11-15 19:13:00,784 Node[0] Epoch[59] Resetting Data Iterator
+2016-11-15 19:13:00,785 Node[0] Epoch[59] Time cost=277.135
+2016-11-15 19:13:13,907 Node[0] Epoch[59] Validation-accuracy=0.424800
+2016-11-15 19:13:13,907 Node[0] Epoch[59] Validation-top_k_accuracy_5=0.733600
+2016-11-15 19:13:13,907 Node[0] Epoch[59] Validation-top_k_accuracy_10=0.858400
+2016-11-15 19:13:13,907 Node[0] Epoch[59] Validation-top_k_accuracy_20=0.940000
+2016-11-15 19:17:17,501 Node[0] Epoch[60] Batch [50]	Speed: 20.94 samples/sec	Train-accuracy=0.500200
+2016-11-15 19:17:17,501 Node[0] Epoch[60] Batch [50]	Speed: 20.94 samples/sec	Train-top_k_accuracy_5=0.792600
+2016-11-15 19:17:17,501 Node[0] Epoch[60] Batch [50]	Speed: 20.94 samples/sec	Train-top_k_accuracy_10=0.887000
+2016-11-15 19:17:17,502 Node[0] Epoch[60] Batch [50]	Speed: 20.94 samples/sec	Train-top_k_accuracy_20=0.956000
+2016-11-15 19:17:56,646 Node[0] Epoch[60] Resetting Data Iterator
+2016-11-15 19:17:56,646 Node[0] Epoch[60] Time cost=282.739
+2016-11-15 19:18:09,562 Node[0] Epoch[60] Validation-accuracy=0.426400
+2016-11-15 19:18:09,563 Node[0] Epoch[60] Validation-top_k_accuracy_5=0.746400
+2016-11-15 19:18:09,563 Node[0] Epoch[60] Validation-top_k_accuracy_10=0.862000
+2016-11-15 19:18:09,563 Node[0] Epoch[60] Validation-top_k_accuracy_20=0.940800
+2016-11-15 19:22:13,052 Node[0] Epoch[61] Batch [50]	Speed: 20.95 samples/sec	Train-accuracy=0.497600
+2016-11-15 19:22:13,052 Node[0] Epoch[61] Batch [50]	Speed: 20.95 samples/sec	Train-top_k_accuracy_5=0.796200
+2016-11-15 19:22:13,052 Node[0] Epoch[61] Batch [50]	Speed: 20.95 samples/sec	Train-top_k_accuracy_10=0.894200
+2016-11-15 19:22:13,052 Node[0] Epoch[61] Batch [50]	Speed: 20.95 samples/sec	Train-top_k_accuracy_20=0.957400
+2016-11-15 19:22:52,212 Node[0] Epoch[61] Resetting Data Iterator
+2016-11-15 19:22:52,212 Node[0] Epoch[61] Time cost=282.649
+2016-11-15 19:23:05,135 Node[0] Epoch[61] Validation-accuracy=0.460000
+2016-11-15 19:23:05,135 Node[0] Epoch[61] Validation-top_k_accuracy_5=0.761600
+2016-11-15 19:23:05,135 Node[0] Epoch[61] Validation-top_k_accuracy_10=0.877600
+2016-11-15 19:23:05,135 Node[0] Epoch[61] Validation-top_k_accuracy_20=0.948000
+2016-11-15 19:27:09,063 Node[0] Epoch[62] Batch [50]	Speed: 20.91 samples/sec	Train-accuracy=0.525800
+2016-11-15 19:27:09,063 Node[0] Epoch[62] Batch [50]	Speed: 20.91 samples/sec	Train-top_k_accuracy_5=0.815600
+2016-11-15 19:27:09,063 Node[0] Epoch[62] Batch [50]	Speed: 20.91 samples/sec	Train-top_k_accuracy_10=0.899600
+2016-11-15 19:27:09,063 Node[0] Epoch[62] Batch [50]	Speed: 20.91 samples/sec	Train-top_k_accuracy_20=0.962800
+2016-11-15 19:27:48,030 Node[0] Epoch[62] Resetting Data Iterator
+2016-11-15 19:27:48,031 Node[0] Epoch[62] Time cost=282.895
+2016-11-15 19:28:01,122 Node[0] Epoch[62] Validation-accuracy=0.474400
+2016-11-15 19:28:01,122 Node[0] Epoch[62] Validation-top_k_accuracy_5=0.768800
+2016-11-15 19:28:01,122 Node[0] Epoch[62] Validation-top_k_accuracy_10=0.874000
+2016-11-15 19:28:01,122 Node[0] Epoch[62] Validation-top_k_accuracy_20=0.948000
+2016-11-15 19:32:04,534 Node[0] Epoch[63] Batch [50]	Speed: 20.96 samples/sec	Train-accuracy=0.543000
+2016-11-15 19:32:04,534 Node[0] Epoch[63] Batch [50]	Speed: 20.96 samples/sec	Train-top_k_accuracy_5=0.814600
+2016-11-15 19:32:04,534 Node[0] Epoch[63] Batch [50]	Speed: 20.96 samples/sec	Train-top_k_accuracy_10=0.901400
+2016-11-15 19:32:04,535 Node[0] Epoch[63] Batch [50]	Speed: 20.96 samples/sec	Train-top_k_accuracy_20=0.961800
+2016-11-15 19:32:38,669 Node[0] Epoch[63] Resetting Data Iterator
+2016-11-15 19:32:38,670 Node[0] Epoch[63] Time cost=277.548
+2016-11-15 19:32:51,583 Node[0] Epoch[63] Validation-accuracy=0.473600
+2016-11-15 19:32:51,583 Node[0] Epoch[63] Validation-top_k_accuracy_5=0.775600
+2016-11-15 19:32:51,583 Node[0] Epoch[63] Validation-top_k_accuracy_10=0.880800
+2016-11-15 19:32:51,583 Node[0] Epoch[63] Validation-top_k_accuracy_20=0.944800
+2016-11-15 19:36:55,438 Node[0] Epoch[64] Batch [50]	Speed: 20.92 samples/sec	Train-accuracy=0.531200
+2016-11-15 19:36:55,438 Node[0] Epoch[64] Batch [50]	Speed: 20.92 samples/sec	Train-top_k_accuracy_5=0.815000
+2016-11-15 19:36:55,438 Node[0] Epoch[64] Batch [50]	Speed: 20.92 samples/sec	Train-top_k_accuracy_10=0.894000
+2016-11-15 19:36:55,438 Node[0] Epoch[64] Batch [50]	Speed: 20.92 samples/sec	Train-top_k_accuracy_20=0.955400
+2016-11-15 19:37:34,404 Node[0] Epoch[64] Resetting Data Iterator
+2016-11-15 19:37:34,404 Node[0] Epoch[64] Time cost=282.821
+2016-11-15 19:37:47,531 Node[0] Epoch[64] Validation-accuracy=0.483600
+2016-11-15 19:37:47,531 Node[0] Epoch[64] Validation-top_k_accuracy_5=0.778400
+2016-11-15 19:37:47,531 Node[0] Epoch[64] Validation-top_k_accuracy_10=0.880400
+2016-11-15 19:37:47,531 Node[0] Epoch[64] Validation-top_k_accuracy_20=0.951600
+2016-11-15 19:41:50,521 Node[0] Epoch[65] Batch [50]	Speed: 21.00 samples/sec	Train-accuracy=0.539600
+2016-11-15 19:41:50,521 Node[0] Epoch[65] Batch [50]	Speed: 21.00 samples/sec	Train-top_k_accuracy_5=0.825200
+2016-11-15 19:41:50,521 Node[0] Epoch[65] Batch [50]	Speed: 21.00 samples/sec	Train-top_k_accuracy_10=0.911000
+2016-11-15 19:41:50,521 Node[0] Epoch[65] Batch [50]	Speed: 21.00 samples/sec	Train-top_k_accuracy_20=0.967600
+2016-11-15 19:42:29,729 Node[0] Epoch[65] Resetting Data Iterator
+2016-11-15 19:42:29,729 Node[0] Epoch[65] Time cost=282.198
+2016-11-15 19:42:42,879 Node[0] Epoch[65] Validation-accuracy=0.488800
+2016-11-15 19:42:42,879 Node[0] Epoch[65] Validation-top_k_accuracy_5=0.789200
+2016-11-15 19:42:42,879 Node[0] Epoch[65] Validation-top_k_accuracy_10=0.890800
+2016-11-15 19:42:42,879 Node[0] Epoch[65] Validation-top_k_accuracy_20=0.954800
+2016-11-15 19:46:46,530 Node[0] Epoch[66] Batch [50]	Speed: 20.94 samples/sec	Train-accuracy=0.549000
+2016-11-15 19:46:46,530 Node[0] Epoch[66] Batch [50]	Speed: 20.94 samples/sec	Train-top_k_accuracy_5=0.831400
+2016-11-15 19:46:46,530 Node[0] Epoch[66] Batch [50]	Speed: 20.94 samples/sec	Train-top_k_accuracy_10=0.915800
+2016-11-15 19:46:46,530 Node[0] Epoch[66] Batch [50]	Speed: 20.94 samples/sec	Train-top_k_accuracy_20=0.966200
+2016-11-15 19:47:25,730 Node[0] Epoch[66] Resetting Data Iterator
+2016-11-15 19:47:25,731 Node[0] Epoch[66] Time cost=282.851
+2016-11-15 19:47:38,828 Node[0] Epoch[66] Validation-accuracy=0.504000
+2016-11-15 19:47:38,828 Node[0] Epoch[66] Validation-top_k_accuracy_5=0.790400
+2016-11-15 19:47:38,828 Node[0] Epoch[66] Validation-top_k_accuracy_10=0.891200
+2016-11-15 19:47:38,828 Node[0] Epoch[66] Validation-top_k_accuracy_20=0.954800
+2016-11-15 19:51:43,479 Node[0] Epoch[67] Batch [50]	Speed: 20.85 samples/sec	Train-accuracy=0.567200
+2016-11-15 19:51:43,479 Node[0] Epoch[67] Batch [50]	Speed: 20.85 samples/sec	Train-top_k_accuracy_5=0.834000
+2016-11-15 19:51:43,479 Node[0] Epoch[67] Batch [50]	Speed: 20.85 samples/sec	Train-top_k_accuracy_10=0.908200
+2016-11-15 19:51:43,479 Node[0] Epoch[67] Batch [50]	Speed: 20.85 samples/sec	Train-top_k_accuracy_20=0.967800
+2016-11-15 19:52:22,679 Node[0] Epoch[67] Resetting Data Iterator
+2016-11-15 19:52:22,679 Node[0] Epoch[67] Time cost=283.851
+2016-11-15 19:52:35,567 Node[0] Epoch[67] Validation-accuracy=0.496800
+2016-11-15 19:52:35,567 Node[0] Epoch[67] Validation-top_k_accuracy_5=0.779600
+2016-11-15 19:52:35,567 Node[0] Epoch[67] Validation-top_k_accuracy_10=0.889200
+2016-11-15 19:52:35,567 Node[0] Epoch[67] Validation-top_k_accuracy_20=0.952000
+2016-11-15 19:56:39,102 Node[0] Epoch[68] Batch [50]	Speed: 20.95 samples/sec	Train-accuracy=0.551800
+2016-11-15 19:56:39,102 Node[0] Epoch[68] Batch [50]	Speed: 20.95 samples/sec	Train-top_k_accuracy_5=0.832800
+2016-11-15 19:56:39,102 Node[0] Epoch[68] Batch [50]	Speed: 20.95 samples/sec	Train-top_k_accuracy_10=0.917000
+2016-11-15 19:56:39,102 Node[0] Epoch[68] Batch [50]	Speed: 20.95 samples/sec	Train-top_k_accuracy_20=0.969600
+2016-11-15 19:57:13,356 Node[0] Epoch[68] Resetting Data Iterator
+2016-11-15 19:57:13,357 Node[0] Epoch[68] Time cost=277.790
+2016-11-15 19:57:26,536 Node[0] Epoch[68] Validation-accuracy=0.509200
+2016-11-15 19:57:26,536 Node[0] Epoch[68] Validation-top_k_accuracy_5=0.794000
+2016-11-15 19:57:26,536 Node[0] Epoch[68] Validation-top_k_accuracy_10=0.888400
+2016-11-15 19:57:26,536 Node[0] Epoch[68] Validation-top_k_accuracy_20=0.957200
+2016-11-15 20:01:30,329 Node[0] Epoch[69] Batch [50]	Speed: 20.92 samples/sec	Train-accuracy=0.560600
+2016-11-15 20:01:30,329 Node[0] Epoch[69] Batch [50]	Speed: 20.92 samples/sec	Train-top_k_accuracy_5=0.846800
+2016-11-15 20:01:30,329 Node[0] Epoch[69] Batch [50]	Speed: 20.92 samples/sec	Train-top_k_accuracy_10=0.919200
+2016-11-15 20:01:30,329 Node[0] Epoch[69] Batch [50]	Speed: 20.92 samples/sec	Train-top_k_accuracy_20=0.970200
+2016-11-15 20:02:09,520 Node[0] Epoch[69] Resetting Data Iterator
+2016-11-15 20:02:09,520 Node[0] Epoch[69] Time cost=282.984
+2016-11-15 20:02:22,686 Node[0] Epoch[69] Validation-accuracy=0.520000
+2016-11-15 20:02:22,686 Node[0] Epoch[69] Validation-top_k_accuracy_5=0.798400
+2016-11-15 20:02:22,686 Node[0] Epoch[69] Validation-top_k_accuracy_10=0.892400
+2016-11-15 20:02:22,687 Node[0] Epoch[69] Validation-top_k_accuracy_20=0.958800
+2016-11-15 20:06:26,193 Node[0] Epoch[70] Batch [50]	Speed: 20.95 samples/sec	Train-accuracy=0.569800
+2016-11-15 20:06:26,193 Node[0] Epoch[70] Batch [50]	Speed: 20.95 samples/sec	Train-top_k_accuracy_5=0.840800
+2016-11-15 20:06:26,193 Node[0] Epoch[70] Batch [50]	Speed: 20.95 samples/sec	Train-top_k_accuracy_10=0.917600
+2016-11-15 20:06:26,194 Node[0] Epoch[70] Batch [50]	Speed: 20.95 samples/sec	Train-top_k_accuracy_20=0.970600
+2016-11-15 20:07:05,382 Node[0] Epoch[70] Resetting Data Iterator
+2016-11-15 20:07:05,383 Node[0] Epoch[70] Time cost=282.696
+2016-11-15 20:07:18,315 Node[0] Epoch[70] Validation-accuracy=0.523600
+2016-11-15 20:07:18,315 Node[0] Epoch[70] Validation-top_k_accuracy_5=0.788800
+2016-11-15 20:07:18,315 Node[0] Epoch[70] Validation-top_k_accuracy_10=0.888800
+2016-11-15 20:07:18,315 Node[0] Epoch[70] Validation-top_k_accuracy_20=0.960400
+2016-11-15 20:11:20,814 Node[0] Epoch[71] Batch [50]	Speed: 21.04 samples/sec	Train-accuracy=0.575200
+2016-11-15 20:11:20,814 Node[0] Epoch[71] Batch [50]	Speed: 21.04 samples/sec	Train-top_k_accuracy_5=0.845600
+2016-11-15 20:11:20,814 Node[0] Epoch[71] Batch [50]	Speed: 21.04 samples/sec	Train-top_k_accuracy_10=0.922000
+2016-11-15 20:11:20,814 Node[0] Epoch[71] Batch [50]	Speed: 21.04 samples/sec	Train-top_k_accuracy_20=0.974200
+2016-11-15 20:11:59,957 Node[0] Epoch[71] Resetting Data Iterator
+2016-11-15 20:11:59,957 Node[0] Epoch[71] Time cost=281.642
+2016-11-15 20:12:13,083 Node[0] Epoch[71] Validation-accuracy=0.537600
+2016-11-15 20:12:13,083 Node[0] Epoch[71] Validation-top_k_accuracy_5=0.807600
+2016-11-15 20:12:13,083 Node[0] Epoch[71] Validation-top_k_accuracy_10=0.899200
+2016-11-15 20:12:13,083 Node[0] Epoch[71] Validation-top_k_accuracy_20=0.962400
+2016-11-15 20:16:16,645 Node[0] Epoch[72] Batch [50]	Speed: 20.95 samples/sec	Train-accuracy=0.572400
+2016-11-15 20:16:16,645 Node[0] Epoch[72] Batch [50]	Speed: 20.95 samples/sec	Train-top_k_accuracy_5=0.852000
+2016-11-15 20:16:16,645 Node[0] Epoch[72] Batch [50]	Speed: 20.95 samples/sec	Train-top_k_accuracy_10=0.930800
+2016-11-15 20:16:16,645 Node[0] Epoch[72] Batch [50]	Speed: 20.95 samples/sec	Train-top_k_accuracy_20=0.974400
+2016-11-15 20:16:50,871 Node[0] Epoch[72] Resetting Data Iterator
+2016-11-15 20:16:50,871 Node[0] Epoch[72] Time cost=277.788
+2016-11-15 20:17:03,772 Node[0] Epoch[72] Validation-accuracy=0.530800
+2016-11-15 20:17:03,772 Node[0] Epoch[72] Validation-top_k_accuracy_5=0.803600
+2016-11-15 20:17:03,772 Node[0] Epoch[72] Validation-top_k_accuracy_10=0.896400
+2016-11-15 20:17:03,772 Node[0] Epoch[72] Validation-top_k_accuracy_20=0.960800
+2016-11-15 20:21:06,996 Node[0] Epoch[73] Batch [50]	Speed: 20.98 samples/sec	Train-accuracy=0.594600
+2016-11-15 20:21:06,996 Node[0] Epoch[73] Batch [50]	Speed: 20.98 samples/sec	Train-top_k_accuracy_5=0.852400
+2016-11-15 20:21:06,997 Node[0] Epoch[73] Batch [50]	Speed: 20.98 samples/sec	Train-top_k_accuracy_10=0.931200
+2016-11-15 20:21:06,997 Node[0] Epoch[73] Batch [50]	Speed: 20.98 samples/sec	Train-top_k_accuracy_20=0.976800
+2016-11-15 20:21:46,172 Node[0] Epoch[73] Resetting Data Iterator
+2016-11-15 20:21:46,172 Node[0] Epoch[73] Time cost=282.400
+2016-11-15 20:21:59,054 Node[0] Epoch[73] Validation-accuracy=0.534000
+2016-11-15 20:21:59,054 Node[0] Epoch[73] Validation-top_k_accuracy_5=0.801600
+2016-11-15 20:21:59,055 Node[0] Epoch[73] Validation-top_k_accuracy_10=0.900000
+2016-11-15 20:21:59,055 Node[0] Epoch[73] Validation-top_k_accuracy_20=0.961200
+2016-11-15 20:26:01,904 Node[0] Epoch[74] Batch [50]	Speed: 21.01 samples/sec	Train-accuracy=0.589200
+2016-11-15 20:26:01,904 Node[0] Epoch[74] Batch [50]	Speed: 21.01 samples/sec	Train-top_k_accuracy_5=0.864600
+2016-11-15 20:26:01,904 Node[0] Epoch[74] Batch [50]	Speed: 21.01 samples/sec	Train-top_k_accuracy_10=0.928400
+2016-11-15 20:26:01,904 Node[0] Epoch[74] Batch [50]	Speed: 21.01 samples/sec	Train-top_k_accuracy_20=0.976400
+2016-11-15 20:26:41,237 Node[0] Epoch[74] Resetting Data Iterator
+2016-11-15 20:26:41,237 Node[0] Epoch[74] Time cost=282.182
+2016-11-15 20:26:54,163 Node[0] Epoch[74] Validation-accuracy=0.533600
+2016-11-15 20:26:54,163 Node[0] Epoch[74] Validation-top_k_accuracy_5=0.793200
+2016-11-15 20:26:54,163 Node[0] Epoch[74] Validation-top_k_accuracy_10=0.892400
+2016-11-15 20:26:54,163 Node[0] Epoch[74] Validation-top_k_accuracy_20=0.960000
+2016-11-15 20:30:57,445 Node[0] Epoch[75] Batch [50]	Speed: 20.97 samples/sec	Train-accuracy=0.613400
+2016-11-15 20:30:57,446 Node[0] Epoch[75] Batch [50]	Speed: 20.97 samples/sec	Train-top_k_accuracy_5=0.858400
+2016-11-15 20:30:57,446 Node[0] Epoch[75] Batch [50]	Speed: 20.97 samples/sec	Train-top_k_accuracy_10=0.930000
+2016-11-15 20:30:57,446 Node[0] Epoch[75] Batch [50]	Speed: 20.97 samples/sec	Train-top_k_accuracy_20=0.972800
+2016-11-15 20:31:36,840 Node[0] Epoch[75] Resetting Data Iterator
+2016-11-15 20:31:36,840 Node[0] Epoch[75] Time cost=282.676
+2016-11-15 20:31:49,698 Node[0] Epoch[75] Validation-accuracy=0.546400
+2016-11-15 20:31:49,699 Node[0] Epoch[75] Validation-top_k_accuracy_5=0.809600
+2016-11-15 20:31:49,699 Node[0] Epoch[75] Validation-top_k_accuracy_10=0.900400
+2016-11-15 20:31:49,699 Node[0] Epoch[75] Validation-top_k_accuracy_20=0.966000
+2016-11-15 20:35:53,310 Node[0] Epoch[76] Batch [50]	Speed: 20.94 samples/sec	Train-accuracy=0.616800
+2016-11-15 20:35:53,310 Node[0] Epoch[76] Batch [50]	Speed: 20.94 samples/sec	Train-top_k_accuracy_5=0.871200
+2016-11-15 20:35:53,310 Node[0] Epoch[76] Batch [50]	Speed: 20.94 samples/sec	Train-top_k_accuracy_10=0.934000
+2016-11-15 20:35:53,310 Node[0] Epoch[76] Batch [50]	Speed: 20.94 samples/sec	Train-top_k_accuracy_20=0.974000
+2016-11-15 20:36:32,737 Node[0] Epoch[76] Resetting Data Iterator
+2016-11-15 20:36:32,737 Node[0] Epoch[76] Time cost=283.038
+2016-11-15 20:36:45,870 Node[0] Epoch[76] Validation-accuracy=0.536800
+2016-11-15 20:36:45,870 Node[0] Epoch[76] Validation-top_k_accuracy_5=0.808800
+2016-11-15 20:36:45,870 Node[0] Epoch[76] Validation-top_k_accuracy_10=0.898400
+2016-11-15 20:36:45,870 Node[0] Epoch[76] Validation-top_k_accuracy_20=0.963600
+2016-11-15 20:40:49,433 Node[0] Epoch[77] Batch [50]	Speed: 20.95 samples/sec	Train-accuracy=0.626800
+2016-11-15 20:40:49,433 Node[0] Epoch[77] Batch [50]	Speed: 20.95 samples/sec	Train-top_k_accuracy_5=0.869200
+2016-11-15 20:40:49,433 Node[0] Epoch[77] Batch [50]	Speed: 20.95 samples/sec	Train-top_k_accuracy_10=0.938200
+2016-11-15 20:40:49,433 Node[0] Epoch[77] Batch [50]	Speed: 20.95 samples/sec	Train-top_k_accuracy_20=0.977200
+2016-11-15 20:41:23,662 Node[0] Epoch[77] Resetting Data Iterator
+2016-11-15 20:41:23,663 Node[0] Epoch[77] Time cost=277.793
+2016-11-15 20:41:36,603 Node[0] Epoch[77] Validation-accuracy=0.536400
+2016-11-15 20:41:36,603 Node[0] Epoch[77] Validation-top_k_accuracy_5=0.808800
+2016-11-15 20:41:36,603 Node[0] Epoch[77] Validation-top_k_accuracy_10=0.900800
+2016-11-15 20:41:36,603 Node[0] Epoch[77] Validation-top_k_accuracy_20=0.963600
+2016-11-15 20:45:40,269 Node[0] Epoch[78] Batch [50]	Speed: 20.94 samples/sec	Train-accuracy=0.642400
+2016-11-15 20:45:40,269 Node[0] Epoch[78] Batch [50]	Speed: 20.94 samples/sec	Train-top_k_accuracy_5=0.881200
+2016-11-15 20:45:40,269 Node[0] Epoch[78] Batch [50]	Speed: 20.94 samples/sec	Train-top_k_accuracy_10=0.942800
+2016-11-15 20:45:40,269 Node[0] Epoch[78] Batch [50]	Speed: 20.94 samples/sec	Train-top_k_accuracy_20=0.980000
+2016-11-15 20:46:19,275 Node[0] Epoch[78] Resetting Data Iterator
+2016-11-15 20:46:19,275 Node[0] Epoch[78] Time cost=282.672
+2016-11-15 20:46:32,213 Node[0] Epoch[78] Validation-accuracy=0.547200
+2016-11-15 20:46:32,213 Node[0] Epoch[78] Validation-top_k_accuracy_5=0.814800
+2016-11-15 20:46:32,213 Node[0] Epoch[78] Validation-top_k_accuracy_10=0.911600
+2016-11-15 20:46:32,213 Node[0] Epoch[78] Validation-top_k_accuracy_20=0.964400
+2016-11-15 20:50:36,050 Node[0] Epoch[79] Batch [50]	Speed: 20.92 samples/sec	Train-accuracy=0.646400
+2016-11-15 20:50:36,050 Node[0] Epoch[79] Batch [50]	Speed: 20.92 samples/sec	Train-top_k_accuracy_5=0.887400
+2016-11-15 20:50:36,050 Node[0] Epoch[79] Batch [50]	Speed: 20.92 samples/sec	Train-top_k_accuracy_10=0.944400
+2016-11-15 20:50:36,050 Node[0] Epoch[79] Batch [50]	Speed: 20.92 samples/sec	Train-top_k_accuracy_20=0.980000
+2016-11-15 20:51:15,548 Node[0] Epoch[79] Resetting Data Iterator
+2016-11-15 20:51:15,548 Node[0] Epoch[79] Time cost=283.335
+2016-11-15 20:51:28,522 Node[0] Epoch[79] Validation-accuracy=0.554000
+2016-11-15 20:51:28,522 Node[0] Epoch[79] Validation-top_k_accuracy_5=0.820000
+2016-11-15 20:51:28,522 Node[0] Epoch[79] Validation-top_k_accuracy_10=0.907600
+2016-11-15 20:51:28,522 Node[0] Epoch[79] Validation-top_k_accuracy_20=0.964400
+2016-11-15 20:55:32,238 Node[0] Epoch[80] Batch [50]	Speed: 20.93 samples/sec	Train-accuracy=0.644200
+2016-11-15 20:55:32,238 Node[0] Epoch[80] Batch [50]	Speed: 20.93 samples/sec	Train-top_k_accuracy_5=0.893200
+2016-11-15 20:55:32,238 Node[0] Epoch[80] Batch [50]	Speed: 20.93 samples/sec	Train-top_k_accuracy_10=0.949200
+2016-11-15 20:55:32,238 Node[0] Epoch[80] Batch [50]	Speed: 20.93 samples/sec	Train-top_k_accuracy_20=0.983000
+2016-11-15 20:56:11,354 Node[0] Epoch[80] Resetting Data Iterator
+2016-11-15 20:56:11,354 Node[0] Epoch[80] Time cost=282.832
+2016-11-15 20:56:24,280 Node[0] Epoch[80] Validation-accuracy=0.558400
+2016-11-15 20:56:24,280 Node[0] Epoch[80] Validation-top_k_accuracy_5=0.822000
+2016-11-15 20:56:24,280 Node[0] Epoch[80] Validation-top_k_accuracy_10=0.911200
+2016-11-15 20:56:24,280 Node[0] Epoch[80] Validation-top_k_accuracy_20=0.965600
+2016-11-15 21:00:27,766 Node[0] Epoch[81] Batch [50]	Speed: 20.95 samples/sec	Train-accuracy=0.650000
+2016-11-15 21:00:27,766 Node[0] Epoch[81] Batch [50]	Speed: 20.95 samples/sec	Train-top_k_accuracy_5=0.891000
+2016-11-15 21:00:27,766 Node[0] Epoch[81] Batch [50]	Speed: 20.95 samples/sec	Train-top_k_accuracy_10=0.948400
+2016-11-15 21:00:27,766 Node[0] Epoch[81] Batch [50]	Speed: 20.95 samples/sec	Train-top_k_accuracy_20=0.982600
+2016-11-15 21:01:02,203 Node[0] Epoch[81] Resetting Data Iterator
+2016-11-15 21:01:02,203 Node[0] Epoch[81] Time cost=277.923
+2016-11-15 21:01:15,371 Node[0] Epoch[81] Validation-accuracy=0.543200
+2016-11-15 21:01:15,371 Node[0] Epoch[81] Validation-top_k_accuracy_5=0.812000
+2016-11-15 21:01:15,371 Node[0] Epoch[81] Validation-top_k_accuracy_10=0.906400
+2016-11-15 21:01:15,371 Node[0] Epoch[81] Validation-top_k_accuracy_20=0.962000
+2016-11-15 21:05:19,127 Node[0] Epoch[82] Batch [50]	Speed: 20.93 samples/sec	Train-accuracy=0.664600
+2016-11-15 21:05:19,127 Node[0] Epoch[82] Batch [50]	Speed: 20.93 samples/sec	Train-top_k_accuracy_5=0.898600
+2016-11-15 21:05:19,127 Node[0] Epoch[82] Batch [50]	Speed: 20.93 samples/sec	Train-top_k_accuracy_10=0.951800
+2016-11-15 21:05:19,127 Node[0] Epoch[82] Batch [50]	Speed: 20.93 samples/sec	Train-top_k_accuracy_20=0.981000
+2016-11-15 21:05:58,204 Node[0] Epoch[82] Resetting Data Iterator
+2016-11-15 21:05:58,205 Node[0] Epoch[82] Time cost=282.833
+2016-11-15 21:06:11,086 Node[0] Epoch[82] Validation-accuracy=0.545200
+2016-11-15 21:06:11,086 Node[0] Epoch[82] Validation-top_k_accuracy_5=0.822800
+2016-11-15 21:06:11,086 Node[0] Epoch[82] Validation-top_k_accuracy_10=0.912800
+2016-11-15 21:06:11,086 Node[0] Epoch[82] Validation-top_k_accuracy_20=0.964400
+2016-11-15 21:10:15,188 Node[0] Epoch[83] Batch [50]	Speed: 20.90 samples/sec	Train-accuracy=0.655400
+2016-11-15 21:10:15,188 Node[0] Epoch[83] Batch [50]	Speed: 20.90 samples/sec	Train-top_k_accuracy_5=0.898200
+2016-11-15 21:10:15,188 Node[0] Epoch[83] Batch [50]	Speed: 20.90 samples/sec	Train-top_k_accuracy_10=0.954600
+2016-11-15 21:10:15,188 Node[0] Epoch[83] Batch [50]	Speed: 20.90 samples/sec	Train-top_k_accuracy_20=0.984000
+2016-11-15 21:10:54,257 Node[0] Epoch[83] Resetting Data Iterator
+2016-11-15 21:10:54,257 Node[0] Epoch[83] Time cost=283.171
+2016-11-15 21:11:07,209 Node[0] Epoch[83] Validation-accuracy=0.548400
+2016-11-15 21:11:07,209 Node[0] Epoch[83] Validation-top_k_accuracy_5=0.826400
+2016-11-15 21:11:07,209 Node[0] Epoch[83] Validation-top_k_accuracy_10=0.913600
+2016-11-15 21:11:07,209 Node[0] Epoch[83] Validation-top_k_accuracy_20=0.965200
+2016-11-15 21:15:11,303 Node[0] Epoch[84] Batch [50]	Speed: 20.90 samples/sec	Train-accuracy=0.681400
+2016-11-15 21:15:11,303 Node[0] Epoch[84] Batch [50]	Speed: 20.90 samples/sec	Train-top_k_accuracy_5=0.907600
+2016-11-15 21:15:11,303 Node[0] Epoch[84] Batch [50]	Speed: 20.90 samples/sec	Train-top_k_accuracy_10=0.956800
+2016-11-15 21:15:11,303 Node[0] Epoch[84] Batch [50]	Speed: 20.90 samples/sec	Train-top_k_accuracy_20=0.985600
+2016-11-15 21:15:50,590 Node[0] Epoch[84] Resetting Data Iterator
+2016-11-15 21:15:50,590 Node[0] Epoch[84] Time cost=283.381
+2016-11-15 21:16:03,531 Node[0] Epoch[84] Validation-accuracy=0.563600
+2016-11-15 21:16:03,531 Node[0] Epoch[84] Validation-top_k_accuracy_5=0.836000
+2016-11-15 21:16:03,531 Node[0] Epoch[84] Validation-top_k_accuracy_10=0.912000
+2016-11-15 21:16:03,531 Node[0] Epoch[84] Validation-top_k_accuracy_20=0.962800
+2016-11-15 21:20:07,937 Node[0] Epoch[85] Batch [50]	Speed: 20.87 samples/sec	Train-accuracy=0.669600
+2016-11-15 21:20:07,937 Node[0] Epoch[85] Batch [50]	Speed: 20.87 samples/sec	Train-top_k_accuracy_5=0.907600
+2016-11-15 21:20:07,937 Node[0] Epoch[85] Batch [50]	Speed: 20.87 samples/sec	Train-top_k_accuracy_10=0.959200
+2016-11-15 21:20:07,937 Node[0] Epoch[85] Batch [50]	Speed: 20.87 samples/sec	Train-top_k_accuracy_20=0.986000
+2016-11-15 21:20:46,899 Node[0] Epoch[85] Resetting Data Iterator
+2016-11-15 21:20:46,899 Node[0] Epoch[85] Time cost=283.368
+2016-11-15 21:20:59,778 Node[0] Epoch[85] Validation-accuracy=0.572400
+2016-11-15 21:20:59,778 Node[0] Epoch[85] Validation-top_k_accuracy_5=0.834800
+2016-11-15 21:20:59,778 Node[0] Epoch[85] Validation-top_k_accuracy_10=0.912800
+2016-11-15 21:20:59,778 Node[0] Epoch[85] Validation-top_k_accuracy_20=0.966800
+2016-11-15 21:25:03,616 Node[0] Epoch[86] Batch [50]	Speed: 20.92 samples/sec	Train-accuracy=0.687400
+2016-11-15 21:25:03,616 Node[0] Epoch[86] Batch [50]	Speed: 20.92 samples/sec	Train-top_k_accuracy_5=0.903000
+2016-11-15 21:25:03,616 Node[0] Epoch[86] Batch [50]	Speed: 20.92 samples/sec	Train-top_k_accuracy_10=0.955600
+2016-11-15 21:25:03,616 Node[0] Epoch[86] Batch [50]	Speed: 20.92 samples/sec	Train-top_k_accuracy_20=0.983000
+2016-11-15 21:25:38,139 Node[0] Epoch[86] Resetting Data Iterator
+2016-11-15 21:25:38,139 Node[0] Epoch[86] Time cost=278.361
+2016-11-15 21:25:51,105 Node[0] Epoch[86] Validation-accuracy=0.575200
+2016-11-15 21:25:51,105 Node[0] Epoch[86] Validation-top_k_accuracy_5=0.835600
+2016-11-15 21:25:51,105 Node[0] Epoch[86] Validation-top_k_accuracy_10=0.918000
+2016-11-15 21:25:51,105 Node[0] Epoch[86] Validation-top_k_accuracy_20=0.966400
+2016-11-15 21:29:54,330 Node[0] Epoch[87] Batch [50]	Speed: 20.98 samples/sec	Train-accuracy=0.699200
+2016-11-15 21:29:54,330 Node[0] Epoch[87] Batch [50]	Speed: 20.98 samples/sec	Train-top_k_accuracy_5=0.910800
+2016-11-15 21:29:54,330 Node[0] Epoch[87] Batch [50]	Speed: 20.98 samples/sec	Train-top_k_accuracy_10=0.961000
+2016-11-15 21:29:54,330 Node[0] Epoch[87] Batch [50]	Speed: 20.98 samples/sec	Train-top_k_accuracy_20=0.987600
+2016-11-15 21:30:33,249 Node[0] Epoch[87] Resetting Data Iterator
+2016-11-15 21:30:33,249 Node[0] Epoch[87] Time cost=282.144
+2016-11-15 21:30:46,174 Node[0] Epoch[87] Validation-accuracy=0.582400
+2016-11-15 21:30:46,174 Node[0] Epoch[87] Validation-top_k_accuracy_5=0.838400
+2016-11-15 21:30:46,174 Node[0] Epoch[87] Validation-top_k_accuracy_10=0.926000
+2016-11-15 21:30:46,174 Node[0] Epoch[87] Validation-top_k_accuracy_20=0.967600
+2016-11-15 21:34:50,637 Node[0] Epoch[88] Batch [50]	Speed: 20.87 samples/sec	Train-accuracy=0.696600
+2016-11-15 21:34:50,638 Node[0] Epoch[88] Batch [50]	Speed: 20.87 samples/sec	Train-top_k_accuracy_5=0.911000
+2016-11-15 21:34:50,638 Node[0] Epoch[88] Batch [50]	Speed: 20.87 samples/sec	Train-top_k_accuracy_10=0.960600
+2016-11-15 21:34:50,638 Node[0] Epoch[88] Batch [50]	Speed: 20.87 samples/sec	Train-top_k_accuracy_20=0.987200
+2016-11-15 21:35:29,702 Node[0] Epoch[88] Resetting Data Iterator
+2016-11-15 21:35:29,702 Node[0] Epoch[88] Time cost=283.528
+2016-11-15 21:35:42,631 Node[0] Epoch[88] Validation-accuracy=0.572000
+2016-11-15 21:35:42,631 Node[0] Epoch[88] Validation-top_k_accuracy_5=0.835200
+2016-11-15 21:35:42,632 Node[0] Epoch[88] Validation-top_k_accuracy_10=0.918400
+2016-11-15 21:35:42,632 Node[0] Epoch[88] Validation-top_k_accuracy_20=0.966000
+2016-11-15 21:39:45,796 Node[0] Epoch[89] Batch [50]	Speed: 20.98 samples/sec	Train-accuracy=0.703400
+2016-11-15 21:39:45,796 Node[0] Epoch[89] Batch [50]	Speed: 20.98 samples/sec	Train-top_k_accuracy_5=0.910000
+2016-11-15 21:39:45,796 Node[0] Epoch[89] Batch [50]	Speed: 20.98 samples/sec	Train-top_k_accuracy_10=0.960200
+2016-11-15 21:39:45,796 Node[0] Epoch[89] Batch [50]	Speed: 20.98 samples/sec	Train-top_k_accuracy_20=0.987600
+2016-11-15 21:40:25,027 Node[0] Epoch[89] Resetting Data Iterator
+2016-11-15 21:40:25,028 Node[0] Epoch[89] Time cost=282.396
+2016-11-15 21:40:37,944 Node[0] Epoch[89] Validation-accuracy=0.588800
+2016-11-15 21:40:37,944 Node[0] Epoch[89] Validation-top_k_accuracy_5=0.842800
+2016-11-15 21:40:37,944 Node[0] Epoch[89] Validation-top_k_accuracy_10=0.920800
+2016-11-15 21:40:37,944 Node[0] Epoch[89] Validation-top_k_accuracy_20=0.967600
+2016-11-15 21:44:41,349 Node[0] Epoch[90] Batch [50]	Speed: 20.96 samples/sec	Train-accuracy=0.711400
+2016-11-15 21:44:41,349 Node[0] Epoch[90] Batch [50]	Speed: 20.96 samples/sec	Train-top_k_accuracy_5=0.919800
+2016-11-15 21:44:41,350 Node[0] Epoch[90] Batch [50]	Speed: 20.96 samples/sec	Train-top_k_accuracy_10=0.964000
+2016-11-15 21:44:41,350 Node[0] Epoch[90] Batch [50]	Speed: 20.96 samples/sec	Train-top_k_accuracy_20=0.988600
+2016-11-15 21:45:15,225 Node[0] Epoch[90] Resetting Data Iterator
+2016-11-15 21:45:15,225 Node[0] Epoch[90] Time cost=277.281
+2016-11-15 21:45:28,306 Node[0] Epoch[90] Validation-accuracy=0.589200
+2016-11-15 21:45:28,306 Node[0] Epoch[90] Validation-top_k_accuracy_5=0.842400
+2016-11-15 21:45:28,306 Node[0] Epoch[90] Validation-top_k_accuracy_10=0.920400
+2016-11-15 21:45:28,306 Node[0] Epoch[90] Validation-top_k_accuracy_20=0.970800
+2016-11-15 21:49:32,268 Node[0] Epoch[91] Batch [50]	Speed: 20.91 samples/sec	Train-accuracy=0.717000
+2016-11-15 21:49:32,269 Node[0] Epoch[91] Batch [50]	Speed: 20.91 samples/sec	Train-top_k_accuracy_5=0.919400
+2016-11-15 21:49:32,269 Node[0] Epoch[91] Batch [50]	Speed: 20.91 samples/sec	Train-top_k_accuracy_10=0.967200
+2016-11-15 21:49:32,269 Node[0] Epoch[91] Batch [50]	Speed: 20.91 samples/sec	Train-top_k_accuracy_20=0.988200
+2016-11-15 21:50:11,192 Node[0] Epoch[91] Resetting Data Iterator
+2016-11-15 21:50:11,192 Node[0] Epoch[91] Time cost=282.886
+2016-11-15 21:50:24,315 Node[0] Epoch[91] Validation-accuracy=0.604000
+2016-11-15 21:50:24,315 Node[0] Epoch[91] Validation-top_k_accuracy_5=0.850800
+2016-11-15 21:50:24,315 Node[0] Epoch[91] Validation-top_k_accuracy_10=0.926400
+2016-11-15 21:50:24,315 Node[0] Epoch[91] Validation-top_k_accuracy_20=0.971200
+2016-11-15 21:54:27,424 Node[0] Epoch[92] Batch [50]	Speed: 20.99 samples/sec	Train-accuracy=0.715200
+2016-11-15 21:54:27,425 Node[0] Epoch[92] Batch [50]	Speed: 20.99 samples/sec	Train-top_k_accuracy_5=0.926200
+2016-11-15 21:54:27,425 Node[0] Epoch[92] Batch [50]	Speed: 20.99 samples/sec	Train-top_k_accuracy_10=0.968800
+2016-11-15 21:54:27,425 Node[0] Epoch[92] Batch [50]	Speed: 20.99 samples/sec	Train-top_k_accuracy_20=0.989800
+2016-11-15 21:55:06,826 Node[0] Epoch[92] Resetting Data Iterator
+2016-11-15 21:55:06,827 Node[0] Epoch[92] Time cost=282.511
+2016-11-15 21:55:19,716 Node[0] Epoch[92] Validation-accuracy=0.595600
+2016-11-15 21:55:19,716 Node[0] Epoch[92] Validation-top_k_accuracy_5=0.846800
+2016-11-15 21:55:19,716 Node[0] Epoch[92] Validation-top_k_accuracy_10=0.928800
+2016-11-15 21:55:19,716 Node[0] Epoch[92] Validation-top_k_accuracy_20=0.971200
+2016-11-15 21:59:23,800 Node[0] Epoch[93] Batch [50]	Speed: 20.90 samples/sec	Train-accuracy=0.732600
+2016-11-15 21:59:23,800 Node[0] Epoch[93] Batch [50]	Speed: 20.90 samples/sec	Train-top_k_accuracy_5=0.930000
+2016-11-15 21:59:23,801 Node[0] Epoch[93] Batch [50]	Speed: 20.90 samples/sec	Train-top_k_accuracy_10=0.971800
+2016-11-15 21:59:23,801 Node[0] Epoch[93] Batch [50]	Speed: 20.90 samples/sec	Train-top_k_accuracy_20=0.990600
+2016-11-15 22:00:02,675 Node[0] Epoch[93] Resetting Data Iterator
+2016-11-15 22:00:02,675 Node[0] Epoch[93] Time cost=282.959
+2016-11-15 22:00:15,653 Node[0] Epoch[93] Validation-accuracy=0.576000
+2016-11-15 22:00:15,653 Node[0] Epoch[93] Validation-top_k_accuracy_5=0.847200
+2016-11-15 22:00:15,653 Node[0] Epoch[93] Validation-top_k_accuracy_10=0.930400
+2016-11-15 22:00:15,653 Node[0] Epoch[93] Validation-top_k_accuracy_20=0.972000
+2016-11-15 22:04:18,333 Node[0] Epoch[94] Batch [50]	Speed: 21.02 samples/sec	Train-accuracy=0.728800
+2016-11-15 22:04:18,333 Node[0] Epoch[94] Batch [50]	Speed: 21.02 samples/sec	Train-top_k_accuracy_5=0.931400
+2016-11-15 22:04:18,333 Node[0] Epoch[94] Batch [50]	Speed: 21.02 samples/sec	Train-top_k_accuracy_10=0.970600
+2016-11-15 22:04:18,334 Node[0] Epoch[94] Batch [50]	Speed: 21.02 samples/sec	Train-top_k_accuracy_20=0.987400
+2016-11-15 22:04:57,775 Node[0] Epoch[94] Resetting Data Iterator
+2016-11-15 22:04:57,775 Node[0] Epoch[94] Time cost=282.122
+2016-11-15 22:05:10,869 Node[0] Epoch[94] Validation-accuracy=0.577600
+2016-11-15 22:05:10,869 Node[0] Epoch[94] Validation-top_k_accuracy_5=0.842000
+2016-11-15 22:05:10,869 Node[0] Epoch[94] Validation-top_k_accuracy_10=0.927600
+2016-11-15 22:05:10,869 Node[0] Epoch[94] Validation-top_k_accuracy_20=0.970000
+2016-11-15 22:09:14,737 Node[0] Epoch[95] Batch [50]	Speed: 20.92 samples/sec	Train-accuracy=0.741400
+2016-11-15 22:09:14,737 Node[0] Epoch[95] Batch [50]	Speed: 20.92 samples/sec	Train-top_k_accuracy_5=0.925400
+2016-11-15 22:09:14,737 Node[0] Epoch[95] Batch [50]	Speed: 20.92 samples/sec	Train-top_k_accuracy_10=0.967800
+2016-11-15 22:09:14,737 Node[0] Epoch[95] Batch [50]	Speed: 20.92 samples/sec	Train-top_k_accuracy_20=0.992000
+2016-11-15 22:09:48,811 Node[0] Epoch[95] Resetting Data Iterator
+2016-11-15 22:09:48,811 Node[0] Epoch[95] Time cost=277.942
+2016-11-15 22:10:01,904 Node[0] Epoch[95] Validation-accuracy=0.607200
+2016-11-15 22:10:01,904 Node[0] Epoch[95] Validation-top_k_accuracy_5=0.854800
+2016-11-15 22:10:01,904 Node[0] Epoch[95] Validation-top_k_accuracy_10=0.930000
+2016-11-15 22:10:01,904 Node[0] Epoch[95] Validation-top_k_accuracy_20=0.974800
+2016-11-15 22:14:05,923 Node[0] Epoch[96] Batch [50]	Speed: 20.91 samples/sec	Train-accuracy=0.756200
+2016-11-15 22:14:05,923 Node[0] Epoch[96] Batch [50]	Speed: 20.91 samples/sec	Train-top_k_accuracy_5=0.939400
+2016-11-15 22:14:05,923 Node[0] Epoch[96] Batch [50]	Speed: 20.91 samples/sec	Train-top_k_accuracy_10=0.977600
+2016-11-15 22:14:05,924 Node[0] Epoch[96] Batch [50]	Speed: 20.91 samples/sec	Train-top_k_accuracy_20=0.994200
+2016-11-15 22:14:45,020 Node[0] Epoch[96] Resetting Data Iterator
+2016-11-15 22:14:45,021 Node[0] Epoch[96] Time cost=283.116
+2016-11-15 22:14:58,149 Node[0] Epoch[96] Validation-accuracy=0.608400
+2016-11-15 22:14:58,149 Node[0] Epoch[96] Validation-top_k_accuracy_5=0.863600
+2016-11-15 22:14:58,149 Node[0] Epoch[96] Validation-top_k_accuracy_10=0.935200
+2016-11-15 22:14:58,149 Node[0] Epoch[96] Validation-top_k_accuracy_20=0.978400
+2016-11-15 22:19:01,595 Node[0] Epoch[97] Batch [50]	Speed: 20.96 samples/sec	Train-accuracy=0.742600
+2016-11-15 22:19:01,595 Node[0] Epoch[97] Batch [50]	Speed: 20.96 samples/sec	Train-top_k_accuracy_5=0.944000
+2016-11-15 22:19:01,595 Node[0] Epoch[97] Batch [50]	Speed: 20.96 samples/sec	Train-top_k_accuracy_10=0.975400
+2016-11-15 22:19:01,595 Node[0] Epoch[97] Batch [50]	Speed: 20.96 samples/sec	Train-top_k_accuracy_20=0.993000
+2016-11-15 22:19:40,576 Node[0] Epoch[97] Resetting Data Iterator
+2016-11-15 22:19:40,576 Node[0] Epoch[97] Time cost=282.427
+2016-11-15 22:19:53,522 Node[0] Epoch[97] Validation-accuracy=0.609200
+2016-11-15 22:19:53,522 Node[0] Epoch[97] Validation-top_k_accuracy_5=0.863600
+2016-11-15 22:19:53,522 Node[0] Epoch[97] Validation-top_k_accuracy_10=0.935200
+2016-11-15 22:19:53,523 Node[0] Epoch[97] Validation-top_k_accuracy_20=0.978400
+2016-11-15 22:23:57,038 Node[0] Epoch[98] Batch [50]	Speed: 20.95 samples/sec	Train-accuracy=0.754800
+2016-11-15 22:23:57,038 Node[0] Epoch[98] Batch [50]	Speed: 20.95 samples/sec	Train-top_k_accuracy_5=0.942800
+2016-11-15 22:23:57,038 Node[0] Epoch[98] Batch [50]	Speed: 20.95 samples/sec	Train-top_k_accuracy_10=0.976000
+2016-11-15 22:23:57,038 Node[0] Epoch[98] Batch [50]	Speed: 20.95 samples/sec	Train-top_k_accuracy_20=0.989800
+2016-11-15 22:24:35,991 Node[0] Epoch[98] Resetting Data Iterator
+2016-11-15 22:24:35,992 Node[0] Epoch[98] Time cost=282.469
+2016-11-15 22:24:48,898 Node[0] Epoch[98] Validation-accuracy=0.613600
+2016-11-15 22:24:48,898 Node[0] Epoch[98] Validation-top_k_accuracy_5=0.867200
+2016-11-15 22:24:48,898 Node[0] Epoch[98] Validation-top_k_accuracy_10=0.937600
+2016-11-15 22:24:48,898 Node[0] Epoch[98] Validation-top_k_accuracy_20=0.978000
+2016-11-15 22:28:51,948 Node[0] Epoch[99] Batch [50]	Speed: 20.99 samples/sec	Train-accuracy=0.760200
+2016-11-15 22:28:51,948 Node[0] Epoch[99] Batch [50]	Speed: 20.99 samples/sec	Train-top_k_accuracy_5=0.939800
+2016-11-15 22:28:51,948 Node[0] Epoch[99] Batch [50]	Speed: 20.99 samples/sec	Train-top_k_accuracy_10=0.975000
+2016-11-15 22:28:51,948 Node[0] Epoch[99] Batch [50]	Speed: 20.99 samples/sec	Train-top_k_accuracy_20=0.991200
+2016-11-15 22:29:25,941 Node[0] Epoch[99] Resetting Data Iterator
+2016-11-15 22:29:25,941 Node[0] Epoch[99] Time cost=277.043
+2016-11-15 22:29:38,875 Node[0] Epoch[99] Validation-accuracy=0.604000
+2016-11-15 22:29:38,875 Node[0] Epoch[99] Validation-top_k_accuracy_5=0.858400
+2016-11-15 22:29:38,875 Node[0] Epoch[99] Validation-top_k_accuracy_10=0.931600
+2016-11-15 22:29:38,875 Node[0] Epoch[99] Validation-top_k_accuracy_20=0.977200
+2016-11-15 22:33:43,101 Node[0] Epoch[100] Batch [50]	Speed: 20.89 samples/sec	Train-accuracy=0.760800
+2016-11-15 22:33:43,101 Node[0] Epoch[100] Batch [50]	Speed: 20.89 samples/sec	Train-top_k_accuracy_5=0.944800
+2016-11-15 22:33:43,101 Node[0] Epoch[100] Batch [50]	Speed: 20.89 samples/sec	Train-top_k_accuracy_10=0.976400
+2016-11-15 22:33:43,101 Node[0] Epoch[100] Batch [50]	Speed: 20.89 samples/sec	Train-top_k_accuracy_20=0.992000
+2016-11-15 22:34:22,172 Node[0] Epoch[100] Resetting Data Iterator
+2016-11-15 22:34:22,172 Node[0] Epoch[100] Time cost=283.297
+2016-11-15 22:34:35,292 Node[0] Epoch[100] Validation-accuracy=0.616800
+2016-11-15 22:34:35,292 Node[0] Epoch[100] Validation-top_k_accuracy_5=0.858400
+2016-11-15 22:34:35,292 Node[0] Epoch[100] Validation-top_k_accuracy_10=0.931200
+2016-11-15 22:34:35,292 Node[0] Epoch[100] Validation-top_k_accuracy_20=0.976400
+2016-11-15 22:38:38,825 Node[0] Epoch[101] Batch [50]	Speed: 20.95 samples/sec	Train-accuracy=0.771600
+2016-11-15 22:38:38,826 Node[0] Epoch[101] Batch [50]	Speed: 20.95 samples/sec	Train-top_k_accuracy_5=0.942000
+2016-11-15 22:38:38,826 Node[0] Epoch[101] Batch [50]	Speed: 20.95 samples/sec	Train-top_k_accuracy_10=0.975800
+2016-11-15 22:38:38,826 Node[0] Epoch[101] Batch [50]	Speed: 20.95 samples/sec	Train-top_k_accuracy_20=0.993800
+2016-11-15 22:39:18,235 Node[0] Epoch[101] Resetting Data Iterator
+2016-11-15 22:39:18,236 Node[0] Epoch[101] Time cost=282.944
+2016-11-15 22:39:31,116 Node[0] Epoch[101] Validation-accuracy=0.605600
+2016-11-15 22:39:31,116 Node[0] Epoch[101] Validation-top_k_accuracy_5=0.861200
+2016-11-15 22:39:31,116 Node[0] Epoch[101] Validation-top_k_accuracy_10=0.927600
+2016-11-15 22:39:31,116 Node[0] Epoch[101] Validation-top_k_accuracy_20=0.974400
+2016-11-15 22:43:34,706 Node[0] Epoch[102] Batch [50]	Speed: 20.94 samples/sec	Train-accuracy=0.769800
+2016-11-15 22:43:34,707 Node[0] Epoch[102] Batch [50]	Speed: 20.94 samples/sec	Train-top_k_accuracy_5=0.944000
+2016-11-15 22:43:34,707 Node[0] Epoch[102] Batch [50]	Speed: 20.94 samples/sec	Train-top_k_accuracy_10=0.976600
+2016-11-15 22:43:34,707 Node[0] Epoch[102] Batch [50]	Speed: 20.94 samples/sec	Train-top_k_accuracy_20=0.992800
+2016-11-15 22:44:13,713 Node[0] Epoch[102] Resetting Data Iterator
+2016-11-15 22:44:13,713 Node[0] Epoch[102] Time cost=282.597
+2016-11-15 22:44:26,615 Node[0] Epoch[102] Validation-accuracy=0.625600
+2016-11-15 22:44:26,615 Node[0] Epoch[102] Validation-top_k_accuracy_5=0.864800
+2016-11-15 22:44:26,616 Node[0] Epoch[102] Validation-top_k_accuracy_10=0.933600
+2016-11-15 22:44:26,616 Node[0] Epoch[102] Validation-top_k_accuracy_20=0.976000
+2016-11-15 22:48:30,530 Node[0] Epoch[103] Batch [50]	Speed: 20.92 samples/sec	Train-accuracy=0.779200
+2016-11-15 22:48:30,530 Node[0] Epoch[103] Batch [50]	Speed: 20.92 samples/sec	Train-top_k_accuracy_5=0.955000
+2016-11-15 22:48:30,530 Node[0] Epoch[103] Batch [50]	Speed: 20.92 samples/sec	Train-top_k_accuracy_10=0.981000
+2016-11-15 22:48:30,530 Node[0] Epoch[103] Batch [50]	Speed: 20.92 samples/sec	Train-top_k_accuracy_20=0.992800
+2016-11-15 22:49:09,835 Node[0] Epoch[103] Resetting Data Iterator
+2016-11-15 22:49:09,835 Node[0] Epoch[103] Time cost=283.219
+2016-11-15 22:49:22,709 Node[0] Epoch[103] Validation-accuracy=0.628800
+2016-11-15 22:49:22,710 Node[0] Epoch[103] Validation-top_k_accuracy_5=0.876000
+2016-11-15 22:49:22,710 Node[0] Epoch[103] Validation-top_k_accuracy_10=0.936400
+2016-11-15 22:49:22,710 Node[0] Epoch[103] Validation-top_k_accuracy_20=0.978800
+2016-11-15 22:53:25,795 Node[0] Epoch[104] Batch [50]	Speed: 20.99 samples/sec	Train-accuracy=0.780600
+2016-11-15 22:53:25,795 Node[0] Epoch[104] Batch [50]	Speed: 20.99 samples/sec	Train-top_k_accuracy_5=0.952200
+2016-11-15 22:53:25,795 Node[0] Epoch[104] Batch [50]	Speed: 20.99 samples/sec	Train-top_k_accuracy_10=0.977600
+2016-11-15 22:53:25,795 Node[0] Epoch[104] Batch [50]	Speed: 20.99 samples/sec	Train-top_k_accuracy_20=0.993800
+2016-11-15 22:54:00,068 Node[0] Epoch[104] Resetting Data Iterator
+2016-11-15 22:54:00,068 Node[0] Epoch[104] Time cost=277.358
+2016-11-15 22:54:13,225 Node[0] Epoch[104] Validation-accuracy=0.616000
+2016-11-15 22:54:13,225 Node[0] Epoch[104] Validation-top_k_accuracy_5=0.858800
+2016-11-15 22:54:13,225 Node[0] Epoch[104] Validation-top_k_accuracy_10=0.933600
+2016-11-15 22:54:13,225 Node[0] Epoch[104] Validation-top_k_accuracy_20=0.977200
+2016-11-15 22:58:16,515 Node[0] Epoch[105] Batch [50]	Speed: 20.97 samples/sec	Train-accuracy=0.786600
+2016-11-15 22:58:16,515 Node[0] Epoch[105] Batch [50]	Speed: 20.97 samples/sec	Train-top_k_accuracy_5=0.950600
+2016-11-15 22:58:16,515 Node[0] Epoch[105] Batch [50]	Speed: 20.97 samples/sec	Train-top_k_accuracy_10=0.979600
+2016-11-15 22:58:16,515 Node[0] Epoch[105] Batch [50]	Speed: 20.97 samples/sec	Train-top_k_accuracy_20=0.993600
+2016-11-15 22:58:55,563 Node[0] Epoch[105] Resetting Data Iterator
+2016-11-15 22:58:55,564 Node[0] Epoch[105] Time cost=282.338
+2016-11-15 22:59:08,463 Node[0] Epoch[105] Validation-accuracy=0.632800
+2016-11-15 22:59:08,463 Node[0] Epoch[105] Validation-top_k_accuracy_5=0.868000
+2016-11-15 22:59:08,463 Node[0] Epoch[105] Validation-top_k_accuracy_10=0.934800
+2016-11-15 22:59:08,463 Node[0] Epoch[105] Validation-top_k_accuracy_20=0.977600
+2016-11-15 23:03:11,156 Node[0] Epoch[106] Batch [50]	Speed: 21.02 samples/sec	Train-accuracy=0.790200
+2016-11-15 23:03:11,156 Node[0] Epoch[106] Batch [50]	Speed: 21.02 samples/sec	Train-top_k_accuracy_5=0.960400
+2016-11-15 23:03:11,156 Node[0] Epoch[106] Batch [50]	Speed: 21.02 samples/sec	Train-top_k_accuracy_10=0.984600
+2016-11-15 23:03:11,156 Node[0] Epoch[106] Batch [50]	Speed: 21.02 samples/sec	Train-top_k_accuracy_20=0.995400
+2016-11-15 23:03:50,440 Node[0] Epoch[106] Resetting Data Iterator
+2016-11-15 23:03:50,440 Node[0] Epoch[106] Time cost=281.977
+2016-11-15 23:04:03,377 Node[0] Epoch[106] Validation-accuracy=0.630000
+2016-11-15 23:04:03,377 Node[0] Epoch[106] Validation-top_k_accuracy_5=0.872800
+2016-11-15 23:04:03,377 Node[0] Epoch[106] Validation-top_k_accuracy_10=0.939600
+2016-11-15 23:04:03,377 Node[0] Epoch[106] Validation-top_k_accuracy_20=0.975200
+2016-11-15 23:08:06,838 Node[0] Epoch[107] Batch [50]	Speed: 20.96 samples/sec	Train-accuracy=0.792000
+2016-11-15 23:08:06,838 Node[0] Epoch[107] Batch [50]	Speed: 20.96 samples/sec	Train-top_k_accuracy_5=0.954000
+2016-11-15 23:08:06,838 Node[0] Epoch[107] Batch [50]	Speed: 20.96 samples/sec	Train-top_k_accuracy_10=0.982200
+2016-11-15 23:08:06,838 Node[0] Epoch[107] Batch [50]	Speed: 20.96 samples/sec	Train-top_k_accuracy_20=0.994800
+2016-11-15 23:08:46,053 Node[0] Epoch[107] Resetting Data Iterator
+2016-11-15 23:08:46,054 Node[0] Epoch[107] Time cost=282.677
+2016-11-15 23:08:59,188 Node[0] Epoch[107] Validation-accuracy=0.633600
+2016-11-15 23:08:59,188 Node[0] Epoch[107] Validation-top_k_accuracy_5=0.864800
+2016-11-15 23:08:59,189 Node[0] Epoch[107] Validation-top_k_accuracy_10=0.930800
+2016-11-15 23:08:59,189 Node[0] Epoch[107] Validation-top_k_accuracy_20=0.976400
+2016-11-15 23:13:02,272 Node[0] Epoch[108] Batch [50]	Speed: 20.99 samples/sec	Train-accuracy=0.800000
+2016-11-15 23:13:02,272 Node[0] Epoch[108] Batch [50]	Speed: 20.99 samples/sec	Train-top_k_accuracy_5=0.956400
+2016-11-15 23:13:02,272 Node[0] Epoch[108] Batch [50]	Speed: 20.99 samples/sec	Train-top_k_accuracy_10=0.982200
+2016-11-15 23:13:02,272 Node[0] Epoch[108] Batch [50]	Speed: 20.99 samples/sec	Train-top_k_accuracy_20=0.993400
+2016-11-15 23:13:41,362 Node[0] Epoch[108] Resetting Data Iterator
+2016-11-15 23:13:41,362 Node[0] Epoch[108] Time cost=282.173
+2016-11-15 23:13:54,301 Node[0] Epoch[108] Validation-accuracy=0.632800
+2016-11-15 23:13:54,301 Node[0] Epoch[108] Validation-top_k_accuracy_5=0.877200
+2016-11-15 23:13:54,301 Node[0] Epoch[108] Validation-top_k_accuracy_10=0.940800
+2016-11-15 23:13:54,301 Node[0] Epoch[108] Validation-top_k_accuracy_20=0.976800
+2016-11-15 23:17:59,243 Node[0] Epoch[109] Batch [50]	Speed: 20.83 samples/sec	Train-accuracy=0.816000
+2016-11-15 23:17:59,243 Node[0] Epoch[109] Batch [50]	Speed: 20.83 samples/sec	Train-top_k_accuracy_5=0.960400
+2016-11-15 23:17:59,243 Node[0] Epoch[109] Batch [50]	Speed: 20.83 samples/sec	Train-top_k_accuracy_10=0.984200
+2016-11-15 23:17:59,244 Node[0] Epoch[109] Batch [50]	Speed: 20.83 samples/sec	Train-top_k_accuracy_20=0.996000
+2016-11-15 23:18:33,604 Node[0] Epoch[109] Resetting Data Iterator
+2016-11-15 23:18:33,604 Node[0] Epoch[109] Time cost=279.303
+2016-11-15 23:18:46,753 Node[0] Epoch[109] Validation-accuracy=0.632400
+2016-11-15 23:18:46,754 Node[0] Epoch[109] Validation-top_k_accuracy_5=0.866000
+2016-11-15 23:18:46,754 Node[0] Epoch[109] Validation-top_k_accuracy_10=0.936400
+2016-11-15 23:18:46,754 Node[0] Epoch[109] Validation-top_k_accuracy_20=0.977600
+2016-11-15 23:22:51,030 Node[0] Epoch[110] Batch [50]	Speed: 20.88 samples/sec	Train-accuracy=0.805600
+2016-11-15 23:22:51,030 Node[0] Epoch[110] Batch [50]	Speed: 20.88 samples/sec	Train-top_k_accuracy_5=0.961800
+2016-11-15 23:22:51,030 Node[0] Epoch[110] Batch [50]	Speed: 20.88 samples/sec	Train-top_k_accuracy_10=0.984400
+2016-11-15 23:22:51,031 Node[0] Epoch[110] Batch [50]	Speed: 20.88 samples/sec	Train-top_k_accuracy_20=0.995600
+2016-11-15 23:23:30,396 Node[0] Epoch[110] Resetting Data Iterator
+2016-11-15 23:23:30,396 Node[0] Epoch[110] Time cost=283.642
+2016-11-15 23:23:43,312 Node[0] Epoch[110] Validation-accuracy=0.631200
+2016-11-15 23:23:43,312 Node[0] Epoch[110] Validation-top_k_accuracy_5=0.863200
+2016-11-15 23:23:43,312 Node[0] Epoch[110] Validation-top_k_accuracy_10=0.931600
+2016-11-15 23:23:43,312 Node[0] Epoch[110] Validation-top_k_accuracy_20=0.975600
+2016-11-15 23:27:46,314 Node[0] Epoch[111] Batch [50]	Speed: 21.00 samples/sec	Train-accuracy=0.811200
+2016-11-15 23:27:46,314 Node[0] Epoch[111] Batch [50]	Speed: 21.00 samples/sec	Train-top_k_accuracy_5=0.960000
+2016-11-15 23:27:46,314 Node[0] Epoch[111] Batch [50]	Speed: 21.00 samples/sec	Train-top_k_accuracy_10=0.984200
+2016-11-15 23:27:46,314 Node[0] Epoch[111] Batch [50]	Speed: 21.00 samples/sec	Train-top_k_accuracy_20=0.994200
+2016-11-15 23:28:25,650 Node[0] Epoch[111] Resetting Data Iterator
+2016-11-15 23:28:25,650 Node[0] Epoch[111] Time cost=282.338
+2016-11-15 23:28:38,781 Node[0] Epoch[111] Validation-accuracy=0.648800
+2016-11-15 23:28:38,781 Node[0] Epoch[111] Validation-top_k_accuracy_5=0.874800
+2016-11-15 23:28:38,782 Node[0] Epoch[111] Validation-top_k_accuracy_10=0.941200
+2016-11-15 23:28:38,782 Node[0] Epoch[111] Validation-top_k_accuracy_20=0.978400
+2016-11-15 23:32:42,089 Node[0] Epoch[112] Batch [50]	Speed: 20.97 samples/sec	Train-accuracy=0.817600
+2016-11-15 23:32:42,089 Node[0] Epoch[112] Batch [50]	Speed: 20.97 samples/sec	Train-top_k_accuracy_5=0.968200
+2016-11-15 23:32:42,089 Node[0] Epoch[112] Batch [50]	Speed: 20.97 samples/sec	Train-top_k_accuracy_10=0.989400
+2016-11-15 23:32:42,089 Node[0] Epoch[112] Batch [50]	Speed: 20.97 samples/sec	Train-top_k_accuracy_20=0.996600
+2016-11-15 23:33:21,045 Node[0] Epoch[112] Resetting Data Iterator
+2016-11-15 23:33:21,046 Node[0] Epoch[112] Time cost=282.264
+2016-11-15 23:33:33,914 Node[0] Epoch[112] Validation-accuracy=0.632800
+2016-11-15 23:33:33,914 Node[0] Epoch[112] Validation-top_k_accuracy_5=0.868800
+2016-11-15 23:33:33,914 Node[0] Epoch[112] Validation-top_k_accuracy_10=0.932400
+2016-11-15 23:33:33,914 Node[0] Epoch[112] Validation-top_k_accuracy_20=0.975600
+2016-11-15 23:37:38,008 Node[0] Epoch[113] Batch [50]	Speed: 20.90 samples/sec	Train-accuracy=0.822200
+2016-11-15 23:37:38,008 Node[0] Epoch[113] Batch [50]	Speed: 20.90 samples/sec	Train-top_k_accuracy_5=0.966800
+2016-11-15 23:37:38,008 Node[0] Epoch[113] Batch [50]	Speed: 20.90 samples/sec	Train-top_k_accuracy_10=0.988400
+2016-11-15 23:37:38,008 Node[0] Epoch[113] Batch [50]	Speed: 20.90 samples/sec	Train-top_k_accuracy_20=0.996800
+2016-11-15 23:38:12,257 Node[0] Epoch[113] Resetting Data Iterator
+2016-11-15 23:38:12,257 Node[0] Epoch[113] Time cost=278.343
+2016-11-15 23:38:25,190 Node[0] Epoch[113] Validation-accuracy=0.638800
+2016-11-15 23:38:25,190 Node[0] Epoch[113] Validation-top_k_accuracy_5=0.881600
+2016-11-15 23:38:25,190 Node[0] Epoch[113] Validation-top_k_accuracy_10=0.942000
+2016-11-15 23:38:25,190 Node[0] Epoch[113] Validation-top_k_accuracy_20=0.976800
+2016-11-15 23:42:28,997 Node[0] Epoch[114] Batch [50]	Speed: 20.93 samples/sec	Train-accuracy=0.828200
+2016-11-15 23:42:28,997 Node[0] Epoch[114] Batch [50]	Speed: 20.93 samples/sec	Train-top_k_accuracy_5=0.969400
+2016-11-15 23:42:28,997 Node[0] Epoch[114] Batch [50]	Speed: 20.93 samples/sec	Train-top_k_accuracy_10=0.988200
+2016-11-15 23:42:28,998 Node[0] Epoch[114] Batch [50]	Speed: 20.93 samples/sec	Train-top_k_accuracy_20=0.997000
+2016-11-15 23:43:08,121 Node[0] Epoch[114] Resetting Data Iterator
+2016-11-15 23:43:08,121 Node[0] Epoch[114] Time cost=282.931
+2016-11-15 23:43:21,033 Node[0] Epoch[114] Validation-accuracy=0.642800
+2016-11-15 23:43:21,033 Node[0] Epoch[114] Validation-top_k_accuracy_5=0.874000
+2016-11-15 23:43:21,033 Node[0] Epoch[114] Validation-top_k_accuracy_10=0.936000
+2016-11-15 23:43:21,033 Node[0] Epoch[114] Validation-top_k_accuracy_20=0.978800
+2016-11-15 23:47:25,824 Node[0] Epoch[115] Batch [50]	Speed: 20.84 samples/sec	Train-accuracy=0.838400
+2016-11-15 23:47:25,824 Node[0] Epoch[115] Batch [50]	Speed: 20.84 samples/sec	Train-top_k_accuracy_5=0.968600
+2016-11-15 23:47:25,824 Node[0] Epoch[115] Batch [50]	Speed: 20.84 samples/sec	Train-top_k_accuracy_10=0.988000
+2016-11-15 23:47:25,824 Node[0] Epoch[115] Batch [50]	Speed: 20.84 samples/sec	Train-top_k_accuracy_20=0.996800
+2016-11-15 23:48:04,753 Node[0] Epoch[115] Resetting Data Iterator
+2016-11-15 23:48:04,754 Node[0] Epoch[115] Time cost=283.721
+2016-11-15 23:48:17,874 Node[0] Epoch[115] Validation-accuracy=0.647200
+2016-11-15 23:48:17,874 Node[0] Epoch[115] Validation-top_k_accuracy_5=0.868800
+2016-11-15 23:48:17,874 Node[0] Epoch[115] Validation-top_k_accuracy_10=0.933600
+2016-11-15 23:48:17,874 Node[0] Epoch[115] Validation-top_k_accuracy_20=0.979200
+2016-11-15 23:52:21,417 Node[0] Epoch[116] Batch [50]	Speed: 20.95 samples/sec	Train-accuracy=0.831600
+2016-11-15 23:52:21,417 Node[0] Epoch[116] Batch [50]	Speed: 20.95 samples/sec	Train-top_k_accuracy_5=0.970800
+2016-11-15 23:52:21,417 Node[0] Epoch[116] Batch [50]	Speed: 20.95 samples/sec	Train-top_k_accuracy_10=0.989000
+2016-11-15 23:52:21,417 Node[0] Epoch[116] Batch [50]	Speed: 20.95 samples/sec	Train-top_k_accuracy_20=0.996000
+2016-11-15 23:53:00,535 Node[0] Epoch[116] Resetting Data Iterator
+2016-11-15 23:53:00,535 Node[0] Epoch[116] Time cost=282.661
+2016-11-15 23:53:13,425 Node[0] Epoch[116] Validation-accuracy=0.641200
+2016-11-15 23:53:13,425 Node[0] Epoch[116] Validation-top_k_accuracy_5=0.861600
+2016-11-15 23:53:13,425 Node[0] Epoch[116] Validation-top_k_accuracy_10=0.931200
+2016-11-15 23:53:13,425 Node[0] Epoch[116] Validation-top_k_accuracy_20=0.976000
+2016-11-15 23:57:17,090 Node[0] Epoch[117] Batch [50]	Speed: 20.94 samples/sec	Train-accuracy=0.828200
+2016-11-15 23:57:17,090 Node[0] Epoch[117] Batch [50]	Speed: 20.94 samples/sec	Train-top_k_accuracy_5=0.975200
+2016-11-15 23:57:17,091 Node[0] Epoch[117] Batch [50]	Speed: 20.94 samples/sec	Train-top_k_accuracy_10=0.990600
+2016-11-15 23:57:17,091 Node[0] Epoch[117] Batch [50]	Speed: 20.94 samples/sec	Train-top_k_accuracy_20=0.997600
+2016-11-15 23:57:56,263 Node[0] Epoch[117] Resetting Data Iterator
+2016-11-15 23:57:56,263 Node[0] Epoch[117] Time cost=282.838
+2016-11-15 23:58:09,155 Node[0] Epoch[117] Validation-accuracy=0.642800
+2016-11-15 23:58:09,155 Node[0] Epoch[117] Validation-top_k_accuracy_5=0.872800
+2016-11-15 23:58:09,155 Node[0] Epoch[117] Validation-top_k_accuracy_10=0.938400
+2016-11-15 23:58:09,155 Node[0] Epoch[117] Validation-top_k_accuracy_20=0.977200
+2016-11-16 00:02:12,737 Node[0] Epoch[118] Batch [50]	Speed: 20.94 samples/sec	Train-accuracy=0.850200
+2016-11-16 00:02:12,737 Node[0] Epoch[118] Batch [50]	Speed: 20.94 samples/sec	Train-top_k_accuracy_5=0.975800
+2016-11-16 00:02:12,737 Node[0] Epoch[118] Batch [50]	Speed: 20.94 samples/sec	Train-top_k_accuracy_10=0.993000
+2016-11-16 00:02:12,737 Node[0] Epoch[118] Batch [50]	Speed: 20.94 samples/sec	Train-top_k_accuracy_20=0.997600
+2016-11-16 00:02:46,997 Node[0] Epoch[118] Resetting Data Iterator
+2016-11-16 00:02:46,997 Node[0] Epoch[118] Time cost=277.842
+2016-11-16 00:02:59,936 Node[0] Epoch[118] Validation-accuracy=0.652000
+2016-11-16 00:02:59,936 Node[0] Epoch[118] Validation-top_k_accuracy_5=0.872000
+2016-11-16 00:02:59,936 Node[0] Epoch[118] Validation-top_k_accuracy_10=0.934400
+2016-11-16 00:02:59,937 Node[0] Epoch[118] Validation-top_k_accuracy_20=0.978400
+2016-11-16 00:07:03,238 Node[0] Epoch[119] Batch [50]	Speed: 20.97 samples/sec	Train-accuracy=0.851400
+2016-11-16 00:07:03,238 Node[0] Epoch[119] Batch [50]	Speed: 20.97 samples/sec	Train-top_k_accuracy_5=0.975400
+2016-11-16 00:07:03,238 Node[0] Epoch[119] Batch [50]	Speed: 20.97 samples/sec	Train-top_k_accuracy_10=0.989800
+2016-11-16 00:07:03,238 Node[0] Epoch[119] Batch [50]	Speed: 20.97 samples/sec	Train-top_k_accuracy_20=0.997600
+2016-11-16 00:07:42,352 Node[0] Epoch[119] Resetting Data Iterator
+2016-11-16 00:07:42,352 Node[0] Epoch[119] Time cost=282.416
+2016-11-16 00:07:55,236 Node[0] Epoch[119] Validation-accuracy=0.643600
+2016-11-16 00:07:55,236 Node[0] Epoch[119] Validation-top_k_accuracy_5=0.876000
+2016-11-16 00:07:55,236 Node[0] Epoch[119] Validation-top_k_accuracy_10=0.934400
+2016-11-16 00:07:55,236 Node[0] Epoch[119] Validation-top_k_accuracy_20=0.980800
+2016-11-16 00:11:58,558 Node[0] Epoch[120] Batch [50]	Speed: 20.97 samples/sec	Train-accuracy=0.864000
+2016-11-16 00:11:58,559 Node[0] Epoch[120] Batch [50]	Speed: 20.97 samples/sec	Train-top_k_accuracy_5=0.978400
+2016-11-16 00:11:58,559 Node[0] Epoch[120] Batch [50]	Speed: 20.97 samples/sec	Train-top_k_accuracy_10=0.992400
+2016-11-16 00:11:58,559 Node[0] Epoch[120] Batch [50]	Speed: 20.97 samples/sec	Train-top_k_accuracy_20=0.998200
+2016-11-16 00:12:37,570 Node[0] Epoch[120] Resetting Data Iterator
+2016-11-16 00:12:37,570 Node[0] Epoch[120] Time cost=282.334
+2016-11-16 00:12:50,689 Node[0] Epoch[120] Validation-accuracy=0.654800
+2016-11-16 00:12:50,689 Node[0] Epoch[120] Validation-top_k_accuracy_5=0.884400
+2016-11-16 00:12:50,689 Node[0] Epoch[120] Validation-top_k_accuracy_10=0.941600
+2016-11-16 00:12:50,689 Node[0] Epoch[120] Validation-top_k_accuracy_20=0.978000
+2016-11-16 00:16:54,597 Node[0] Epoch[121] Batch [50]	Speed: 20.91 samples/sec	Train-accuracy=0.850200
+2016-11-16 00:16:54,598 Node[0] Epoch[121] Batch [50]	Speed: 20.91 samples/sec	Train-top_k_accuracy_5=0.975600
+2016-11-16 00:16:54,598 Node[0] Epoch[121] Batch [50]	Speed: 20.91 samples/sec	Train-top_k_accuracy_10=0.992200
+2016-11-16 00:16:54,598 Node[0] Epoch[121] Batch [50]	Speed: 20.91 samples/sec	Train-top_k_accuracy_20=0.997800
+2016-11-16 00:17:33,521 Node[0] Epoch[121] Resetting Data Iterator
+2016-11-16 00:17:33,521 Node[0] Epoch[121] Time cost=282.832
+2016-11-16 00:17:46,432 Node[0] Epoch[121] Validation-accuracy=0.666000
+2016-11-16 00:17:46,432 Node[0] Epoch[121] Validation-top_k_accuracy_5=0.878800
+2016-11-16 00:17:46,432 Node[0] Epoch[121] Validation-top_k_accuracy_10=0.940400
+2016-11-16 00:17:46,432 Node[0] Epoch[121] Validation-top_k_accuracy_20=0.980000
+2016-11-16 00:21:49,824 Node[0] Epoch[122] Batch [50]	Speed: 20.96 samples/sec	Train-accuracy=0.848400
+2016-11-16 00:21:49,824 Node[0] Epoch[122] Batch [50]	Speed: 20.96 samples/sec	Train-top_k_accuracy_5=0.973400
+2016-11-16 00:21:49,824 Node[0] Epoch[122] Batch [50]	Speed: 20.96 samples/sec	Train-top_k_accuracy_10=0.990400
+2016-11-16 00:21:49,824 Node[0] Epoch[122] Batch [50]	Speed: 20.96 samples/sec	Train-top_k_accuracy_20=0.998800
+2016-11-16 00:22:24,242 Node[0] Epoch[122] Resetting Data Iterator
+2016-11-16 00:22:24,242 Node[0] Epoch[122] Time cost=277.810
+2016-11-16 00:22:37,122 Node[0] Epoch[122] Validation-accuracy=0.650800
+2016-11-16 00:22:37,122 Node[0] Epoch[122] Validation-top_k_accuracy_5=0.885600
+2016-11-16 00:22:37,122 Node[0] Epoch[122] Validation-top_k_accuracy_10=0.945200
+2016-11-16 00:22:37,122 Node[0] Epoch[122] Validation-top_k_accuracy_20=0.978800
+2016-11-16 00:26:40,704 Node[0] Epoch[123] Batch [50]	Speed: 20.94 samples/sec	Train-accuracy=0.858600
+2016-11-16 00:26:40,704 Node[0] Epoch[123] Batch [50]	Speed: 20.94 samples/sec	Train-top_k_accuracy_5=0.979800
+2016-11-16 00:26:40,704 Node[0] Epoch[123] Batch [50]	Speed: 20.94 samples/sec	Train-top_k_accuracy_10=0.991800
+2016-11-16 00:26:40,704 Node[0] Epoch[123] Batch [50]	Speed: 20.94 samples/sec	Train-top_k_accuracy_20=0.997400
+2016-11-16 00:27:20,109 Node[0] Epoch[123] Resetting Data Iterator
+2016-11-16 00:27:20,109 Node[0] Epoch[123] Time cost=282.987
+2016-11-16 00:27:33,056 Node[0] Epoch[123] Validation-accuracy=0.670400
+2016-11-16 00:27:33,056 Node[0] Epoch[123] Validation-top_k_accuracy_5=0.886800
+2016-11-16 00:27:33,056 Node[0] Epoch[123] Validation-top_k_accuracy_10=0.949600
+2016-11-16 00:27:33,056 Node[0] Epoch[123] Validation-top_k_accuracy_20=0.980000
+2016-11-16 00:31:36,739 Node[0] Epoch[124] Batch [50]	Speed: 20.94 samples/sec	Train-accuracy=0.855400
+2016-11-16 00:31:36,739 Node[0] Epoch[124] Batch [50]	Speed: 20.94 samples/sec	Train-top_k_accuracy_5=0.975200
+2016-11-16 00:31:36,739 Node[0] Epoch[124] Batch [50]	Speed: 20.94 samples/sec	Train-top_k_accuracy_10=0.992000
+2016-11-16 00:31:36,739 Node[0] Epoch[124] Batch [50]	Speed: 20.94 samples/sec	Train-top_k_accuracy_20=0.997800
+2016-11-16 00:32:15,806 Node[0] Epoch[124] Resetting Data Iterator
+2016-11-16 00:32:15,806 Node[0] Epoch[124] Time cost=282.750
+2016-11-16 00:32:28,886 Node[0] Epoch[124] Validation-accuracy=0.661600
+2016-11-16 00:32:28,886 Node[0] Epoch[124] Validation-top_k_accuracy_5=0.880000
+2016-11-16 00:32:28,887 Node[0] Epoch[124] Validation-top_k_accuracy_10=0.941200
+2016-11-16 00:32:28,887 Node[0] Epoch[124] Validation-top_k_accuracy_20=0.977200
+2016-11-16 00:36:33,004 Node[0] Epoch[125] Batch [50]	Speed: 20.90 samples/sec	Train-accuracy=0.860200
+2016-11-16 00:36:33,004 Node[0] Epoch[125] Batch [50]	Speed: 20.90 samples/sec	Train-top_k_accuracy_5=0.973400
+2016-11-16 00:36:33,005 Node[0] Epoch[125] Batch [50]	Speed: 20.90 samples/sec	Train-top_k_accuracy_10=0.991800
+2016-11-16 00:36:33,005 Node[0] Epoch[125] Batch [50]	Speed: 20.90 samples/sec	Train-top_k_accuracy_20=0.997400
+2016-11-16 00:37:12,051 Node[0] Epoch[125] Resetting Data Iterator
+2016-11-16 00:37:12,051 Node[0] Epoch[125] Time cost=283.164
+2016-11-16 00:37:25,144 Node[0] Epoch[125] Validation-accuracy=0.666400
+2016-11-16 00:37:25,144 Node[0] Epoch[125] Validation-top_k_accuracy_5=0.890800
+2016-11-16 00:37:25,144 Node[0] Epoch[125] Validation-top_k_accuracy_10=0.946400
+2016-11-16 00:37:25,144 Node[0] Epoch[125] Validation-top_k_accuracy_20=0.980400
+2016-11-16 00:41:28,387 Node[0] Epoch[126] Batch [50]	Speed: 20.97 samples/sec	Train-accuracy=0.862600
+2016-11-16 00:41:28,387 Node[0] Epoch[126] Batch [50]	Speed: 20.97 samples/sec	Train-top_k_accuracy_5=0.981200
+2016-11-16 00:41:28,387 Node[0] Epoch[126] Batch [50]	Speed: 20.97 samples/sec	Train-top_k_accuracy_10=0.993800
+2016-11-16 00:41:28,387 Node[0] Epoch[126] Batch [50]	Speed: 20.97 samples/sec	Train-top_k_accuracy_20=0.998000
+2016-11-16 00:42:07,518 Node[0] Epoch[126] Resetting Data Iterator
+2016-11-16 00:42:07,518 Node[0] Epoch[126] Time cost=282.374
+2016-11-16 00:42:20,411 Node[0] Epoch[126] Validation-accuracy=0.664400
+2016-11-16 00:42:20,411 Node[0] Epoch[126] Validation-top_k_accuracy_5=0.878400
+2016-11-16 00:42:20,411 Node[0] Epoch[126] Validation-top_k_accuracy_10=0.944400
+2016-11-16 00:42:20,411 Node[0] Epoch[126] Validation-top_k_accuracy_20=0.976400
+2016-11-16 00:46:23,878 Node[0] Epoch[127] Batch [50]	Speed: 20.95 samples/sec	Train-accuracy=0.874800
+2016-11-16 00:46:23,878 Node[0] Epoch[127] Batch [50]	Speed: 20.95 samples/sec	Train-top_k_accuracy_5=0.983600
+2016-11-16 00:46:23,878 Node[0] Epoch[127] Batch [50]	Speed: 20.95 samples/sec	Train-top_k_accuracy_10=0.993600
+2016-11-16 00:46:23,878 Node[0] Epoch[127] Batch [50]	Speed: 20.95 samples/sec	Train-top_k_accuracy_20=0.998400
+2016-11-16 00:46:58,135 Node[0] Epoch[127] Resetting Data Iterator
+2016-11-16 00:46:58,136 Node[0] Epoch[127] Time cost=277.724
+2016-11-16 00:47:11,102 Node[0] Epoch[127] Validation-accuracy=0.649600
+2016-11-16 00:47:11,102 Node[0] Epoch[127] Validation-top_k_accuracy_5=0.886400
+2016-11-16 00:47:11,102 Node[0] Epoch[127] Validation-top_k_accuracy_10=0.942800
+2016-11-16 00:47:11,102 Node[0] Epoch[127] Validation-top_k_accuracy_20=0.975600
+2016-11-16 00:51:14,404 Node[0] Epoch[128] Batch [50]	Speed: 20.97 samples/sec	Train-accuracy=0.870400
+2016-11-16 00:51:14,404 Node[0] Epoch[128] Batch [50]	Speed: 20.97 samples/sec	Train-top_k_accuracy_5=0.980000
+2016-11-16 00:51:14,404 Node[0] Epoch[128] Batch [50]	Speed: 20.97 samples/sec	Train-top_k_accuracy_10=0.993600
+2016-11-16 00:51:14,404 Node[0] Epoch[128] Batch [50]	Speed: 20.97 samples/sec	Train-top_k_accuracy_20=0.998600
+2016-11-16 00:51:53,511 Node[0] Epoch[128] Resetting Data Iterator
+2016-11-16 00:51:53,511 Node[0] Epoch[128] Time cost=282.409
+2016-11-16 00:52:06,461 Node[0] Epoch[128] Validation-accuracy=0.657600
+2016-11-16 00:52:06,461 Node[0] Epoch[128] Validation-top_k_accuracy_5=0.876400
+2016-11-16 00:52:06,461 Node[0] Epoch[128] Validation-top_k_accuracy_10=0.936800
+2016-11-16 00:52:06,461 Node[0] Epoch[128] Validation-top_k_accuracy_20=0.975600
+2016-11-16 00:56:10,256 Node[0] Epoch[129] Batch [50]	Speed: 20.93 samples/sec	Train-accuracy=0.873600
+2016-11-16 00:56:10,256 Node[0] Epoch[129] Batch [50]	Speed: 20.93 samples/sec	Train-top_k_accuracy_5=0.979600
+2016-11-16 00:56:10,256 Node[0] Epoch[129] Batch [50]	Speed: 20.93 samples/sec	Train-top_k_accuracy_10=0.993200
+2016-11-16 00:56:10,256 Node[0] Epoch[129] Batch [50]	Speed: 20.93 samples/sec	Train-top_k_accuracy_20=0.998000
+2016-11-16 00:56:49,460 Node[0] Epoch[129] Resetting Data Iterator
+2016-11-16 00:56:49,461 Node[0] Epoch[129] Time cost=282.999
+2016-11-16 00:57:02,352 Node[0] Epoch[129] Validation-accuracy=0.672400
+2016-11-16 00:57:02,352 Node[0] Epoch[129] Validation-top_k_accuracy_5=0.885600
+2016-11-16 00:57:02,352 Node[0] Epoch[129] Validation-top_k_accuracy_10=0.941200
+2016-11-16 00:57:02,352 Node[0] Epoch[129] Validation-top_k_accuracy_20=0.978800
+2016-11-16 01:01:05,511 Node[0] Epoch[130] Batch [50]	Speed: 20.98 samples/sec	Train-accuracy=0.880400
+2016-11-16 01:01:05,511 Node[0] Epoch[130] Batch [50]	Speed: 20.98 samples/sec	Train-top_k_accuracy_5=0.987600
+2016-11-16 01:01:05,511 Node[0] Epoch[130] Batch [50]	Speed: 20.98 samples/sec	Train-top_k_accuracy_10=0.994800
+2016-11-16 01:01:05,511 Node[0] Epoch[130] Batch [50]	Speed: 20.98 samples/sec	Train-top_k_accuracy_20=0.998200
+2016-11-16 01:01:44,250 Node[0] Epoch[130] Resetting Data Iterator
+2016-11-16 01:01:44,250 Node[0] Epoch[130] Time cost=281.898
+2016-11-16 01:01:57,127 Node[0] Epoch[130] Validation-accuracy=0.685600
+2016-11-16 01:01:57,127 Node[0] Epoch[130] Validation-top_k_accuracy_5=0.895600
+2016-11-16 01:01:57,127 Node[0] Epoch[130] Validation-top_k_accuracy_10=0.945600
+2016-11-16 01:01:57,127 Node[0] Epoch[130] Validation-top_k_accuracy_20=0.980000
+2016-11-16 01:06:00,883 Node[0] Epoch[131] Batch [50]	Speed: 20.93 samples/sec	Train-accuracy=0.882800
+2016-11-16 01:06:00,883 Node[0] Epoch[131] Batch [50]	Speed: 20.93 samples/sec	Train-top_k_accuracy_5=0.983200
+2016-11-16 01:06:00,883 Node[0] Epoch[131] Batch [50]	Speed: 20.93 samples/sec	Train-top_k_accuracy_10=0.994600
+2016-11-16 01:06:00,883 Node[0] Epoch[131] Batch [50]	Speed: 20.93 samples/sec	Train-top_k_accuracy_20=0.998000
+2016-11-16 01:06:35,142 Node[0] Epoch[131] Resetting Data Iterator
+2016-11-16 01:06:35,143 Node[0] Epoch[131] Time cost=278.016
+2016-11-16 01:06:48,220 Node[0] Epoch[131] Validation-accuracy=0.680000
+2016-11-16 01:06:48,220 Node[0] Epoch[131] Validation-top_k_accuracy_5=0.886400
+2016-11-16 01:06:48,220 Node[0] Epoch[131] Validation-top_k_accuracy_10=0.944800
+2016-11-16 01:06:48,220 Node[0] Epoch[131] Validation-top_k_accuracy_20=0.977600
+2016-11-16 01:10:51,809 Node[0] Epoch[132] Batch [50]	Speed: 20.95 samples/sec	Train-accuracy=0.880400
+2016-11-16 01:10:51,809 Node[0] Epoch[132] Batch [50]	Speed: 20.95 samples/sec	Train-top_k_accuracy_5=0.981600
+2016-11-16 01:10:51,809 Node[0] Epoch[132] Batch [50]	Speed: 20.95 samples/sec	Train-top_k_accuracy_10=0.994000
+2016-11-16 01:10:51,809 Node[0] Epoch[132] Batch [50]	Speed: 20.95 samples/sec	Train-top_k_accuracy_20=0.998600
+2016-11-16 01:11:30,714 Node[0] Epoch[132] Resetting Data Iterator
+2016-11-16 01:11:30,714 Node[0] Epoch[132] Time cost=282.494
+2016-11-16 01:11:43,584 Node[0] Epoch[132] Validation-accuracy=0.668400
+2016-11-16 01:11:43,584 Node[0] Epoch[132] Validation-top_k_accuracy_5=0.886400
+2016-11-16 01:11:43,584 Node[0] Epoch[132] Validation-top_k_accuracy_10=0.939200
+2016-11-16 01:11:43,584 Node[0] Epoch[132] Validation-top_k_accuracy_20=0.978800
+2016-11-16 01:15:47,314 Node[0] Epoch[133] Batch [50]	Speed: 20.93 samples/sec	Train-accuracy=0.887200
+2016-11-16 01:15:47,314 Node[0] Epoch[133] Batch [50]	Speed: 20.93 samples/sec	Train-top_k_accuracy_5=0.985400
+2016-11-16 01:15:47,314 Node[0] Epoch[133] Batch [50]	Speed: 20.93 samples/sec	Train-top_k_accuracy_10=0.995600
+2016-11-16 01:15:47,314 Node[0] Epoch[133] Batch [50]	Speed: 20.93 samples/sec	Train-top_k_accuracy_20=0.999000
+2016-11-16 01:16:26,344 Node[0] Epoch[133] Resetting Data Iterator
+2016-11-16 01:16:26,344 Node[0] Epoch[133] Time cost=282.760
+2016-11-16 01:16:39,291 Node[0] Epoch[133] Validation-accuracy=0.670800
+2016-11-16 01:16:39,291 Node[0] Epoch[133] Validation-top_k_accuracy_5=0.885600
+2016-11-16 01:16:39,291 Node[0] Epoch[133] Validation-top_k_accuracy_10=0.944400
+2016-11-16 01:16:39,291 Node[0] Epoch[133] Validation-top_k_accuracy_20=0.980000
+2016-11-16 01:20:42,625 Node[0] Epoch[134] Batch [50]	Speed: 20.97 samples/sec	Train-accuracy=0.898600
+2016-11-16 01:20:42,625 Node[0] Epoch[134] Batch [50]	Speed: 20.97 samples/sec	Train-top_k_accuracy_5=0.988400
+2016-11-16 01:20:42,625 Node[0] Epoch[134] Batch [50]	Speed: 20.97 samples/sec	Train-top_k_accuracy_10=0.997000
+2016-11-16 01:20:42,625 Node[0] Epoch[134] Batch [50]	Speed: 20.97 samples/sec	Train-top_k_accuracy_20=1.000000
+2016-11-16 01:21:21,662 Node[0] Epoch[134] Resetting Data Iterator
+2016-11-16 01:21:21,662 Node[0] Epoch[134] Time cost=282.371
+2016-11-16 01:21:34,535 Node[0] Epoch[134] Validation-accuracy=0.686000
+2016-11-16 01:21:34,535 Node[0] Epoch[134] Validation-top_k_accuracy_5=0.899200
+2016-11-16 01:21:34,535 Node[0] Epoch[134] Validation-top_k_accuracy_10=0.950000
+2016-11-16 01:21:34,535 Node[0] Epoch[134] Validation-top_k_accuracy_20=0.981200
+2016-11-16 01:25:38,782 Node[0] Epoch[135] Batch [50]	Speed: 20.89 samples/sec	Train-accuracy=0.904600
+2016-11-16 01:25:38,783 Node[0] Epoch[135] Batch [50]	Speed: 20.89 samples/sec	Train-top_k_accuracy_5=0.989400
+2016-11-16 01:25:38,783 Node[0] Epoch[135] Batch [50]	Speed: 20.89 samples/sec	Train-top_k_accuracy_10=0.996200
+2016-11-16 01:25:38,783 Node[0] Epoch[135] Batch [50]	Speed: 20.89 samples/sec	Train-top_k_accuracy_20=0.999000
+2016-11-16 01:26:17,960 Node[0] Epoch[135] Resetting Data Iterator
+2016-11-16 01:26:17,960 Node[0] Epoch[135] Time cost=283.425
+2016-11-16 01:26:30,889 Node[0] Epoch[135] Validation-accuracy=0.667600
+2016-11-16 01:26:30,889 Node[0] Epoch[135] Validation-top_k_accuracy_5=0.886800
+2016-11-16 01:26:30,889 Node[0] Epoch[135] Validation-top_k_accuracy_10=0.942400
+2016-11-16 01:26:30,889 Node[0] Epoch[135] Validation-top_k_accuracy_20=0.978800
+2016-11-16 01:30:34,504 Node[0] Epoch[136] Batch [50]	Speed: 20.94 samples/sec	Train-accuracy=0.897200
+2016-11-16 01:30:34,504 Node[0] Epoch[136] Batch [50]	Speed: 20.94 samples/sec	Train-top_k_accuracy_5=0.986600
+2016-11-16 01:30:34,505 Node[0] Epoch[136] Batch [50]	Speed: 20.94 samples/sec	Train-top_k_accuracy_10=0.994400
+2016-11-16 01:30:34,505 Node[0] Epoch[136] Batch [50]	Speed: 20.94 samples/sec	Train-top_k_accuracy_20=0.998200
+2016-11-16 01:31:08,546 Node[0] Epoch[136] Resetting Data Iterator
+2016-11-16 01:31:08,547 Node[0] Epoch[136] Time cost=277.658
+2016-11-16 01:31:21,453 Node[0] Epoch[136] Validation-accuracy=0.663200
+2016-11-16 01:31:21,453 Node[0] Epoch[136] Validation-top_k_accuracy_5=0.878800
+2016-11-16 01:31:21,453 Node[0] Epoch[136] Validation-top_k_accuracy_10=0.936400
+2016-11-16 01:31:21,453 Node[0] Epoch[136] Validation-top_k_accuracy_20=0.974800
+2016-11-16 01:35:25,132 Node[0] Epoch[137] Batch [50]	Speed: 20.93 samples/sec	Train-accuracy=0.898400
+2016-11-16 01:35:25,132 Node[0] Epoch[137] Batch [50]	Speed: 20.93 samples/sec	Train-top_k_accuracy_5=0.988000
+2016-11-16 01:35:25,132 Node[0] Epoch[137] Batch [50]	Speed: 20.93 samples/sec	Train-top_k_accuracy_10=0.996800
+2016-11-16 01:35:25,132 Node[0] Epoch[137] Batch [50]	Speed: 20.93 samples/sec	Train-top_k_accuracy_20=0.999400
+2016-11-16 01:36:03,942 Node[0] Epoch[137] Resetting Data Iterator
+2016-11-16 01:36:03,942 Node[0] Epoch[137] Time cost=282.489
+2016-11-16 01:36:17,030 Node[0] Epoch[137] Validation-accuracy=0.686000
+2016-11-16 01:36:17,030 Node[0] Epoch[137] Validation-top_k_accuracy_5=0.890800
+2016-11-16 01:36:17,030 Node[0] Epoch[137] Validation-top_k_accuracy_10=0.945200
+2016-11-16 01:36:17,030 Node[0] Epoch[137] Validation-top_k_accuracy_20=0.981200
+2016-11-16 01:40:20,595 Node[0] Epoch[138] Batch [50]	Speed: 20.94 samples/sec	Train-accuracy=0.898400
+2016-11-16 01:40:20,595 Node[0] Epoch[138] Batch [50]	Speed: 20.94 samples/sec	Train-top_k_accuracy_5=0.987400
+2016-11-16 01:40:20,595 Node[0] Epoch[138] Batch [50]	Speed: 20.94 samples/sec	Train-top_k_accuracy_10=0.996400
+2016-11-16 01:40:20,595 Node[0] Epoch[138] Batch [50]	Speed: 20.94 samples/sec	Train-top_k_accuracy_20=0.999000
+2016-11-16 01:40:59,592 Node[0] Epoch[138] Resetting Data Iterator
+2016-11-16 01:40:59,592 Node[0] Epoch[138] Time cost=282.562
+2016-11-16 01:41:12,518 Node[0] Epoch[138] Validation-accuracy=0.685200
+2016-11-16 01:41:12,518 Node[0] Epoch[138] Validation-top_k_accuracy_5=0.892400
+2016-11-16 01:41:12,518 Node[0] Epoch[138] Validation-top_k_accuracy_10=0.947600
+2016-11-16 01:41:12,518 Node[0] Epoch[138] Validation-top_k_accuracy_20=0.976000
+2016-11-16 01:45:16,244 Node[0] Epoch[139] Batch [50]	Speed: 20.93 samples/sec	Train-accuracy=0.900600
+2016-11-16 01:45:16,244 Node[0] Epoch[139] Batch [50]	Speed: 20.93 samples/sec	Train-top_k_accuracy_5=0.988800
+2016-11-16 01:45:16,244 Node[0] Epoch[139] Batch [50]	Speed: 20.93 samples/sec	Train-top_k_accuracy_10=0.996200
+2016-11-16 01:45:16,244 Node[0] Epoch[139] Batch [50]	Speed: 20.93 samples/sec	Train-top_k_accuracy_20=0.999200
+2016-11-16 01:45:55,211 Node[0] Epoch[139] Resetting Data Iterator
+2016-11-16 01:45:55,211 Node[0] Epoch[139] Time cost=282.692
+2016-11-16 01:46:08,057 Node[0] Epoch[139] Validation-accuracy=0.698400
+2016-11-16 01:46:08,057 Node[0] Epoch[139] Validation-top_k_accuracy_5=0.887200
+2016-11-16 01:46:08,057 Node[0] Epoch[139] Validation-top_k_accuracy_10=0.944400
+2016-11-16 01:46:08,057 Node[0] Epoch[139] Validation-top_k_accuracy_20=0.974800
+2016-11-16 01:50:12,027 Node[0] Epoch[140] Batch [50]	Speed: 20.91 samples/sec	Train-accuracy=0.905600
+2016-11-16 01:50:12,027 Node[0] Epoch[140] Batch [50]	Speed: 20.91 samples/sec	Train-top_k_accuracy_5=0.988200
+2016-11-16 01:50:12,027 Node[0] Epoch[140] Batch [50]	Speed: 20.91 samples/sec	Train-top_k_accuracy_10=0.995000
+2016-11-16 01:50:12,027 Node[0] Epoch[140] Batch [50]	Speed: 20.91 samples/sec	Train-top_k_accuracy_20=0.998600
+2016-11-16 01:50:46,400 Node[0] Epoch[140] Resetting Data Iterator
+2016-11-16 01:50:46,400 Node[0] Epoch[140] Time cost=278.343
+2016-11-16 01:50:59,233 Node[0] Epoch[140] Validation-accuracy=0.669600
+2016-11-16 01:50:59,233 Node[0] Epoch[140] Validation-top_k_accuracy_5=0.882800
+2016-11-16 01:50:59,233 Node[0] Epoch[140] Validation-top_k_accuracy_10=0.940400
+2016-11-16 01:50:59,233 Node[0] Epoch[140] Validation-top_k_accuracy_20=0.979200
+2016-11-16 01:55:02,918 Node[0] Epoch[141] Batch [50]	Speed: 20.94 samples/sec	Train-accuracy=0.912200
+2016-11-16 01:55:02,918 Node[0] Epoch[141] Batch [50]	Speed: 20.94 samples/sec	Train-top_k_accuracy_5=0.988600
+2016-11-16 01:55:02,918 Node[0] Epoch[141] Batch [50]	Speed: 20.94 samples/sec	Train-top_k_accuracy_10=0.997200
+2016-11-16 01:55:02,918 Node[0] Epoch[141] Batch [50]	Speed: 20.94 samples/sec	Train-top_k_accuracy_20=0.999600
+2016-11-16 01:55:41,906 Node[0] Epoch[141] Resetting Data Iterator
+2016-11-16 01:55:41,906 Node[0] Epoch[141] Time cost=282.673
+2016-11-16 01:55:54,809 Node[0] Epoch[141] Validation-accuracy=0.692400
+2016-11-16 01:55:54,809 Node[0] Epoch[141] Validation-top_k_accuracy_5=0.889600
+2016-11-16 01:55:54,809 Node[0] Epoch[141] Validation-top_k_accuracy_10=0.945600
+2016-11-16 01:55:54,809 Node[0] Epoch[141] Validation-top_k_accuracy_20=0.980000
+2016-11-16 01:59:57,874 Node[0] Epoch[142] Batch [50]	Speed: 20.99 samples/sec	Train-accuracy=0.917400
+2016-11-16 01:59:57,875 Node[0] Epoch[142] Batch [50]	Speed: 20.99 samples/sec	Train-top_k_accuracy_5=0.993000
+2016-11-16 01:59:57,875 Node[0] Epoch[142] Batch [50]	Speed: 20.99 samples/sec	Train-top_k_accuracy_10=0.998200
+2016-11-16 01:59:57,875 Node[0] Epoch[142] Batch [50]	Speed: 20.99 samples/sec	Train-top_k_accuracy_20=0.999600
+2016-11-16 02:00:36,963 Node[0] Epoch[142] Resetting Data Iterator
+2016-11-16 02:00:36,963 Node[0] Epoch[142] Time cost=282.153
+2016-11-16 02:00:49,925 Node[0] Epoch[142] Validation-accuracy=0.669200
+2016-11-16 02:00:49,925 Node[0] Epoch[142] Validation-top_k_accuracy_5=0.888400
+2016-11-16 02:00:49,925 Node[0] Epoch[142] Validation-top_k_accuracy_10=0.939600
+2016-11-16 02:00:49,925 Node[0] Epoch[142] Validation-top_k_accuracy_20=0.974400
+2016-11-16 02:04:52,890 Node[0] Epoch[143] Batch [50]	Speed: 21.00 samples/sec	Train-accuracy=0.906000
+2016-11-16 02:04:52,891 Node[0] Epoch[143] Batch [50]	Speed: 21.00 samples/sec	Train-top_k_accuracy_5=0.989400
+2016-11-16 02:04:52,891 Node[0] Epoch[143] Batch [50]	Speed: 21.00 samples/sec	Train-top_k_accuracy_10=0.997200
+2016-11-16 02:04:52,891 Node[0] Epoch[143] Batch [50]	Speed: 21.00 samples/sec	Train-top_k_accuracy_20=0.999200
+2016-11-16 02:05:32,116 Node[0] Epoch[143] Resetting Data Iterator
+2016-11-16 02:05:32,116 Node[0] Epoch[143] Time cost=282.191
+2016-11-16 02:05:45,240 Node[0] Epoch[143] Validation-accuracy=0.680400
+2016-11-16 02:05:45,240 Node[0] Epoch[143] Validation-top_k_accuracy_5=0.890800
+2016-11-16 02:05:45,240 Node[0] Epoch[143] Validation-top_k_accuracy_10=0.947600
+2016-11-16 02:05:45,240 Node[0] Epoch[143] Validation-top_k_accuracy_20=0.976800
+2016-11-16 02:09:48,443 Node[0] Epoch[144] Batch [50]	Speed: 20.98 samples/sec	Train-accuracy=0.909800
+2016-11-16 02:09:48,443 Node[0] Epoch[144] Batch [50]	Speed: 20.98 samples/sec	Train-top_k_accuracy_5=0.991600
+2016-11-16 02:09:48,443 Node[0] Epoch[144] Batch [50]	Speed: 20.98 samples/sec	Train-top_k_accuracy_10=0.997400
+2016-11-16 02:09:48,443 Node[0] Epoch[144] Batch [50]	Speed: 20.98 samples/sec	Train-top_k_accuracy_20=0.999400

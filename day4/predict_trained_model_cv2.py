@@ -32,11 +32,13 @@ with open('test.lst', 'r') as fread:
         batch  = '../day2/102flowers/' + line.split("\t")[2].strip("\n")
         batch = PreprocessImage(batch, False)
         prob = model.predict(batch)[0]
+        # print prob 
         pred = np.argsort(prob)[::-1]
         # # Get top1 label
         # top1 = synset[pred[0]]
         top_1 = pred[0]
         if top_1 == int(line.split("\t")[1]):
-            # print 'top1 right'
+            right_ratio = right/(1.0*(sum+0.000001))
+            print right_ratio
             right += 1
 print 'top 1 accuracy: %f '%(right/(1.0*sum))

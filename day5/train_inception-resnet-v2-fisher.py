@@ -82,7 +82,7 @@ def get_iterator(args, kv):
         path_imgrec = os.path.join(data_dir, "test.rec"),
         mean_img    = os.path.join(data_dir, "mean.bin"),
         data_shape  = data_shape,
-        batch_size  = args.batch_size,
+        batch_size  = arg.batch_size,
         num_parts   = kv.num_workers,
         part_index  = kv.rank)
 
@@ -93,5 +93,5 @@ if __name__ == '__main__':
     # network
     input_data_shape = tuple([args.batch_size] + [int(i) for i in args.data_shape.split(',')])
     import importlib
-    net = importlib.import_module('symbol_inception-resnet-v2').get_symbol(102,input_data_shape=input_data_shape)
+    net = importlib.import_module('symbol_inception-resnet-v2').get_symbol(8,input_data_shape=input_data_shape)
     train_model.fit(args, net, get_iterator)
