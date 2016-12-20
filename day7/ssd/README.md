@@ -4,8 +4,8 @@
  This simply removes all loss layers, and attach a layer for merging results and non-maximum suppression.
 Useful when loading python symbol is not available.
 
-    # cd /path/to/mxnet/example/ssd
     python deploy.py --num-class 20
+ 
  2. Run the `demo_video.py`
 
     python demo_video_1.py --video-file=1.m4v --save-video=1_output.avi
