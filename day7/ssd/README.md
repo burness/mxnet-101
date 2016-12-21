@@ -18,3 +18,4 @@ Here is the video example in YOUTUBE
 ## Reference
 
 [The inplement of SSD in MXNet](https://github.com/dmlc/mxnet/tree/master/example/ssd)
+[zhreshold/mxnet-ssd](https://github.com/zhreshold/mxnet-ssd)
