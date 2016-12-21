@@ -13,3 +13,8 @@ Useful when loading python symbol is not available.
 Here is the video example in YOUTUBE
 
 [The result video of ssd in mxnet ](https://www.youtube.com/watch?v=u1w8Re-tU0g&feature=youtu.be)
+
+
+## Reference
+
+[The inplement of SSD in MXNet](https://github.com/dmlc/mxnet/tree/master/example/ssd)
