@@ -8,7 +8,7 @@ Useful when loading python symbol is not available.
  
  2. Run the `demo_video.py`
 
-    python demo_video_1.py --video-file=1.m4v --save-video=1_output.avi
+    python demo_video.py --video-file=1.m4v --save-video=1_output.avi
 
 Here is the video example in YOUTUBE
 
